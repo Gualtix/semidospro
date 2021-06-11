@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "prointer", "prointer.dtproj", "{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programi", "..\Programi\Programi.csproj", "{710D132E-3EBA-4A05-A3AC-6F455591EE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}.Debug|Any CPU.ActiveCfg = Development
+		{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}.Debug|Any CPU.Build.0 = Development
+		{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}.Development|Any CPU.ActiveCfg = Development
+		{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}.Development|Any CPU.Build.0 = Development
+		{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}.Release|Any CPU.ActiveCfg = Development
+		{35FA5CE6-4F80-4276-9469-90FB2B8DECD9}.Release|Any CPU.Build.0 = Development
+		{710D132E-3EBA-4A05-A3AC-6F455591EE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710D132E-3EBA-4A05-A3AC-6F455591EE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710D132E-3EBA-4A05-A3AC-6F455591EE0B}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{710D132E-3EBA-4A05-A3AC-6F455591EE0B}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{710D132E-3EBA-4A05-A3AC-6F455591EE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710D132E-3EBA-4A05-A3AC-6F455591EE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52F35AD0-F59D-4DFC-8B12-B323CDE68F4E}
+	EndGlobalSection
+EndGlobal
