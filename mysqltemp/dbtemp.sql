@@ -3,6 +3,7 @@ USE temporal;
 DROP TABLE IF EXISTS TMP;   
 DROP TABLE IF EXISTS TMPERROR;
 
+/*
 CREATE TABLE TMP (
 	LINEA     int auto_increment  primary key,
     YEAR      varchar(128)  null,
@@ -14,6 +15,7 @@ CREATE TABLE TMP (
     DATAVALUE varchar(128)  null,
     FLAG      varchar(128)  null
 );
+*/
 
 CREATE TABLE TMPERROR (
 	LINEA       int auto_increment  primary key,
@@ -23,7 +25,7 @@ CREATE TABLE TMPERROR (
 
 
 
-/*
+
 CREATE TABLE TMP (
 	LINEA int auto_increment  primary key,
     COD_HOSPITAL       varchar(128)  null,
@@ -40,4 +42,3 @@ CREATE TABLE TMP (
     GENERO             varchar(128)  null,
     TIPOCASO           varchar(128)  null
 );
-*/

@@ -1,0 +1,501 @@
+CODHOSPITAL;NOMBREHOSPITAL;DIRECCIONHOSPITAL;REGION;DEPARTAMENTO;CODDOCTOR;NOMBREDOCTOR;FECHACASO;CODPACIENTE;NOMBREPACIENTE;FECHANACPER;GENERO;TIPOCASO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;13/03/2020;10000001;Paciente 1;15/06/1993;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;15/03/2020;10000002;Paciente 2;23/08/1976;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;15/03/2020;10000003;Paciente 3;18/12/1956;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;15/03/2020;10000004;Paciente 4;25/01/2000;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;15/03/2020;10000005;Paciente 5;10/09/1975;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;15/03/2020;10000006;Paciente 6;6/12/1939;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;15/03/2020;10000007;Paciente 7;25/04/1996;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;17/03/2020;10000008;Paciente 8;5/06/1945;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;18/03/2020;10000009;Paciente 9;18/01/1947;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;18/03/2020;10000010;Paciente 10;11/08/2006;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;18/03/2020;10000011;Paciente 11;11/12/1981;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0001;Carlos Becerra;19/03/2020;10000012;Paciente 12;25/09/1962;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;19/03/2020;10000013;Paciente 13;19/06/2002;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;19/03/2020;10000014;Paciente 14;16/01/1982;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;19/03/2020;10000014;Paciente 14;16/01/1982;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;19/03/2020;10000015;Paciente 15;7/09/1939;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;20/03/2020;10000016;Paciente 16;11/06/2005;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;20/03/2020;10000017;Paciente 17;18/11/1952;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;20/03/2020;10000018;Paciente 18;19/11/1974;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0002;Alberto Laguna;20/03/2020;10000019;Paciente 19;13/09/1948;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;20/03/2020;10000020;Paciente 20;25/02/1977;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;21/03/2020;10000021;Paciente 21;12/04/1963;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;22/03/2020;10000022;Paciente 22;9/06/1944;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;22/03/2020;10000023;Paciente 23;8/06/2008;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;22/03/2020;10000024;Paciente 24;6/07/1977;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;24/03/2020;10000025;Paciente 25;5/04/1952;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;24/03/2020;10000026;Paciente 26;6/11/1989;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;24/03/2020;10000027;Paciente 27;3/04/1976;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;25/03/2020;10000028;Paciente 28;7/09/1989;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;25/03/2020;10000029;Paciente 29;21/09/1937;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;25/03/2020;10000030;Paciente 30;3/06/1938;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;25/03/2020;10000031;Paciente 31;6/10/1956;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0003;Josue Marin;27/03/2020;10000032;Paciente 32;10/02/1994;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0004;Enriques Puebla;27/03/2020;10000033;Paciente 33;8/12/1953;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0004;Enriques Puebla;27/03/2020;10000034;Paciente 34;27/02/1938;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0004;Enriques Puebla;27/03/2020;10000035;Paciente 35;27/06/1959;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0004;Enriques Puebla;27/03/2020;10000036;Paciente 36;19/07/1978;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0004;Enriques Puebla;27/03/2020;10000037;Paciente 37;9/04/1993;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0004;Enriques Puebla;28/03/2020;10000038;Paciente 38;13/10/2002;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;28/03/2020;10000039;Paciente 39;1/03/1973;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;28/03/2020;10000040;Paciente 40;19/08/1991;M;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;29/03/2020;10000041;Paciente 41;3/02/1938;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;29/03/2020;10000042;Paciente 42;27/12/1992;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;29/03/2020;10000043;Paciente 43;9/10/1949;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;30/03/2020;10000044;Paciente 44;13/12/2008;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;30/03/2020;10000045;Paciente 45;14/02/1946;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;30/03/2020;10000046;Paciente 46;15/04/1958;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;31/03/2020;10000047;Paciente 47;12/01/1951;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;31/03/2020;10000048;Paciente 48;13/10/1948;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;31/03/2020;10000049;Paciente 49;8/09/2009;F;ACTIVO
+H0003;Temporal Parque de la Industria;8 Calle, Ciudad de Guatemala;Metropolitana;Guatemala;D0005;Nain Guzman;31/03/2020;10000050;Paciente 50;11/05/2007;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;31/03/2020;10000051;Paciente 51;8/08/1960;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;31/03/2020;10000052;Paciente 52;14/11/2007;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;1/04/2020;10000053;Paciente 53;1/01/1969;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;1/04/2020;10000054;Paciente 54;16/05/1988;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;2/04/2020;10000055;Paciente 55;12/11/1960;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;2/04/2020;10000056;Paciente 56;23/12/1983;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;2/04/2020;10000057;Paciente 57;22/06/2004;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;2/04/2020;10000058;Paciente 58;6/04/1975;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;2/04/2020;10000059;Paciente 59;16/08/1963;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;2/04/2020;10000060;Paciente 60;24/09/1955;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;3/04/2020;10000061;Paciente 61;22/11/1970;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;3/04/2020;10000062;Paciente 62;6/02/1960;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;3/04/2020;10000063;Paciente 63;19/12/1959;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;3/04/2020;10000064;Paciente 64;5/07/1954;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;3/04/2020;10000065;Paciente 65;24/11/1986;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;3/04/2020;10000066;Paciente 66;14/01/2003;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;3/04/2020;10000067;Paciente 67;24/06/1992;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;3/04/2020;10000068;Paciente 68;10/08/1999;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;3/04/2020;10000069;Paciente 69;2/01/1961;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;4/04/2020;10000070;Paciente 70;23/12/1950;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;4/04/2020;10000071;Paciente 71;17/02/1958;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;5/04/2020;10000072;Paciente 72;6/10/1969;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;5/04/2020;10000073;Paciente 73;8/03/1988;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;5/04/2020;10000074;Paciente 74;1/02/2008;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;5/04/2020;10000075;Paciente 75;10/07/2007;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;5/04/2020;10000076;Paciente 76;19/05/1965;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;5/04/2020;10000077;Paciente 77;24/01/1980;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;5/04/2020;10000078;Paciente 78;13/01/1954;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;5/04/2020;10000079;Paciente 79;15/06/1957;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;5/04/2020;10000080;Paciente 80;18/02/1942;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;5/04/2020;10000081;Paciente 81;28/11/1939;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;6/04/2020;10000082;Paciente 82;4/07/1963;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;6/04/2020;10000083;Paciente 83;27/08/1941;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;6/04/2020;10000084;Paciente 84;7/03/1999;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;6/04/2020;10000085;Paciente 85;6/11/1957;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;6/04/2020;10000086;Paciente 86;22/01/1939;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000087;Paciente 87;25/05/1988;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000088;Paciente 88;27/12/2002;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000089;Paciente 89;17/02/1946;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000090;Paciente 90;2/09/1961;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000091;Paciente 91;5/08/1938;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000092;Paciente 92;18/01/1957;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;7/04/2020;10000093;Paciente 93;27/03/2009;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000094;Paciente 94;17/09/1987;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000095;Paciente 95;10/08/1995;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000096;Paciente 96;21/04/1948;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000097;Paciente 97;27/09/1965;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000098;Paciente 98;7/09/1994;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000099;Paciente 99;11/01/2003;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000100;Paciente 100;5/07/1968;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000101;Paciente 101;7/11/2008;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000102;Paciente 102;21/01/1980;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000103;Paciente 103;24/07/1996;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000104;Paciente 104;1/11/1996;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000105;Paciente 105;2/04/1982;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;8/04/2020;10000106;Paciente 106;1/08/1959;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000107;Paciente 107;3/11/2001;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000108;Paciente 108;28/02/2006;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000109;Paciente 109;27/12/2003;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000110;Paciente 110;7/03/2009;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000111;Paciente 111;11/10/1986;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000112;Paciente 112;16/05/1998;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000113;Paciente 113;21/08/1977;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000114;Paciente 114;6/11/1986;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000115;Paciente 115;10/12/2001;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000116;Paciente 116;17/03/1968;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000117;Paciente 117;5/05/1966;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000118;Paciente 118;17/01/1984;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000119;Paciente 119;16/04/1993;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000120;Paciente 120;1/10/1946;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000121;Paciente 121;20/08/1961;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000122;Paciente 122;24/08/1940;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000123;Paciente 123;4/07/2004;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000124;Paciente 124;22/04/1936;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000125;Paciente 125;22/11/2006;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000126;Paciente 126;6/08/1947;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000127;Paciente 127;3/05/1989;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000128;Paciente 128;14/01/2000;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000129;Paciente 129;17/10/1989;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000130;Paciente 130;1/12/1943;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000131;Paciente 131;2/09/1996;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000132;Paciente 132;12/07/1959;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;8/04/2020;10000133;Paciente 133;10/07/1960;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000134;Paciente 134;23/06/1987;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000135;Paciente 135;15/05/1941;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000136;Paciente 136;12/11/1949;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000137;Paciente 137;20/05/1983;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000138;Paciente 138;18/12/1967;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000139;Paciente 139;12/03/1973;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000140;Paciente 140;14/04/1997;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000141;Paciente 141;10/02/1974;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000142;Paciente 142;24/09/1980;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;9/04/2020;10000143;Paciente 143;6/05/1963;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;10/04/2020;10000144;Paciente 144;18/11/1942;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;10/04/2020;10000145;Paciente 145;23/04/2004;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;10/04/2020;10000146;Paciente 146;1/12/1987;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;10/04/2020;10000147;Paciente 147;23/02/2005;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;10/04/2020;10000148;Paciente 148;15/04/1982;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;10/04/2020;10000149;Paciente 149;13/06/1991;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000150;Paciente 150;12/12/1958;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000151;Paciente 151;23/11/1956;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000152;Paciente 152;15/06/1960;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000153;Paciente 153;5/09/1984;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000154;Paciente 154;14/03/1972;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000155;Paciente 155;23/01/1972;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000156;Paciente 156;16/10/1986;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000157;Paciente 157;15/05/1955;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000158;Paciente 158;23/09/1942;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000159;Paciente 159;25/10/1994;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000160;Paciente 160;25/05/1957;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000161;Paciente 161;24/10/1961;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000162;Paciente 162;2/10/1936;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000163;Paciente 163;23/04/1994;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000164;Paciente 164;17/11/1955;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000165;Paciente 165;2/04/2006;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000166;Paciente 166;13/09/1954;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000167;Paciente 167;4/11/1981;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;11/04/2020;10000168;Paciente 168;2/11/1980;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000169;Paciente 169;2/12/1949;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000170;Paciente 170;6/08/1985;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000171;Paciente 171;16/04/1959;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000172;Paciente 172;11/08/1966;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000173;Paciente 173;5/10/1954;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000174;Paciente 174;14/09/1973;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000175;Paciente 175;26/12/1975;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000176;Paciente 176;28/10/1962;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;12/04/2020;10000177;Paciente 177;4/06/1942;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;13/04/2020;10000178;Paciente 178;15/10/1971;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;13/04/2020;10000179;Paciente 179;19/10/2002;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;13/04/2020;10000180;Paciente 180;21/01/1997;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;13/04/2020;10000181;Paciente 181;24/08/1988;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;14/04/2020;10000182;Paciente 182;4/01/1978;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;14/04/2020;10000183;Paciente 183;27/08/1987;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;14/04/2020;10000184;Paciente 184;16/04/2007;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;14/04/2020;10000185;Paciente 185;1/08/1947;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;14/04/2020;10000186;Paciente 186;3/03/2008;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;14/04/2020;10000187;Paciente 187;2/01/1952;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;14/04/2020;10000188;Paciente 188;23/01/1947;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;14/04/2020;10000189;Paciente 189;17/01/1974;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000190;Paciente 190;24/09/1997;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000191;Paciente 191;15/05/1990;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000192;Paciente 192;12/08/1944;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000193;Paciente 193;23/10/2001;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000194;Paciente 194;27/01/1943;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000195;Paciente 195;19/08/1947;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000196;Paciente 196;4/07/1943;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000197;Paciente 197;9/07/1980;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000198;Paciente 198;26/09/2007;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000199;Paciente 199;17/01/1978;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000200;Paciente 200;16/07/1937;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000201;Paciente 201;2/02/2007;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000202;Paciente 202;25/01/2001;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000203;Paciente 203;7/08/1936;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000204;Paciente 204;2/04/1965;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000205;Paciente 205;3/02/2009;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000206;Paciente 206;4/02/1970;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000207;Paciente 207;1/06/1972;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000208;Paciente 208;12/07/1946;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000209;Paciente 209;7/08/1989;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000210;Paciente 210;22/10/1982;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000211;Paciente 211;16/04/1952;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000212;Paciente 212;25/11/2006;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000213;Paciente 213;4/10/1977;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000214;Paciente 214;8/11/2005;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000215;Paciente 215;3/04/1955;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000216;Paciente 216;6/10/1978;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000217;Paciente 217;28/06/2000;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000218;Paciente 218;3/07/1943;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000219;Paciente 219;15/08/1977;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000220;Paciente 220;24/08/1968;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000221;Paciente 221;5/06/1993;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000222;Paciente 222;11/07/1939;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000223;Paciente 223;6/03/1949;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000224;Paciente 224;1/12/1962;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000225;Paciente 225;26/09/1976;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000226;Paciente 226;16/04/1955;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000227;Paciente 227;25/01/1991;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000228;Paciente 228;5/10/1960;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000229;Paciente 229;22/06/1988;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000230;Paciente 230;4/05/1957;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000231;Paciente 231;12/04/1947;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000232;Paciente 232;4/02/1969;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000233;Paciente 233;5/09/1991;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000234;Paciente 234;6/01/1981;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000235;Paciente 235;11/12/1972;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000236;Paciente 236;15/03/1996;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000237;Paciente 237;16/12/1959;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000238;Paciente 238;9/12/1980;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000239;Paciente 239;20/01/1984;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000240;Paciente 240;13/08/1941;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000241;Paciente 241;10/01/2000;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000242;Paciente 242;26/08/1984;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000243;Paciente 243;6/10/1982;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000244;Paciente 244;3/05/1978;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000245;Paciente 245;15/09/1936;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000246;Paciente 246;4/10/1999;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000247;Paciente 247;24/04/1953;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000248;Paciente 248;26/07/1963;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000249;Paciente 249;28/02/1963;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000250;Paciente 250;16/06/1943;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000251;Paciente 251;23/09/1945;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000252;Paciente 252;19/11/2006;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000253;Paciente 253;21/06/1958;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000254;Paciente 254;24/04/1966;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000255;Paciente 255;6/06/1978;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000256;Paciente 256;21/10/1956;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000257;Paciente 257;17/07/1954;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000258;Paciente 258;23/08/1962;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000259;Paciente 259;24/06/1972;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000260;Paciente 260;14/12/1975;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000261;Paciente 261;9/08/1962;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000262;Paciente 262;15/04/1985;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;15/04/2020;10000263;Paciente 263;13/11/1995;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000264;Paciente 264;2/05/1956;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000265;Paciente 265;16/12/2005;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000266;Paciente 266;23/09/1942;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000267;Paciente 267;23/03/1960;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000268;Paciente 268;3/12/2000;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000269;Paciente 269;24/01/1945;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000270;Paciente 270;22/11/1966;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000271;Paciente 271;13/03/1976;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000272;Paciente 272;22/07/1985;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000273;Paciente 273;2/08/1949;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000274;Paciente 274;26/04/2005;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000275;Paciente 275;14/07/1946;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;16/04/2020;10000276;Paciente 276;28/03/1980;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;16/04/2020;10000277;Paciente 277;12/01/1991;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;16/04/2020;10000278;Paciente 278;12/09/1988;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;16/04/2020;10000279;Paciente 279;6/03/1985;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;16/04/2020;10000280;Paciente 280;14/09/1956;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;16/04/2020;10000281;Paciente 281;16/09/1936;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;16/04/2020;10000282;Paciente 282;11/08/1949;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000283;Paciente 283;21/10/1969;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000284;Paciente 284;8/10/1938;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000285;Paciente 285;26/11/2004;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000286;Paciente 286;12/08/1968;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000287;Paciente 287;21/11/1993;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000288;Paciente 288;15/05/1996;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;17/04/2020;10000289;Paciente 289;19/01/1975;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;18/04/2020;10000290;Paciente 290;24/07/1963;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;18/04/2020;10000291;Paciente 291;1/07/2008;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;18/04/2020;10000292;Paciente 292;26/05/1981;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000293;Paciente 293;26/01/2005;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000294;Paciente 294;27/04/1967;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000295;Paciente 295;5/02/1955;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000296;Paciente 296;20/07/1996;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000297;Paciente 297;22/10/1977;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000298;Paciente 298;7/09/1995;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000299;Paciente 299;14/01/1959;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000300;Paciente 300;6/09/1976;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000301;Paciente 301;19/11/1954;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000302;Paciente 302;3/04/1949;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000303;Paciente 303;2/12/1973;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000304;Paciente 304;9/06/1977;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000305;Paciente 305;14/10/1981;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000306;Paciente 306;11/05/1951;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000307;Paciente 307;16/12/1975;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000308;Paciente 308;21/01/1990;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000309;Paciente 309;23/10/1997;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;19/04/2020;10000310;Paciente 310;6/05/1962;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;20/04/2020;10000311;Paciente 311;9/09/1961;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;20/04/2020;10000312;Paciente 312;12/04/1963;F;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000313;Paciente 313;5/01/2001;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000314;Paciente 314;3/08/1973;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000315;Paciente 315;9/06/1961;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000316;Paciente 316;28/09/2008;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000317;Paciente 317;6/02/1984;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000318;Paciente 318;4/08/1992;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000319;Paciente 319;1/12/1997;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000320;Paciente 320;15/04/1971;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000321;Paciente 321;11/11/1979;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000322;Paciente 322;5/01/1990;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;20/04/2020;10000323;Paciente 323;6/02/1970;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000324;Paciente 324;7/03/1957;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000325;Paciente 325;10/06/1958;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000326;Paciente 326;1/05/1979;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000327;Paciente 327;12/10/1939;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000328;Paciente 328;24/01/1955;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000329;Paciente 329;20/03/1942;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000330;Paciente 330;17/05/1964;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000331;Paciente 331;16/09/1995;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000332;Paciente 332;12/09/1993;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000333;Paciente 333;26/02/1968;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000334;Paciente 334;18/10/1982;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000335;Paciente 335;15/12/2006;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000336;Paciente 336;11/10/1948;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000337;Paciente 337;13/12/1974;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000338;Paciente 338;7/02/1969;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000339;Paciente 339;12/07/2000;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000340;Paciente 340;10/06/1998;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000341;Paciente 341;18/08/1989;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000342;Paciente 342;3/09/1973;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000343;Paciente 343;14/11/1991;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000344;Paciente 344;15/02/1954;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000345;Paciente 345;4/10/1937;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000346;Paciente 346;12/05/1940;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000347;Paciente 347;9/05/1964;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000348;Paciente 348;26/02/1965;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000349;Paciente 349;25/04/1977;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000350;Paciente 350;10/12/1951;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000351;Paciente 351;26/08/1989;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000352;Paciente 352;17/12/1948;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000353;Paciente 353;26/06/1953;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000354;Paciente 354;13/11/2000;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000355;Paciente 355;12/12/2001;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000356;Paciente 356;8/02/1959;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000357;Paciente 357;13/12/1948;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000358;Paciente 358;23/01/1943;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000359;Paciente 359;13/09/1972;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000360;Paciente 360;9/03/1965;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000361;Paciente 361;27/02/2004;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000362;Paciente 362;16/08/1973;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000363;Paciente 363;15/07/1995;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000364;Paciente 364;24/07/2002;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000365;Paciente 365;24/11/1970;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000366;Paciente 366;15/06/1950;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000367;Paciente 367;15/07/1950;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000368;Paciente 368;7/12/2009;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000369;Paciente 369;2/02/1979;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000370;Paciente 370;18/02/1955;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000371;Paciente 371;20/07/1951;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000372;Paciente 372;24/07/1992;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000373;Paciente 373;27/11/1959;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000374;Paciente 374;11/10/1977;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000375;Paciente 375;15/08/1971;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000376;Paciente 376;8/12/1947;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000377;Paciente 377;18/12/1952;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000378;Paciente 378;9/10/1983;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000379;Paciente 379;6/09/1951;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000380;Paciente 380;27/07/1973;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000381;Paciente 381;26/11/1966;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000382;Paciente 382;16/02/2005;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0011;Arturo Arevalo;21/04/2020;10000383;Paciente 383;20/01/1961;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0012;Edgar Garcia;21/04/2020;10000384;Paciente 384;20/07/1980;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0013;Ceron Garcia;21/04/2020;10000385;Paciente 385;25/02/1997;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0014;Gustavo Ortiz;21/04/2020;10000386;Paciente 386;18/09/1960;M;ACTIVO
+H0001;General San Juan de Dios;1ra. Avenida, 10-50 Zona 1, de la ciudad de Guatemala;Metropolitana;Guatemala;D0015;Edgar Ortinz;21/04/2020;10000387;Paciente 387;15/10/1946;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;21/04/2020;10000388;Paciente 388;12/12/1949;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;21/04/2020;10000389;Paciente 389;2/05/1993;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0008;Jose Vargas;22/04/2020;10000390;Paciente 390;16/08/1996;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0009;Jesus Lares;22/04/2020;10000391;Paciente 391;16/01/1964;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0010;Jesus Moyers;22/04/2020;10000392;Paciente 392;23/06/1999;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000393;Paciente 393;5/12/1967;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;22/04/2020;10000394;Paciente 394;15/07/2007;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0008;Jose Vargas;22/04/2020;10000395;Paciente 395;23/12/1964;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0009;Jesus Lares;22/04/2020;10000396;Paciente 396;18/05/1985;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0010;Jesus Moyers;22/04/2020;10000397;Paciente 397;23/07/2007;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000398;Paciente 398;25/06/1990;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;22/04/2020;10000399;Paciente 399;11/06/2003;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0008;Jose Vargas;22/04/2020;10000400;Paciente 400;7/07/1993;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0009;Jesus Lares;22/04/2020;10000401;Paciente 401;5/02/1964;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0010;Jesus Moyers;22/04/2020;10000402;Paciente 402;16/02/1976;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000403;Paciente 403;7/01/1985;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;22/04/2020;10000404;Paciente 404;28/06/1993;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0008;Jose Vargas;22/04/2020;10000405;Paciente 405;26/12/1949;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0009;Jesus Lares;22/04/2020;10000406;Paciente 406;5/08/1939;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0010;Jesus Moyers;22/04/2020;10000407;Paciente 407;23/06/2007;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000408;Paciente 408;3/10/1939;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000409;Paciente 409;24/09/1979;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000410;Paciente 410;19/06/2008;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000411;Paciente 411;27/12/1969;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000412;Paciente 412;19/05/1970;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000413;Paciente 413;17/04/1994;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000414;Paciente 414;24/05/1960;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000415;Paciente 415;1/11/1942;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000416;Paciente 416;6/12/1968;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000417;Paciente 417;16/03/2000;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000418;Paciente 418;25/06/1943;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000419;Paciente 419;23/01/1963;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000420;Paciente 420;10/09/1970;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000421;Paciente 421;28/07/1983;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000422;Paciente 422;20/01/1976;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000423;Paciente 423;10/04/1981;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000424;Paciente 424;21/08/1962;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000425;Paciente 425;8/12/1937;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000426;Paciente 426;18/02/2003;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000427;Paciente 427;27/08/1989;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000428;Paciente 428;4/02/1952;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000429;Paciente 429;3/01/1973;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;22/04/2020;10000430;Paciente 430;10/11/1958;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;23/04/2020;10000431;Paciente 431;3/03/1978;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;23/04/2020;10000432;Paciente 432;9/11/1997;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0006;Maldonado Roo;23/04/2020;10000433;Paciente 433;20/04/1995;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000434;Paciente 434;16/11/1987;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000435;Paciente 435;24/10/1980;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000436;Paciente 436;15/08/1970;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000437;Paciente 437;3/03/2007;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000438;Paciente 438;13/05/1937;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000439;Paciente 439;21/10/1969;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000440;Paciente 440;12/08/2007;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000441;Paciente 441;2/12/1967;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000442;Paciente 442;9/08/1962;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000443;Paciente 443;22/12/1943;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000444;Paciente 444;6/12/1994;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000445;Paciente 445;4/06/1995;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000446;Paciente 446;1/04/1956;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000447;Paciente 447;18/08/1971;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000448;Paciente 448;2/04/1985;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000449;Paciente 449;10/08/1999;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000450;Paciente 450;16/07/1938;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000451;Paciente 451;11/04/1989;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000452;Paciente 452;24/06/2001;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000453;Paciente 453;8/07/1950;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000454;Paciente 454;7/09/1983;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000455;Paciente 455;11/11/1952;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000456;Paciente 456;5/05/2006;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000457;Paciente 457;7/09/1974;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000458;Paciente 458;5/10/1936;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000459;Paciente 459;14/01/1987;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000460;Paciente 460;21/12/2009;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000461;Paciente 461;15/03/1963;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000462;Paciente 462;2/10/1986;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000463;Paciente 463;3/04/2004;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000464;Paciente 464;26/09/1994;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000465;Paciente 465;3/05/1997;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000466;Paciente 466;24/09/1963;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000467;Paciente 467;13/03/1957;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000468;Paciente 468;26/05/1999;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000469;Paciente 469;15/03/1971;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000470;Paciente 470;20/05/1972;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000471;Paciente 471;6/07/1977;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000472;Paciente 472;6/09/1975;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;23/04/2020;10000473;Paciente 473;8/04/1943;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000474;Paciente 474;16/02/1941;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000475;Paciente 475;1/04/2007;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000476;Paciente 476;21/01/1965;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000477;Paciente 477;5/08/1960;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000478;Paciente 478;10/04/1993;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000479;Paciente 479;20/08/2000;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000480;Paciente 480;15/07/1980;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000481;Paciente 481;6/05/2003;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000482;Paciente 482;13/09/1952;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000483;Paciente 483;7/11/1984;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000484;Paciente 484;9/07/1963;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;24/04/2020;10000485;Paciente 485;8/12/1942;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000486;Paciente 486;7/11/1939;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000487;Paciente 487;25/10/1945;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000488;Paciente 488;3/07/1988;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000489;Paciente 489;5/11/1953;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000490;Paciente 490;22/07/1945;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000491;Paciente 491;19/10/1992;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000492;Paciente 492;14/04/1989;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000493;Paciente 493;5/08/1976;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000494;Paciente 494;21/07/1949;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000495;Paciente 495;21/11/1941;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000496;Paciente 496;27/01/1963;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000497;Paciente 497;20/06/1989;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000498;Paciente 498;23/08/1992;M;ACTIVO
+H0002;Roosevelt;Calzada Roosevelt Zona 11, de la ciudad de Guatemala;Metropolitana;Guatemala;D0007;Rafael Covarrubios;25/04/2020;10000499;Paciente 499;14/02/1997;M;ACTIVO
