@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="38"
-  DTS:VersionGUID="{EAC1B817-EC2E-48B2-AF22-42BF6ED5AF24}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{4C358BB1-E162-4909-B04B-B34E57045564}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWg5d7J3h90qoQ3lePgNISwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGdBO/NuCi3/sJ1MBMEMNV6jT5rRKsbUnhM9z9a98ROwAAAAAOgAAAAAIAACAAAAB9s1mbxbwhntqO1T24qi4pJ6ekmQAE7sxRrSvRfKvDayAAAAA5OPEXwREI0dL5Ecwu3NVFf+UVrxgrDCKBXXUEEQGXMUAAAADVV4LszstInW3RqFhDdG6eMMHTM5MNosfDp6EdeW4GS7XjvbzvSNxIRrzgHZV6U8lhUwQI0MCXSwVVHh/PhMWL</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWg5d7J3h90qoQ3lePgNISwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABYVSpT/83Qid7Hm68c1CqhWy8jz1JaVHp4zB5AuGt0zgAAAAAOgAAAAAIAACAAAADJqSYnHVnrhkDLHVURFzVVVEjLZh/S0U0NMaPUbW/ZvCAAAAAOenviM8xqjubl8MLsluZmDNftguEWCm7Jhow16at35kAAAADtIDRs3TKaOFc6xaZwkmPdq7Kf1kDWJJsbFwVCdqQlnBB9Rk1SUo6hvIetfpsYqUQlkYPS6jfKVM1VAF2HCsQz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,17 +72,28 @@
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\MYSQL ETL"
+      DTS:refId="Package\LIMPIEZA ELT"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{C6F12B14-781D-4091-A70C-37569241FA3C}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="LIMPIEZA ELT">
+      <DTS:Variables />
+      <DTS:Executables />
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\MYSQL INITIAL LOAD"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
       DTS:DTSID="{1CB970AE-57C4-4C82-BAAC-283F32C0A2B6}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
-      DTS:ObjectName="MYSQL ETL">
+      DTS:ObjectName="MYSQL INITIAL LOAD">
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\MYSQL ETL\Carga de Datos a TMP"
+          DTS:refId="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
           DTS:CreationName="Microsoft.ScriptTask"
           DTS:Description="Script Task"
           DTS:DTSID="{1A2940C9-D9D1-4718-8D47-297E1D36B9AE}"
@@ -890,7 +901,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
-          DTS:refId="Package\MYSQL ETL\Eliminar y Crear Tabla Temporal"
+          DTS:refId="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
           DTS:DTSID="{B0F3F0A0-5A59-45A3-A334-61F91FA022DC}"
@@ -909,16 +920,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:Executables>
       <DTS:PrecedenceConstraints>
         <DTS:PrecedenceConstraint
-          DTS:refId="Package\MYSQL ETL.PrecedenceConstraints[Constraint]"
+          DTS:refId="Package\MYSQL INITIAL LOAD.PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
           DTS:DTSID="{79B7B40C-E01B-4A0B-A3D4-3B4300B3FB23}"
-          DTS:From="Package\MYSQL ETL\Eliminar y Crear Tabla Temporal"
+          DTS:From="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
-          DTS:To="Package\MYSQL ETL\Carga de Datos a TMP" />
+          DTS:To="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP" />
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
   </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{34C4F102-8AAF-44AD-A067-D8E3F2417D43}"
+      DTS:From="Package\MYSQL INITIAL LOAD"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\LIMPIEZA ELT" />
+  </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
 <!--If you manually edit this section and make a mistake, you can delete it. -->
@@ -930,41 +951,41 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="184,41.6"
-          Id="Package\MYSQL ETL\Carga de Datos a TMP"
-          TopLeft="16.4666646136179,95.1333351447848" />
+          Id="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
+          TopLeft="16.4666646136179,83.0000017150244" />
         <NodeLayout
           Size="228.8,41.6"
-          Id="Package\MYSQL ETL\Eliminar y Crear Tabla Temporal"
+          Id="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           TopLeft="15.6333313133983,11.9333344835705" />
         <EdgeLayout
-          Id="Package\MYSQL ETL.PrecedenceConstraints[Constraint]"
+          Id="Package\MYSQL INITIAL LOAD.PrecedenceConstraints[Constraint]"
           TopLeft="130.033331313398,53.5333344835705">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-21.5666666997804,41.6000006612143"
+              EndConnector="-21.5666666997804,29.4666672314539"
               Start="0,0"
-              End="-21.5666666997804,34.1000006612143">
+              End="-21.5666666997804,21.9666672314539">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.8000003306071" />
+                    End="0,10.7333336157269" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.8000003306071"
-                    Point2="0,20.8000003306071"
-                    Point3="-4,20.8000003306071" />
+                    Point1="0,10.7333336157269"
+                    Point2="0,14.7333336157269"
+                    Point3="-4,14.7333336157269" />
                   <mssgle:LineSegment
-                    End="-17.5666666997804,20.8000003306071" />
+                    End="-17.5666666997804,14.7333336157269" />
                   <mssgle:CubicBezierSegment
-                    Point1="-17.5666666997804,20.8000003306071"
-                    Point2="-21.5666666997804,20.8000003306071"
-                    Point3="-21.5666666997804,24.8000003306071" />
+                    Point1="-17.5666666997804,14.7333336157269"
+                    Point2="-21.5666666997804,14.7333336157269"
+                    Point3="-21.5666666997804,18.7333336157269" />
                   <mssgle:LineSegment
-                    End="-21.5666666997804,34.1000006612143" />
+                    End="-21.5666666997804,21.9666672314539" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -976,10 +997,39 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="438.4,250.4"
-          Size="438.4,293.6"
-          Id="Package\MYSQL ETL"
+          PanelSize="417.6,230.4"
+          Size="417.6,273.6"
+          Id="Package\MYSQL INITIAL LOAD"
           TopLeft="20.8333325054912,19.9333334917492" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="409.6,228.8"
+          Size="409.6,272"
+          Id="Package\LIMPIEZA ELT"
+          TopLeft="485.833314028052,21.666666838858" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="438.433332505491,157.200000165304">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="47.3999815225611,0"
+              Start="0,0"
+              End="39.8999815225611,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="39.8999815225611,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
