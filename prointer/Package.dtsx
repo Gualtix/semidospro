@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="6/10/2021 10:33:27 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="39"
-  DTS:VersionGUID="{F0531367-43C5-4024-BAD5-EBC7895487C6}">
+  DTS:VersionBuild="41"
+  DTS:VersionGUID="{B52B574E-FAE9-43BC-A372-639A46F34D1F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,12 @@
       DTS:ObjectName="&lt;semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com&gt;.temporal.admin">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="server=semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com;user id=admin;database=temporal;port=3306;" />
+          DTS:ConnectionString="server=semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com;user id=admin;database=temporal;port=3306;">
+          <DTS:Password
+            DTS:Name="password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAVgYphyBRcEIbfSYb9+13oJqIP11eMnqCGcyITsc8kbwAAAAAOgAAAAAIAACAAAAAiDStNhxu0PgFohWZu3U//TfSalpYM849OyMcU/WdOSCAAAABwh5134WWuXKFJfGiNpLyzK3OXtMaJAQmaub+JA/YcP0AAAABQAws0Rmsp4qtP7gpZaK0UiA74iSmvykVZcGskcE8fIVkGEsjlP+K9Y382oiCaQEssgv5BWW7/EVz/NuoN8750</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -75,7 +80,1524 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="LIMPIEZA ELT">
       <DTS:Variables />
-      <DTS:Executables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Centro"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{65afa2ff-8bf1-402a-ad51-002f51a2565e}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Centro"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Doctor"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{48bdcaaa-bdd9-4d20-a009-de990c9ad5ba}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Doctor"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Fecha"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{55bb76a9-7e56-4015-af2c-61eef2acc199}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Fecha"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Hospital"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{4e62f694-349b-437a-8156-e283cda6895f}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Hospital"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Paciente"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{B6D2820A-18CE-4A8B-8B75-08BA8BEF0F06}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Paciente"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Region"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{1fbe76a4-abad-4737-b86b-0ac77fd671a6}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Region"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\LIMPIEZA ELT\Limpiar Tipo"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tarea Flujo de datos"
+          DTS:DTSID="{d358a305-4df8-4b26-a012-edfa260cd502}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Limpiar Tipo"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="Búsqueda"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml"></property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Connections[OleDbConnection]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+                  description="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server."
+                  name="Cargar Tipo de Temporal"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL utilizada por el componente para extraer datos."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">USE temporal;
+SELECT * FROM TMP;</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                      name="CommandTimeout">30</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indica si se debe permitir que columnas externas que no sean de cadenas se conviertan implícitamente en cadenas en las columnas de salida."
+                      name="AllowImplicitStringConversion">true</property>
+                    <property
+                      dataType="System.String"
+                      description="Nombre de la tabla de la base de datos de origen."
+                      expressionType="Notify"
+                      name="TableOrViewName"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especificar el modo de recuperar información de columnas externas"
+                      name="AccessMode"
+                      typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Connections[IDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[&lt;semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com&gt;.temporal.admin]"
+                      connectionManagerRefId="Package.ConnectionManagers[&lt;semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com&gt;.temporal.admin]"
+                      description="Administrador de conexiones administrado"
+                      name="IDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET]"
+                      name="Salida de origen de ADO NET">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[LINEA]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[LINEA]"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[LINEA]"
+                          name="LINEA"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_HOSPITAL]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[COD_HOSPITAL]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_HOSPITAL]"
+                          name="COD_HOSPITAL"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_HOSPITAL]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[NOMBRE_HOSPITAL]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_HOSPITAL]"
+                          name="NOMBRE_HOSPITAL"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DIRECCION_HOSPITAL]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[DIRECCION_HOSPITAL]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DIRECCION_HOSPITAL]"
+                          name="DIRECCION_HOSPITAL"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[REGION]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[REGION]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[REGION]"
+                          name="REGION"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DEPARTAMENTO]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[DEPARTAMENTO]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DEPARTAMENTO]"
+                          name="DEPARTAMENTO"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_DOCTOR]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[COD_DOCTOR]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_DOCTOR]"
+                          name="COD_DOCTOR"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_DOCTOR]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[NOMBRE_DOCTOR]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_DOCTOR]"
+                          name="NOMBRE_DOCTOR"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHACASO]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[FECHACASO]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHACASO]"
+                          name="FECHACASO"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DPI]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[DPI]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DPI]"
+                          name="DPI"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBREPACIENTE]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[NOMBREPACIENTE]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBREPACIENTE]"
+                          name="NOMBREPACIENTE"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHAPERSONA]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[FECHAPERSONA]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHAPERSONA]"
+                          name="FECHAPERSONA"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[GENERO]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[GENERO]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[GENERO]"
+                          name="GENERO"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[TIPOCASO]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[TIPOCASO]"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[TIPOCASO]"
+                          name="TIPOCASO"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[LINEA]"
+                          dataType="i4"
+                          name="LINEA" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[COD_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          name="COD_HOSPITAL" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[NOMBRE_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          name="NOMBRE_HOSPITAL" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[DIRECCION_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          name="DIRECCION_HOSPITAL" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[REGION]"
+                          dataType="wstr"
+                          length="128"
+                          name="REGION" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[DEPARTAMENTO]"
+                          dataType="wstr"
+                          length="128"
+                          name="DEPARTAMENTO" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[COD_DOCTOR]"
+                          dataType="wstr"
+                          length="128"
+                          name="COD_DOCTOR" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[NOMBRE_DOCTOR]"
+                          dataType="wstr"
+                          length="128"
+                          name="NOMBRE_DOCTOR" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[FECHACASO]"
+                          dataType="wstr"
+                          length="128"
+                          name="FECHACASO" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[DPI]"
+                          dataType="wstr"
+                          length="128"
+                          name="DPI" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[NOMBREPACIENTE]"
+                          dataType="wstr"
+                          length="128"
+                          name="NOMBREPACIENTE" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[FECHAPERSONA]"
+                          dataType="wstr"
+                          length="128"
+                          name="FECHAPERSONA" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[GENERO]"
+                          dataType="wstr"
+                          length="128"
+                          name="GENERO" />
+                        <externalMetadataColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].ExternalColumns[TIPOCASO]"
+                          dataType="wstr"
+                          length="128"
+                          name="TIPOCASO" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET]"
+                      isErrorOut="true"
+                      name="Salida de error de origen de ADO NET">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[LINEA]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[LINEA]"
+                          name="LINEA" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[COD_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[COD_HOSPITAL]"
+                          name="COD_HOSPITAL" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[NOMBRE_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[NOMBRE_HOSPITAL]"
+                          name="NOMBRE_HOSPITAL" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[DIRECCION_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[DIRECCION_HOSPITAL]"
+                          name="DIRECCION_HOSPITAL" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[REGION]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[REGION]"
+                          name="REGION" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[DEPARTAMENTO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[DEPARTAMENTO]"
+                          name="DEPARTAMENTO" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[COD_DOCTOR]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[COD_DOCTOR]"
+                          name="COD_DOCTOR" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[NOMBRE_DOCTOR]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[NOMBRE_DOCTOR]"
+                          name="NOMBRE_DOCTOR" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[FECHACASO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[FECHACASO]"
+                          name="FECHACASO" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[DPI]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[DPI]"
+                          name="DPI" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[NOMBREPACIENTE]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[NOMBREPACIENTE]"
+                          name="NOMBREPACIENTE" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[FECHAPERSONA]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[FECHAPERSONA]"
+                          name="FECHAPERSONA" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[GENERO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[GENERO]"
+                          name="GENERO" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[TIPOCASO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[TIPOCASO]"
+                          name="TIPOCASO" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+                  name="Columna derivada"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]"
+                      description="Entrada en la transformación Columna derivada"
+                      name="Entrada de columna derivada">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de columna derivada]"
+                      description="Salida predeterminada de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      name="Salida de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de error de columna derivada]"
+                      description="Salida de error de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+                  name="Columna derivada 1"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Inputs[Entrada de columna derivada]"
+                      description="Entrada en la transformación Columna derivada"
+                      name="Entrada de columna derivada">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de columna derivada]"
+                      description="Salida predeterminada de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      name="Salida de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de columna derivada].Columns[Error]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Cálculo"
+                          errorRowDisposition="FailComponent"
+                          length="21"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de columna derivada].Columns[Error]"
+                          name="Error"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expresión de columna derivada"
+                              name="Expression">[UPPER]("Error de tipo de dato")</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expresión descriptiva de columna derivada"
+                              expressionType="Notify"
+                              name="FriendlyExpression">UPPER("Error de tipo de dato")</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de error de columna derivada]"
+                      description="Salida de error de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos"
+                  componentClassID="Microsoft.DataConvert"
+                  contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Conversión de datos"
+                  name="Conversión de datos"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Inputs[Entrada de conversión de datos]"
+                      name="Entrada de conversión de datos">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[TIPOCASO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="TIPOCASO"
+                          cachedSortKeyPosition="1"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos]"
+                      exclusionGroup="1"
+                      name="Salida de conversión de datos"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]"
+                          name="Copia de TIPOCASO"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de conversión de datos"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos"
+                  componentClassID="Microsoft.ConditionalSplit"
+                  contactInfo="División condicional;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Enruta filas de datos a diferentes salidas según el contenido de los datos. Se usan condiciones (expresiones de SSIS) para especificar las filas que se van a enrutar. Por ejemplo, se usa para separar los registros que deben limpiarse de los registros listos para ser cargados o para enrutar solamente un subconjunto de registros."
+                  name="Filtrar nulos"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional]"
+                      description="Entrada en la transformación División condicional"
+                      name="Entrada de división condicional">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[COD_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="COD_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_HOSPITAL]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[NOMBRE_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="NOMBRE_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_HOSPITAL]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[DIRECCION_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DIRECCION_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DIRECCION_HOSPITAL]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[REGION]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="REGION"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[REGION]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[DEPARTAMENTO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DEPARTAMENTO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DEPARTAMENTO]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[COD_DOCTOR]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="COD_DOCTOR"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_DOCTOR]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[NOMBRE_DOCTOR]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="NOMBRE_DOCTOR"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_DOCTOR]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[FECHACASO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="FECHACASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHACASO]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[DPI]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DPI"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DPI]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[NOMBREPACIENTE]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="NOMBREPACIENTE"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBREPACIENTE]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[FECHAPERSONA]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="FECHAPERSONA"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHAPERSONA]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[GENERO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="GENERO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[GENERO]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional].Columns[TIPOCASO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="TIPOCASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[TIPOCASO]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[NotNull]"
+                      description="Salida 1 de la transformación División condicional"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="NotNull"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Especifica la expresión. Esta versión de expresión usa identificadores de linaje en lugar de nombres de columna."
+                          name="Expression">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_HOSPITAL]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_HOSPITAL]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DIRECCION_HOSPITAL]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[REGION]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DEPARTAMENTO]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_DOCTOR]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_DOCTOR]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHACASO]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DPI]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBREPACIENTE]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHAPERSONA]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[GENERO]} != "" &amp;&amp; #{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[TIPOCASO]} != ""</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Especifica la versión descriptiva de la expresión. Esta versión de expresión usa nombres de columna."
+                          expressionType="Notify"
+                          name="FriendlyExpression">COD_HOSPITAL != "" &amp;&amp; NOMBRE_HOSPITAL != "" &amp;&amp; DIRECCION_HOSPITAL != "" &amp;&amp; REGION != "" &amp;&amp; DEPARTAMENTO != "" &amp;&amp; COD_DOCTOR != "" &amp;&amp; NOMBRE_DOCTOR != "" &amp;&amp; FECHACASO != "" &amp;&amp; DPI != "" &amp;&amp; NOMBREPACIENTE != "" &amp;&amp; FECHAPERSONA != "" &amp;&amp; GENERO != "" &amp;&amp; TIPOCASO != ""</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica la posición de la condición en la lista de condiciones que evalúa la transformación. El orden de evaluación es del menor al mayor valor."
+                          name="EvaluationOrder">0</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[IsNull]"
+                      description="Salida predeterminada de la transformación División condicional"
+                      exclusionGroup="1"
+                      name="IsNull"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional]">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="IsDefaultOut">true</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[Salida de error de división condicional]"
+                      description="Salida de error de la transformación División condicional"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de división condicional"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[Salida de error de división condicional].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[Salida de error de división condicional].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar"
+                  componentClassID="Microsoft.Sort"
+                  contactInfo="Ordenar;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+                  description="Ordena los datos de entrada de manera ascendente o descendente cuando no es posible ordenarlos en su origen. Por ejemplo, se ordenan los datos de ventas por 'id. de cliente' antes de que se escriban en un archivo plano y se entreguen a otro departamento. Nota: no se recomienda realizar esta transformación para grandes flujos de datos."
+                  name="Ordenar"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indica si la transformación Ordenar quita filas con valores de ordenación duplicados."
+                      name="EliminateDuplicates">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el número máximo de subprocesos que se deben usar para la ordenación."
+                      expressionType="Notify"
+                      name="MaximumThreads">-1</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación]"
+                      name="Entrada de ordenación">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[LINEA]"
+                          cachedDataType="i4"
+                          cachedName="LINEA"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[LINEA]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[COD_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="COD_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_HOSPITAL]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[NOMBRE_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="NOMBRE_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_HOSPITAL]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[DIRECCION_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DIRECCION_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DIRECCION_HOSPITAL]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[REGION]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="REGION"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[REGION]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[DEPARTAMENTO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DEPARTAMENTO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DEPARTAMENTO]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[COD_DOCTOR]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="COD_DOCTOR"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_DOCTOR]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[NOMBRE_DOCTOR]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="NOMBRE_DOCTOR"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_DOCTOR]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[FECHACASO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="FECHACASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHACASO]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[DPI]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DPI"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DPI]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[NOMBREPACIENTE]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="NOMBREPACIENTE"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBREPACIENTE]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[FECHAPERSONA]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="FECHAPERSONA"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHAPERSONA]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[GENERO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="GENERO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[GENERO]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación].Columns[TIPOCASO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="TIPOCASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[TIPOCASO]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica las opciones de comparación para datos de caracteres."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Especifica el criterio de ordenación de la columna."
+                              name="NewSortKeyPosition">1</property>
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación]"
+                      isSorted="true"
+                      name="Salida de ordenación">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[LINEA]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[LINEA]"
+                          name="LINEA">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[LINEA]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[COD_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[COD_HOSPITAL]"
+                          name="COD_HOSPITAL">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_HOSPITAL]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[NOMBRE_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[NOMBRE_HOSPITAL]"
+                          name="NOMBRE_HOSPITAL">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_HOSPITAL]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[DIRECCION_HOSPITAL]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[DIRECCION_HOSPITAL]"
+                          name="DIRECCION_HOSPITAL">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DIRECCION_HOSPITAL]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[REGION]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[REGION]"
+                          name="REGION">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[REGION]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[DEPARTAMENTO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[DEPARTAMENTO]"
+                          name="DEPARTAMENTO">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DEPARTAMENTO]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[COD_DOCTOR]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[COD_DOCTOR]"
+                          name="COD_DOCTOR">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[COD_DOCTOR]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[NOMBRE_DOCTOR]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[NOMBRE_DOCTOR]"
+                          name="NOMBRE_DOCTOR">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBRE_DOCTOR]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[FECHACASO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[FECHACASO]"
+                          name="FECHACASO">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHACASO]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[DPI]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[DPI]"
+                          name="DPI">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[DPI]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[NOMBREPACIENTE]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[NOMBREPACIENTE]"
+                          name="NOMBREPACIENTE">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[NOMBREPACIENTE]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[FECHAPERSONA]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[FECHAPERSONA]"
+                          name="FECHAPERSONA">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[FECHAPERSONA]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[GENERO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[GENERO]"
+                          name="GENERO">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[GENERO]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]"
+                          dataType="wstr"
+                          length="128"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]"
+                          name="TIPOCASO"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                              name="SortColumnId">#{Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET].Columns[TIPOCASO]}</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[IsNull]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]"
+                  name="IsNull"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[IsNull]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[NotNull]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Inputs[Entrada de ordenación]"
+                  name="NotNull"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[NotNull]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de conversión de datos]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda.Inputs[Entrada de búsqueda]"
+                  name="Salida de conversión de datos"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de error de conversión de datos]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de conversión de datos"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de ordenación]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Inputs[Entrada de conversión de datos]"
+                  name="Salida de ordenación"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar.Outputs[Salida de ordenación]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de origen de ADO NET]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Inputs[Entrada de división condicional]"
+                  name="Salida de origen de ADO NET"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal.Outputs[Salida de origen de ADO NET]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción]"
+          DTS:CreationName=""
+          DTS:DTSID="{C9BFD15D-BC67-452F-963D-B717993C6106}"
+          DTS:From="Package\LIMPIEZA ELT\Limpiar Tipo"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción"
+          DTS:To="Package\LIMPIEZA ELT\Limpiar Paciente" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 1]"
+          DTS:CreationName=""
+          DTS:DTSID="{E5D65E81-A387-4C71-8CFB-340F8D9186E9}"
+          DTS:From="Package\LIMPIEZA ELT\Limpiar Paciente"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción 1"
+          DTS:To="Package\LIMPIEZA ELT\Limpiar Doctor" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 2]"
+          DTS:CreationName=""
+          DTS:DTSID="{C4891012-CBF9-4500-A845-36746C5E3AE3}"
+          DTS:From="Package\LIMPIEZA ELT\Limpiar Doctor"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción 2"
+          DTS:To="Package\LIMPIEZA ELT\Limpiar Fecha" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 3]"
+          DTS:CreationName=""
+          DTS:DTSID="{B12CEEA5-1D65-401F-B6D3-F1BC8F8D90EA}"
+          DTS:From="Package\LIMPIEZA ELT\Limpiar Fecha"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción 3"
+          DTS:To="Package\LIMPIEZA ELT\Limpiar Hospital" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 4]"
+          DTS:CreationName=""
+          DTS:DTSID="{F1A119BD-5FC3-4F7D-A556-609FC39FB612}"
+          DTS:From="Package\LIMPIEZA ELT\Limpiar Hospital"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción 4"
+          DTS:To="Package\LIMPIEZA ELT\Limpiar Region" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 5]"
+          DTS:CreationName=""
+          DTS:DTSID="{4D9BF623-EDD0-4C88-A4FA-E79ACBEA1346}"
+          DTS:From="Package\LIMPIEZA ELT\Limpiar Region"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción 5"
+          DTS:To="Package\LIMPIEZA ELT\Limpiar Centro" />
+      </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\MYSQL INITIAL LOAD"
@@ -100,8 +1622,8 @@
           <DTS:ObjectData>
             <ScriptProject
               Name="ST_8bc80233ddc7453b9ce2430602b9080a"
-              VSTAMajorVersion="2"
-              VSTAMinorVersion="2"
+              VSTAMajorVersion="15"
+              VSTAMinorVersion="0"
               Language="CSharp"
               ReadOnlyVariables="User::CarpetaErrores,User::CarpetaExitos,User::CarpetaOrigen,User::Delimitador">
               <ProjectItem
@@ -481,23 +2003,23 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
                 Name="Project"
                 Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-	<msb:PropertyGroup>
-		<msb:Language>msBuild</msb:Language>
-		<msb:CodeName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:CodeName>
-		<msb:DisplayName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:DisplayName>
-		<msb:ProjectId>{3076F1C6-4BCF-4F6C-8C77-3FA3829DC59C}</msb:ProjectId>
-	</msb:PropertyGroup>
-	<msb:ItemGroup>
-		<msb:Project Include="ST_8bc80233ddc7453b9ce2430602b9080a.csproj"/>
-		<msb:File Include="app.config"/>
-		<msb:File Include="packages.config"/>
-		<msb:File Include="Properties\Settings.Designer.cs"/>
-		<msb:File Include="Properties\AssemblyInfo.cs"/>
-		<msb:File Include="Properties\Settings.settings"/>
-		<msb:File Include="Properties\Resources.resx"/>
-		<msb:File Include="Properties\Resources.Designer.cs"/>
-		<msb:File Include="ScriptMain.cs"/>
-	</msb:ItemGroup>
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:DisplayName>
+    <msb:ProjectId>{18F09073-A14B-40E0-A433-6B113799885C}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_8bc80233ddc7453b9ce2430602b9080a.csproj" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="packages.config" />
+    <msb:File Include="app.config" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.Designer.cs"
@@ -543,7 +2065,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ST_8bc80233ddc7453b9ce2430602b9080a</RootNamespace>
     <AssemblyName>ST_8bc80233ddc7453b9ce2430602b9080a</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
     <TargetFrameworkProfile></TargetFrameworkProfile>
@@ -611,8 +2133,8 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
     <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=13.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=13.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\Ubiety.Dns.Core.dll</HintPath>
     </Reference>
@@ -655,7 +2177,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
         <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
         <Host Name="ScriptTask" />
         <ProjectClient>
-          <HostIdentifier>SSIS_ST130</HostIdentifier>
+          <HostIdentifier>SSIS_ST140</HostIdentifier>
         </ProjectClient>
       </FlavorProperties>
     </VisualStudio>
@@ -732,7 +2254,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
               <BinaryItem
                 Name="ST_8bc80233ddc7453b9ce2430602b9080a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABQ9xmAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAijgA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAK89xmAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAijgA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAADg4AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -775,9 +2297,9 @@ AQYAiQDdAD8A+QC8BmoAIQEUB3AAMQEJB3cAOQFQARAA4QDjBgEAcQBXBQYAqQBXBQYAQQEQAX0A
 QQEkB4YAsQBXBYwA0QBXBQYACAAUALgACAAYAL0AKQBzACUBLgALAP0ALgATAAYBLgAbACUBLgAj
 AC4BLgArAFcBLgAzAFcBLgA7AFcBLgBDAC4BLgBLAF0BLgBTAFcBLgBbAHQBQwBjAL0ASQBzACUB
 YQB7AL0AYwBrAL0AGwADAAEABAADAAAAHwXuAAAAhwHzAAAAzgb4AAIABAADAAIABQAFAAEABgAF
-AAIABwAHAASAAAABAAAAmh4aTwAAAAAAAFgAAAAEAAAAAAAAAAAAAACUAKEAAAAAAA0AAAAAAAAA
+AAIABwAHAASAAAABAAAAmh5nTwAAAAAAAFgAAAAEAAAAAAAAAAAAAACUAKEAAAAAAA4AAAAAAAAA
 AAAAAJ0AsgMAAAAACAAAABkAAAAAAAAApgB8AAAAAAAKAAAAAAAAAAAAAACvAKoAAAAAAAQAAAAA
-AAAAAAAAAJQAUwQAAAAADQAAAAAAAAAAAAAAnQAxAAAAAAAEAAAAAAAAAAAAAACUAIcAAAAAAAQA
+AAAAAAAAAJQAUwQAAAAADgAAAAAAAAAAAAAAnQAxAAAAAAAEAAAAAAAAAAAAAACUAIcAAAAAAAQA
 AAAAAAAAAAAAAJQAaQYAAAAAAAAAAAEAAACzBQAABQACAAAAADxNb2R1bGU+AFN5c3RlbS5JTwBN
 aWNyb3NvZnQuVmlzdWFsQmFzaWMuRmlsZUlPAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuTWFuYWdlZERU
 UwB2YWx1ZV9fAFNUXzhiYzgwMjMzZGRjNzQ1M2I5Y2UyNDMwNjAyYjkwODBhAE15U3FsLkRhdGEA
@@ -836,15 +2358,15 @@ XABFAHIAcgBvAHIAUgBlAGEAZABGAGkAbABlAHMALgBsAG8AZwAAXUEAcgBjAGgAaQB2AG8AIAB2
 AGUAbgB0AGEAcwAuAHQAeAB0ACAAZgB1AGUAIABhAG4AYQBsAGkAegBhAGQAbwAgAGMAbwByAHIA
 ZQBjAHQAYQBtAGUAbgB0AGUAAHFTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBi
 ADkAYwBlADIANAAzADAANgAwADIAYgA5ADAAOAAwAGEALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4A
-UgBlAHMAbwB1AHIAYwBlAHMAAAAAAJehVUBabxJMq4fB8e5eWlIABCABAQgDIAABBSABARERBCAB
+UgBlAHMAbwB1AHIAYwBlAHMAAAAAAHDtj8AodcJLisyBirFJOdIABCABAQgDIAABBSABARERBCAB
 AQ4FIAEBEWEPBwgOEj0IDhJBHQ4SRRJJBCAAEnEEIAASdQUgARJ5HAMgABwDIAAOBSABAR0OBCAB
 AQIEIAAdDgUAAQ4dDgMgAAIGIAIBDhI9BSAAEoCJBQACDg4OBgABEYCVDgUAARJJDggAARKAoRGA
 pQUgABKAqQcgAgEOEoCpCLd6XFYZNOCJCImEXc2AgMyRCMVof8iJacRNCLA/X38R1Qo6BAAAAAAE
 AQAAAAMGElkDBhJdAwYSEAIGCAMGERQEAAASWQQAABJdBQABARJdBAAAEhADAAABBAgAElkECAAS
 XQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgB
 ACNTVF84YmM4MDIzM2RkYzc0NTNiOWNlMjQzMDYwMmI5MDgwYQAABQEAAAAAFgEAEUNvcHlyaWdo
-dCBAICAyMDIxAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcBAFQOFEZyYW1ld29ya0Rp
-c3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNwAAtAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVz
+dCBAICAyMDIxAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjUBAFQOFEZyYW1ld29ya0Rp
+c3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNQAAtAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVz
 b3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
 PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJlc291cmNl
 cy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAGA4AAAAAAAAAAAAAHo4
@@ -858,14 +2380,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAA
 AFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAA
-vQTv/gAAAQAAAAEAGk+aHgAAAQAaT5oePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
+vQTv/gAAAQAAAAEAZ0+aHgAAAQBnT5oePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
 AFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAA
 AAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAAMAAw
 ADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkA
 TgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABT
 AFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIA
 YgA5ADAAOAAwAGEAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4ANwA4
-ADMANAAuADIAMAAyADUAMAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
+ADMANAAuADIAMAAzADIANwAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
 XwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIAYgA5
 ADAAOAAwAGEALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMA
 bwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMQAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBk
@@ -874,8 +2396,8 @@ ZQAAAFMAVABfADgAYgBjADgAMAAyADMAMwBkAGQAYwA3ADQANQAzAGIAOQBjAGUAMgA0ADMAMAA2
 ADAAMgBiADkAMAA4ADAAYQAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAA
 AABTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAw
 ADIAYgA5ADAAOAAwAGEAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4A
-MAAuADcAOAAzADQALgAyADAAMgA1ADAAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
-AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADQALgAyADAAMgA1ADAAAAAAAAAAAAAAAAAAAAAAAAAA
+MAAuADcAOAAzADQALgAyADAAMwAyADcAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
+AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADQALgAyADAAMwAyADcAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -936,51 +2458,181 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       DTS:To="Package\LIMPIEZA ELT" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
-<!--If you manually edit this section and make a mistake, you can delete it. -->
-<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
 <Objects
   Version="8">
-  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="184,41.6"
-          Id="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
-          TopLeft="16.4666646136179,83.0000017150244" />
+          Size="156,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente"
+          TopLeft="260.942869232733,46.0326812817289" />
         <NodeLayout
-          Size="228.8,41.6"
-          Id="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
-          TopLeft="15.6333313133983,11.9333344835705" />
+          Size="147.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor"
+          TopLeft="265.038107503677,122.503270589494" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region"
+          TopLeft="264.244456696511,207.534642906145" />
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital"
+          TopLeft="54.7063500443282,205.899347340662" />
+        <NodeLayout
+          Size="144,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha"
+          TopLeft="56.3079452188647,124.819606216556" />
+        <NodeLayout
+          Size="136.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo"
+          TopLeft="59.8793738511146,42.0405186633886" />
+        <NodeLayout
+          Size="147.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Centro"
+          TopLeft="158.277780379568,298.938564331776" />
         <EdgeLayout
-          Id="Package\MYSQL INITIAL LOAD.PrecedenceConstraints[Constraint]"
-          TopLeft="130.033331313398,53.5333344835705">
+          Id="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción]"
+          TopLeft="196.679373851115,64.8365999725587">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-21.5666666997804,29.4666672314539"
+              EndConnector="64.2634953816188,0"
               Start="0,0"
-              End="-21.5666666997804,21.9666672314539">
+              End="56.7634953816188,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,10.7333336157269" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.7333336157269"
-                    Point2="0,14.7333336157269"
-                    Point3="-4,14.7333336157269" />
+                    End="56.7634953816188,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 1]"
+          TopLeft="338.790488368205,87.6326812817289">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.8705893077652"
+              Start="0,0"
+              End="0,27.3705893077652">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="-17.5666666997804,14.7333336157269" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-17.5666666997804,14.7333336157269"
-                    Point2="-21.5666666997804,14.7333336157269"
-                    Point3="-21.5666666997804,18.7333336157269" />
+                    End="0,27.3705893077652" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 2]"
+          TopLeft="265.038107503677,144.461438403025">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-64.7301622848119,0"
+              Start="0,0"
+              End="-57.2301622848119,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="-21.5666666997804,21.9666672314539" />
+                    End="-57.2301622848119,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 3]"
+          TopLeft="129.907147631596,166.419606216556">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39.4797411241058"
+              Start="0,0"
+              End="0,31.9797411241058">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.9797411241058" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 4]"
+          TopLeft="208.306350044328,227.516995123403">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="55.9381066521826,0"
+              Start="0,0"
+              End="48.4381066521826,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="48.4381066521826,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT.PrecedenceConstraints[Restricción 5]"
+          TopLeft="338.644456696511,249.134642906145">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-106.766676316943,49.8039214256314"
+              Start="0,0"
+              End="-106.766676316943,42.3039214256314">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.9019607128157" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.9019607128157"
+                    Point2="0,24.9019607128157"
+                    Point3="-4,24.9019607128157" />
+                  <mssgle:LineSegment
+                    End="-102.766676316943,24.9019607128157" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-102.766676316943,24.9019607128157"
+                    Point2="-106.766676316943,24.9019607128157"
+                    Point3="-106.766676316943,28.9019607128157" />
+                  <mssgle:LineSegment
+                    End="-106.766676316943,42.3039214256314" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -992,31 +2644,61 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="417.6,230.4"
-          Size="417.6,273.6"
-          Id="Package\MYSQL INITIAL LOAD"
-          TopLeft="20.8333325054912,19.9333334917492" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="409.6,228.8"
-          Size="409.6,272"
+          PanelSize="449.6,393.6"
+          Size="449.6,436.8"
           Id="Package\LIMPIEZA ELT"
-          TopLeft="485.833314028052,21.666666838858" />
+          TopLeft="456.150773840022,117.732027214475" />
+        <NodeLayout
+          Size="184,41.6"
+          Id="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
+          TopLeft="94.3238087966601,127.352943513528" />
+        <NodeLayout
+          Size="228.8,41.6"
+          Id="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
+          TopLeft="74.2047608822924,49.4039232443754" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="438.433332505491,157.200000165304">
+          Id="Package\MYSQL INITIAL LOAD.PrecedenceConstraints[Constraint]"
+          TopLeft="187.464284839476,91.0039232443754">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="47.3999815225611,0"
+              EndConnector="0,36.3490202691528"
               Start="0,0"
-              End="39.8999815225611,0">
+              End="0,28.8490202691528">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="39.8999815225611,0" />
+                    End="0,28.8490202691528" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="380.8,230.4"
+          Size="380.8,273.6"
+          Id="Package\MYSQL INITIAL LOAD"
+          TopLeft="20.8333325054912,201.763401401324" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="401.633332505491,337.3477143079">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54.5174413345309,0"
+              Start="0,0"
+              End="47.0174413345309,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="47.0174413345309,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1028,5 +2710,237 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Tipo">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="196,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal"
+          TopLeft="323.571434081817,24.4705885784849" />
+        <NodeLayout
+          Size="133.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos"
+          TopLeft="354.285720319164,112.411766282415" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de origen de ADO NET]"
+          TopLeft="421.328577200491,66.0705885784849">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.34117770393"
+              Start="0,0"
+              End="0,38.84117770393">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.84117770393" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="116.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar"
+          TopLeft="217.142860840778,228.647062030218" />
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada"
+          TopLeft="507.857151505899,229.411767923296" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[NotNull]"
+          TopLeft="400.152386985831,154.011766282415">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-124.609526145053,74.6352957478032"
+              Start="0,0"
+              End="-124.609526145053,67.1352957478032">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.3840730618276" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.3840730618276"
+                    Point2="0,30.3840730618276"
+                    Point3="-4,30.3840730618276" />
+                  <mssgle:LineSegment
+                    End="-120.609526145053,30.3840730618276" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-120.609526145053,30.3840730618276"
+                    Point2="-124.609526145053,30.3840730618276"
+                    Point3="-124.609526145053,34.3840730618276" />
+                  <mssgle:LineSegment
+                    End="-124.609526145053,67.1352957478032" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-87.5955443225264,35.3840730618276,50.5815625,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[IsNull]"
+          TopLeft="442.019053652498,154.011766282415">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="147.438097853401,75.4000016408807"
+              Start="0,0"
+              End="147.438097853401,67.9000016408807">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.6953852833881" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.6953852833881"
+                    Point2="0,30.6953852833881"
+                    Point3="4,30.6953852833881" />
+                  <mssgle:LineSegment
+                    End="143.438097853401,30.6953852833881" />
+                  <mssgle:CubicBezierSegment
+                    Point1="143.438097853401,30.6953852833881"
+                    Point2="147.438097853401,30.6953852833881"
+                    Point3="147.438097853401,34.6953852833881" />
+                  <mssgle:LineSegment
+                    End="147.438097853401,67.9000016408807" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="52.0532676767006,35.6953852833881,43.3315625,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1"
+          TopLeft="368.571434848163,436.317651337983" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos"
+          TopLeft="189.285717509231,335.56470990412" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de ordenación]"
+          TopLeft="276.014289175004,270.247062030218">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65.3176478739016"
+              Start="0,0"
+              End="0,57.8176478739016">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.8176478739016" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,20.9088239369508,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda"
+          TopLeft="61.4285724746938,432.294121690275" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de conversión de datos]"
+          TopLeft="276.485717509231,377.16470990412">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-153.057145034537,55.1294117861552"
+              Start="0,0"
+              End="-153.057145034537,47.6294117861552">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5647058930776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.5647058930776"
+                    Point2="0,27.5647058930776"
+                    Point3="-4,27.5647058930776" />
+                  <mssgle:LineSegment
+                    End="-149.057145034537,27.5647058930776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-149.057145034537,27.5647058930776"
+                    Point2="-153.057145034537,27.5647058930776"
+                    Point3="-153.057145034537,31.5647058930776" />
+                  <mssgle:LineSegment
+                    End="-153.057145034537,47.6294117861552" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de error de conversión de datos]"
+          TopLeft="304.219050842564,377.16470990412">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="150.352384005598,59.1529414338636"
+              Start="0,0"
+              End="150.352384005598,51.6529414338636">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.9838289813665" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.9838289813665"
+                    Point2="0,23.9838289813665"
+                    Point3="4,23.9838289813665" />
+                  <mssgle:LineSegment
+                    End="146.352384005598,23.9838289813665" />
+                  <mssgle:CubicBezierSegment
+                    Point1="146.352384005598,23.9838289813665"
+                    Point2="150.352384005598,23.9838289813665"
+                    Point3="150.352384005598,27.9838289813665" />
+                  <mssgle:LineSegment
+                    End="150.352384005598,51.6529414338636" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-10.5670501847008,28.9838289813665,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
