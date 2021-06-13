@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="6/10/2021 10:33:27 PM"
@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-P1HKTN4\WRM"
   DTS:DTSID="{C8D77176-9E5B-4B50-AFF4-CD29635DD710}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.167"
+  DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:VersionBuild="39"
-  DTS:VersionGUID="{4C358BB1-E162-4909-B04B-B34E57045564}">
+  DTS:VersionGUID="{F0531367-43C5-4024-BAD5-EBC7895487C6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,12 +23,7 @@
       DTS:ObjectName="&lt;semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com&gt;.temporal.admin">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="server=semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com;user id=admin;database=temporal;port=3306;">
-          <DTS:Password
-            DTS:Name="password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWg5d7J3h90qoQ3lePgNISwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABYVSpT/83Qid7Hm68c1CqhWy8jz1JaVHp4zB5AuGt0zgAAAAAOgAAAAAIAACAAAADJqSYnHVnrhkDLHVURFzVVVEjLZh/S0U0NMaPUbW/ZvCAAAAAOenviM8xqjubl8MLsluZmDNftguEWCm7Jhow16at35kAAAADtIDRs3TKaOFc6xaZwkmPdq7Kf1kDWJJsbFwVCdqQlnBB9Rk1SUo6hvIetfpsYqUQlkYPS6jfKVM1VAF2HCsQz</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="server=semidb.cmkupw0muifz.us-east-2.rds.amazonaws.com;user id=admin;database=temporal;port=3306;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -105,8 +100,8 @@
           <DTS:ObjectData>
             <ScriptProject
               Name="ST_8bc80233ddc7453b9ce2430602b9080a"
-              VSTAMajorVersion="15"
-              VSTAMinorVersion="0"
+              VSTAMajorVersion="2"
+              VSTAMinorVersion="2"
               Language="CSharp"
               ReadOnlyVariables="User::CarpetaErrores,User::CarpetaExitos,User::CarpetaOrigen,User::Delimitador">
               <ProjectItem
@@ -486,23 +481,23 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
                 Name="Project"
                 Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:DisplayName>
-    <msb:ProjectId>{3076F1C6-4BCF-4F6C-8C77-3FA3829DC59C}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_8bc80233ddc7453b9ce2430602b9080a.csproj" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="packages.config" />
-    <msb:File Include="app.config" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
+	<msb:PropertyGroup>
+		<msb:Language>msBuild</msb:Language>
+		<msb:CodeName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:CodeName>
+		<msb:DisplayName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:DisplayName>
+		<msb:ProjectId>{3076F1C6-4BCF-4F6C-8C77-3FA3829DC59C}</msb:ProjectId>
+	</msb:PropertyGroup>
+	<msb:ItemGroup>
+		<msb:Project Include="ST_8bc80233ddc7453b9ce2430602b9080a.csproj"/>
+		<msb:File Include="app.config"/>
+		<msb:File Include="packages.config"/>
+		<msb:File Include="Properties\Settings.Designer.cs"/>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="Properties\Resources.resx"/>
+		<msb:File Include="Properties\Resources.Designer.cs"/>
+		<msb:File Include="ScriptMain.cs"/>
+	</msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.Designer.cs"
@@ -616,8 +611,8 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
     <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=13.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=13.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\Ubiety.Dns.Core.dll</HintPath>
     </Reference>
@@ -660,7 +655,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
         <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
         <Host Name="ScriptTask" />
         <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
+          <HostIdentifier>SSIS_ST130</HostIdentifier>
         </ProjectClient>
       </FlavorProperties>
     </VisualStudio>
@@ -737,7 +732,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
               <BinaryItem
                 Name="ST_8bc80233ddc7453b9ce2430602b9080a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABHWxGAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAijgA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDABQ9xmAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAijgA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAADg4AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -780,9 +775,9 @@ AQYAiQDdAD8A+QC8BmoAIQEUB3AAMQEJB3cAOQFQARAA4QDjBgEAcQBXBQYAqQBXBQYAQQEQAX0A
 QQEkB4YAsQBXBYwA0QBXBQYACAAUALgACAAYAL0AKQBzACUBLgALAP0ALgATAAYBLgAbACUBLgAj
 AC4BLgArAFcBLgAzAFcBLgA7AFcBLgBDAC4BLgBLAF0BLgBTAFcBLgBbAHQBQwBjAL0ASQBzACUB
 YQB7AL0AYwBrAL0AGwADAAEABAADAAAAHwXuAAAAhwHzAAAAzgb4AAIABAADAAIABQAFAAEABgAF
-AAIABwAHAASAAAABAAAAmR5YRAAAAAAAAFgAAAAEAAAAAAAAAAAAAACUAKEAAAAAAA8AAAAAAAAA
+AAIABwAHAASAAAABAAAAmh4aTwAAAAAAAFgAAAAEAAAAAAAAAAAAAACUAKEAAAAAAA0AAAAAAAAA
 AAAAAJ0AsgMAAAAACAAAABkAAAAAAAAApgB8AAAAAAAKAAAAAAAAAAAAAACvAKoAAAAAAAQAAAAA
-AAAAAAAAAJQAUwQAAAAADwAAAAAAAAAAAAAAnQAxAAAAAAAEAAAAAAAAAAAAAACUAIcAAAAAAAQA
+AAAAAAAAAJQAUwQAAAAADQAAAAAAAAAAAAAAnQAxAAAAAAAEAAAAAAAAAAAAAACUAIcAAAAAAAQA
 AAAAAAAAAAAAAJQAaQYAAAAAAAAAAAEAAACzBQAABQACAAAAADxNb2R1bGU+AFN5c3RlbS5JTwBN
 aWNyb3NvZnQuVmlzdWFsQmFzaWMuRmlsZUlPAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuTWFuYWdlZERU
 UwB2YWx1ZV9fAFNUXzhiYzgwMjMzZGRjNzQ1M2I5Y2UyNDMwNjAyYjkwODBhAE15U3FsLkRhdGEA
@@ -841,7 +836,7 @@ XABFAHIAcgBvAHIAUgBlAGEAZABGAGkAbABlAHMALgBsAG8AZwAAXUEAcgBjAGgAaQB2AG8AIAB2
 AGUAbgB0AGEAcwAuAHQAeAB0ACAAZgB1AGUAIABhAG4AYQBsAGkAegBhAGQAbwAgAGMAbwByAHIA
 ZQBjAHQAYQBtAGUAbgB0AGUAAHFTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBi
 ADkAYwBlADIANAAzADAANgAwADIAYgA5ADAAOAAwAGEALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4A
-UgBlAHMAbwB1AHIAYwBlAHMAAAAAAAJ5FfFiz8VKjTwUerO+1voABCABAQgDIAABBSABARERBCAB
+UgBlAHMAbwB1AHIAYwBlAHMAAAAAAJehVUBabxJMq4fB8e5eWlIABCABAQgDIAABBSABARERBCAB
 AQ4FIAEBEWEPBwgOEj0IDhJBHQ4SRRJJBCAAEnEEIAASdQUgARJ5HAMgABwDIAAOBSABAR0OBCAB
 AQIEIAAdDgUAAQ4dDgMgAAIGIAIBDhI9BSAAEoCJBQACDg4OBgABEYCVDgUAARJJDggAARKAoRGA
 pQUgABKAqQcgAgEOEoCpCLd6XFYZNOCJCImEXc2AgMyRCMVof8iJacRNCLA/X38R1Qo6BAAAAAAE
@@ -863,14 +858,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAA
 AFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAA
-vQTv/gAAAQAAAAEAWESZHgAAAQBYRJkePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
+vQTv/gAAAQAAAAEAGk+aHgAAAQAaT5oePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
 AFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAA
 AAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAAMAAw
 ADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkA
 TgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABT
 AFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIA
 YgA5ADAAOAAwAGEAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4ANwA4
-ADMAMwAuADEANwA0ADkANgAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
+ADMANAAuADIAMAAyADUAMAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
 XwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIAYgA5
 ADAAOAAwAGEALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMA
 bwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMQAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBk
@@ -879,8 +874,8 @@ ZQAAAFMAVABfADgAYgBjADgAMAAyADMAMwBkAGQAYwA3ADQANQAzAGIAOQBjAGUAMgA0ADMAMAA2
 ADAAMgBiADkAMAA4ADAAYQAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAA
 AABTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAw
 ADIAYgA5ADAAOAAwAGEAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4A
-MAAuADcAOAAzADMALgAxADcANAA5ADYAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
-AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADMALgAxADcANAA5ADYAAAAAAAAAAAAAAAAAAAAAAAAA
+MAAuADcAOAAzADQALgAyADAAMgA1ADAAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
+AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADQALgAyADAAMgA1ADAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
