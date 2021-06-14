@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="47"
-  DTS:VersionGUID="{4D0C2A16-5587-4D13-B839-55178A7FC52B}">
+  DTS:VersionBuild="50"
+  DTS:VersionGUID="{ABB36331-016C-47F9-B294-388A958EE77B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,58 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABxOwA4RHS4is/fCI9InHs3HPnSZaEtquobEL3hQesCLQAAAAAOgAAAAAIAACAAAABrVvTWY/KDuSb5BV7Y3SKsXClat7ImLONTbUaCzok8NyAAAACmJ6Cz7xsqiZyn9y7iZq0Wq0BcOtTPn6qRLO7Y3HV+hkAAAAAQDRFLJdzjjoQV6G8WqNHTXTFOwKdWZWxTnvhQ4V+Se9QSTaUyuMIy/DV6WEMr5zmKxgAawfJB6W7Td8TwujmT</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADIatxxJ4zUVXoH3y5VM2lkgQc2d1YtC8oERtZUt0HMlwAAAAAOgAAAAAIAACAAAAARpc1Ij7ZwFgixzVgnyOj1cTKqnJCXeB/0CPzrDQ79CSAAAAAmMKRNfKlK9fP3sEvJilhh5JKIIdVkHVLkzIOxuygOAEAAAACZ8e7qnwyx13KuSENEnuaXVYV9YE6g7YX2ntueJjuTUwZ6EG75HfubwrpBAzdclCJLkH140B/eEuW/DgZlGYPq</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[azuservi.database.windows.net.ht1dbfin.awiwi1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{7458C426-7A60-4131-818F-76DB1AFDFB8E}"
+      DTS:ObjectName="azuservi.database.windows.net.ht1dbfin.awiwi1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=ht1dbfin;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD57ZUZ2vRKU710f9sMpABdvoh4Djz/xYQScDTe+xgGSQAAAAAOgAAAAAIAACAAAACLx/zX/PfntTDNHvCoiSZR9bfcnS+/3trAujTg1LXIsCAAAAB7TQ2WFks3boRybLxWvwjh8iGQDE/QTKYMYrhkztbBjEAAAACbCf4OKc4RDw2KQ7exGaTEBkuK2HFAPoyvQCkBLfdEswuCPUgywsSTGDNPyd/MOAaLkCbgfc4uWwpJICczNcOV</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[azuservi.database.windows.net.ht1dbfin.awiwi1 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{6DC60B1B-718E-4B58-9714-A2F4622E3CA7}"
+      DTS:ObjectName="azuservi.database.windows.net.ht1dbfin.awiwi1 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=ht1dbfin;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABY8RFHU3hx4evnlw/Y1N0WHk7VA+es8vZppYZAqnDYJQAAAAAOgAAAAAIAACAAAADwhkggG9E36Z83tAOqs86Ybae22/+fawOXBEHqx1bNQyAAAABbYqJP0V/mO/0YHh6B+7SDcjYBqRB65D0ltfzs7/LHsEAAAAAEiMCzHd1FE22omXqwdPIfqzXwDh4V85e42HzfsthnADLUWXM76LkcMhA+GIpZOHyeTNsw/XtBE7FB+rzW5O/D</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2728ED0A-D3B6-4AE7-A40B-1A76EF731757}"
+      DTS:ObjectName="azuservi.database.windows.net.microdb.awiwi">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=microdb;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABU31Nb2t/Qmj4UXIxBdES0x0PXwVLeakKbUwOczkcgbgAAAAAOgAAAAAIAACAAAACOMd1Hd0a4JWaTVY6hnbD7kgROHvwhOLXLZJVGb9Pk+SAAAAD3vbty3fQey58WEx683MVkI/wB3ocjVzWgdwF5et5Tb0AAAACBLAwpprW+Y2hWjq+H3yHXjqxVznTKi47Hfgp7veqoEcoB0jzEEN7icGDLV1Myjn9YBnyoxF73r/YutJetRi4/</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -85,6 +136,7 @@
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Centro"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
+          DTS:Disabled="True"
           DTS:DTSID="{65afa2ff-8bf1-402a-ad51-002f51a2565e}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -1335,6 +1387,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Doctor"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
+          DTS:Disabled="True"
           DTS:DTSID="{48bdcaaa-bdd9-4d20-a009-de990c9ad5ba}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -2638,6 +2691,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Fecha"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
+          DTS:Disabled="True"
           DTS:DTSID="{55bb76a9-7e56-4015-af2c-61eef2acc199}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -3911,6 +3965,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Hospital"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
+          DTS:Disabled="True"
           DTS:DTSID="{4e62f694-349b-437a-8156-e283cda6895f}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -5244,6 +5299,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Paciente"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
+          DTS:Disabled="True"
           DTS:DTSID="{B6D2820A-18CE-4A8B-8B75-08BA8BEF0F06}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -6549,6 +6605,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Region"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
+          DTS:Disabled="True"
           DTS:DTSID="{1fbe76a4-abad-4737-b86b-0ac77fd671a6}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -7865,6 +7922,166 @@ SELECT * FROM TMP;</property>
               version="1">
               <components>
                 <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="Buscar repetidos"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Tipo]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Tipo]) [refTable]
+where [refTable].[Tipo] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Tipo" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Tipo" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Inputs[Entrada de búsqueda].Columns[Copia de TIPOCASO]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Copia de TIPOCASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">Tipo</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Tipo]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Tipo]"
+                          name="ID_Tipo"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Tipo</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal"
                   componentClassID="Microsoft.ManagedComponentHost"
                   contactInfo="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
@@ -8256,31 +8473,6 @@ SELECT * FROM TMP;</property>
                       exclusionGroup="1"
                       name="Salida de columna derivada"
                       synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de columna derivada].Columns[Error]"
-                          dataType="wstr"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          length="15"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Outputs[Salida de columna derivada].Columns[Error]"
-                          name="Error"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">[UPPER]("Columnas vacías")</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">UPPER("Columnas vacías")</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
                       <externalMetadataColumns />
                     </output>
                     <output
@@ -8330,31 +8522,6 @@ SELECT * FROM TMP;</property>
                       exclusionGroup="1"
                       name="Salida de columna derivada"
                       synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Inputs[Entrada de columna derivada]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de columna derivada].Columns[Error]"
-                          dataType="wstr"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          length="21"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Outputs[Salida de columna derivada].Columns[Error]"
-                          name="Error"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">[UPPER]("Error de tipo de dato")</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">UPPER("Error de tipo de dato")</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
                       <externalMetadataColumns />
                     </output>
                     <output
@@ -8418,7 +8585,7 @@ SELECT * FROM TMP;</property>
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
-                          length="128"
+                          length="50"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]"
                           name="Copia de TIPOCASO"
                           truncationRowDisposition="RedirectRow">
@@ -8454,6 +8621,154 @@ SELECT * FROM TMP;</property>
                           refId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+                  name="Error de campos null"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Inputs[Entrada de columna derivada]"
+                      description="Entrada en la transformación Columna derivada"
+                      name="Entrada de columna derivada">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de columna derivada]"
+                      description="Salida predeterminada de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      name="Salida de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de columna derivada].Columns[Error]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Cálculo"
+                          errorRowDisposition="FailComponent"
+                          length="15"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de columna derivada].Columns[Error]"
+                          name="Error"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expresión de columna derivada"
+                              name="Expression">[UPPER]("Columnas vacías")</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expresión descriptiva de columna derivada"
+                              expressionType="Notify"
+                              name="FriendlyExpression">UPPER("Columnas vacías")</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de error de columna derivada]"
+                      description="Salida de error de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+                  name="Error de tipado"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Inputs[Entrada de columna derivada]"
+                      description="Entrada en la transformación Columna derivada"
+                      name="Entrada de columna derivada">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de columna derivada]"
+                      description="Salida predeterminada de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      name="Salida de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de columna derivada].Columns[Error]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Cálculo"
+                          errorRowDisposition="FailComponent"
+                          length="21"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de columna derivada].Columns[Error]"
+                          name="Error"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expresión de columna derivada"
+                              name="Expression">[UPPER]("Error de tipo de dato")</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Expresión descriptiva de columna derivada"
+                              expressionType="Notify"
+                              name="FriendlyExpression">UPPER("Error de tipo de dato")</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de error de columna derivada]"
+                      description="Salida de error de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -9098,7 +9413,7 @@ SELECT * FROM TMP;</property>
               <paths>
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[IsNull]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null.Inputs[Entrada de columna derivada]"
                   name="IsNull"
                   startId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[IsNull]" />
                 <path
@@ -9107,8 +9422,23 @@ SELECT * FROM TMP;</property>
                   name="NotNull"
                   startId="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos.Outputs[NotNull]" />
                 <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de error de conversión de datos]"
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de conversión de datos]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Inputs[Entrada de búsqueda]"
+                  name="Salida de conversión de datos"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de conversión de datos]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de entradas coincidentes de búsqueda]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada.Inputs[Entrada de columna derivada]"
+                  name="Salida de entradas coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de entradas coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de entradas no coincidentes de búsqueda]"
                   endId="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1.Inputs[Entrada de columna derivada]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos.Outputs[Salida de entradas no coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de error de conversión de datos]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado.Inputs[Entrada de columna derivada]"
                   name="Salida de error de conversión de datos"
                   startId="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos.Outputs[Salida de error de conversión de datos]" />
                 <path
@@ -9999,6 +10329,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:refId="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
+          DTS:Disabled="True"
           DTS:DTSID="{B0F3F0A0-5A59-45A3-A334-61F91FA022DC}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
@@ -11396,70 +11727,34 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\LIMPIEZA ELT\Limpiar Tipo">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos"
-          TopLeft="479.795926538223,114.596640262637" />
+          TopLeft="513.469396499434,114.596640262637" />
         <NodeLayout
-          Size="172,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1"
-          TopLeft="494.081641067222,438.502525318205" />
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado"
+          TopLeft="527.755111028433,438.502525318205" />
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar"
-          TopLeft="342.653067059837,230.83193601044" />
+          TopLeft="376.326537021048,230.83193601044" />
         <NodeLayout
-          Size="163.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada"
-          TopLeft="633.367357724958,231.596641903518" />
+          Size="176,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos null"
+          TopLeft="667.040827686169,231.596641903518" />
         <NodeLayout
           Size="174.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos"
-          TopLeft="314.79592372829,337.749583884342" />
+          TopLeft="348.469393689501,337.749583884342" />
         <NodeLayout
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal"
-          TopLeft="449.081640300876,26.6554625587068" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de error de conversión de datos]"
-          TopLeft="429.729257061623,379.349583884342">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="150.352384005598,59.1529414338636"
-              Start="0,0"
-              End="150.352384005598,51.6529414338636">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.9838289813665" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.9838289813665"
-                    Point2="0,23.9838289813665"
-                    Point3="4,23.9838289813665" />
-                  <mssgle:LineSegment
-                    End="146.352384005598,23.9838289813665" />
-                  <mssgle:CubicBezierSegment
-                    Point1="146.352384005598,23.9838289813665"
-                    Point2="150.352384005598,23.9838289813665"
-                    Point3="150.352384005598,27.9838289813665" />
-                  <mssgle:LineSegment
-                    End="150.352384005598,51.6529414338636" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-10.567050184701,28.9838289813665,171.486484375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="482.755110262087,26.6554625587068" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[NotNull]"
-          TopLeft="525.66259320489,156.196640262637">
+          TopLeft="559.336063166101,156.196640262637">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11495,43 +11790,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[IsNull]"
-          TopLeft="567.529259871557,156.196640262637">
+          TopLeft="601.202729832767,156.196640262637">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="147.438097853401,75.4000016408807"
+              EndConnector="153.838097853402,75.400001640881"
               Start="0,0"
-              End="147.438097853401,67.9000016408807">
+              End="153.838097853402,67.900001640881">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.6953852833881" />
+                    End="0,26.6953852833883" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26.6953852833881"
-                    Point2="0,30.6953852833881"
-                    Point3="4,30.6953852833881" />
+                    Point1="0,26.6953852833883"
+                    Point2="0,30.6953852833883"
+                    Point3="4,30.6953852833883" />
                   <mssgle:LineSegment
-                    End="143.438097853401,30.6953852833881" />
+                    End="149.838097853402,30.6953852833883" />
                   <mssgle:CubicBezierSegment
-                    Point1="143.438097853401,30.6953852833881"
-                    Point2="147.438097853401,30.6953852833881"
-                    Point3="147.438097853401,34.6953852833881" />
+                    Point1="149.838097853402,30.6953852833883"
+                    Point2="153.838097853402,30.6953852833883"
+                    Point3="153.838097853402,34.6953852833883" />
                   <mssgle:LineSegment
-                    End="147.438097853401,67.9000016408807" />
+                    End="153.838097853402,67.900001640881" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="52.0532676767005,35.6953852833881,43.3315625,16"
+              BoundingBox="63.9803184579509,35.6953852833883,25.8774609375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de origen de ADO NET]"
-          TopLeft="546.83878341955,68.2554625587068">
+          TopLeft="580.512253380761,68.2554625587068">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11553,7 +11848,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de ordenación]"
-          TopLeft="401.524495394063,272.43193601044">
+          TopLeft="435.197965355274,272.43193601044">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11575,12 +11870,191 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de error de conversión de datos]"
+          TopLeft="435.669393689501,379.349583884342">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="166.485717338932,59.152941433863"
+              Start="0,0"
+              End="166.485717338932,51.652941433863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5764707169315" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.5764707169315"
+                    Point2="0,29.5764707169315"
+                    Point3="4,29.5764707169315" />
+                  <mssgle:LineSegment
+                    End="162.485717338932,29.5764707169315" />
+                  <mssgle:CubicBezierSegment
+                    Point1="162.485717338932,29.5764707169315"
+                    Point2="166.485717338932,29.5764707169315"
+                    Point3="166.485717338932,33.5764707169315" />
+                  <mssgle:LineSegment
+                    End="166.485717338932,51.652941433863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-2.50038351803398,34.5764707169315,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada"
+          TopLeft="362.244904128178,542.487401668588" />
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1"
+          TopLeft="14.2857145289985,542.504206997065" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos"
+          TopLeft="186.734697057624,437.697481427638" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de conversión de datos]"
+          TopLeft="407.936060356167,379.349583884342">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-142.801363298543,58.3478975432963"
+              Start="0,0"
+              End="-142.801363298543,50.8478975432963">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.6574202766456" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.6574202766456"
+                    Point2="0,23.6574202766456"
+                    Point3="-4,23.6574202766456" />
+                  <mssgle:LineSegment
+                    End="-138.801363298543,23.6574202766456" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-138.801363298543,23.6574202766456"
+                    Point2="-142.801363298543,23.6574202766456"
+                    Point3="-142.801363298543,27.6574202766456" />
+                  <mssgle:LineSegment
+                    End="-142.801363298543,50.8478975432963" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-79.4006816492717,28.6574202766456,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="289.934697057624,479.297481427638">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="153.910207070553,63.18992024095"
+              Start="0,0"
+              End="153.910207070553,55.68992024095">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.6589373099615" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.6589373099615"
+                    Point2="0,25.6589373099615"
+                    Point3="4,25.6589373099615" />
+                  <mssgle:LineSegment
+                    End="149.910207070553,25.6589373099615" />
+                  <mssgle:CubicBezierSegment
+                    Point1="149.910207070553,25.6589373099615"
+                    Point2="153.910207070553,25.6589373099615"
+                    Point3="153.910207070553,29.6589373099615" />
+                  <mssgle:LineSegment
+                    End="153.910207070553,55.68992024095" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-22.8639199022233,30.6589373099615,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="240.334697057624,479.297481427638">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-140.048982528626,63.2067255694267"
+              Start="0,0"
+              End="-140.048982528626,55.7067255694267">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.6657612918278" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.6657612918278"
+                    Point2="0,25.6657612918278"
+                    Point3="-4,25.6657612918278" />
+                  <mssgle:LineSegment
+                    End="-136.048982528626,25.6657612918278" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-136.048982528626,25.6657612918278"
+                    Point2="-140.048982528626,25.6657612918278"
+                    Point3="-140.048982528626,29.6657612918278" />
+                  <mssgle:LineSegment
+                    End="-140.048982528626,55.7067255694267" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-185.601502983063,30.6657612918278,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal">
     <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Tipo\Buscar repetidos">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Tipo]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
