@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-P1HKTN4\WRM"
   DTS:DTSID="{C8D77176-9E5B-4B50-AFF4-CD29635DD710}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.167"
+  DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="82"
-  DTS:VersionGUID="{F19BFED0-08E5-427B-AE64-6C83F48E870C}">
+  DTS:VersionBuild="86"
+  DTS:VersionGUID="{4B200702-3D8D-403F-BA1F-ABF7D26F6245}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWg5d7J3h90qoQ3lePgNISwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADT+o/muAiE5KAIJMyvtmNQ5MvtODwKpH1Q2vGnrKOcMAAAAAAOgAAAAAIAACAAAACb69QjAyt8VKgnx00Fd4btSHC78goXG4fIcxGqdMg0viAAAADbFoooT8n4Ziml71fKOaS2BKhnhrpX1jZB5D4gYVXFbEAAAACanKhE9Q3ydpicK2VnLEYM4FtytnujrBsUxhUPaAIHzH6Ig9GdsBDOdeSwGPnG0kiL2xEjURz+xYyRCdsUXi24</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD56XmX1dpz3zJnek1k28CYhHEYKRRO2u+KX39DR0pLMAAAAAAOgAAAAAIAACAAAABH5fJF1Hj8cQkCzYKbw5djmWwp+KfBSZTatCqNz+6/rSAAAACqO5n6CpSXAnnE/EicoVVcoJ9RoEC19/ZGeS8V2ZPQckAAAAD9RsqtMA9MTuLvovr09XKkg00N3f6MGV0n/MGefZHubq69jhPAOPh+7PzV3vrN33qDFNPEIKQTFgxGwtYCOvem</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -40,7 +40,12 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=ht1dbfin;Provider=SQLNCLI11.1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=ht1dbfin;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB2pDoNSFKzbGPlivYrcQToqVkO/0s0xfW2bqUzYGI/BgAAAAAOgAAAAAIAACAAAAAcgO0t6c1H9rgs4aGOfwPBbc1YpBRLsja5wjv9pqXRRCAAAABKuINptdyvOGzZds9ATgBI2/87t6vry9wjyc6dSJJMsUAAAAAaDwHj83dQdEDFdaT5jX1jbZRd548W6j/zr4DBd1m1sLqBmIW3gaC9LjJwdIK+Gh6gij3a1wXoQeNFFbn4IMMG</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -52,7 +57,12 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=ht1dbfin;Provider=SQLNCLI11.1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=ht1dbfin;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADNVk7Gjg6Ko5DAjxKOkh51P/1qcIWaIwuIXIM7n677UAAAAAAOgAAAAAIAACAAAAD0s21lxg8V1Bf7LtwXq0NLHYnZRspfbAstg3oZ4E9xqiAAAACaZoN2xG94EkIwa/C33rMDSyZ3mdNHyhZvoKhQ2yqHaUAAAADBBRUi+XUOVVRS+z0/cZzZkoiPsBc2lP1s5bdufH9R2U57jm+GWEb/HUsspxqMwS6jA+2/qkK98+Af1axtLSXh</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -64,7 +74,12 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=microdb;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=microdb;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADzzmSpEMTOGJcUWi3gTKbD5olDqF3IiSr5JafpC5JzRwAAAAAOgAAAAAIAACAAAAC5r4bq4CvWpVItJNubUxDOyV1Whil2bILnfJDLocG+ISAAAAAn9s0uKS3Wr6QjnS3tV2OLzoiTKkoGbx8b/tEWgYouBUAAAACS56lAwJsBHEW0ngcRu2aA2PnvSxCdov7W6uYspEYA8JH3WsCqd8IZtcEtUwuICmhp9+P2NhAcOBLsA+hppNTv</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -74,7 +89,12 @@
       DTS:ObjectName="azuservi.database.windows.net.microdb.awiwi1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=microdb;Persist Security Info=True;Application Name=SSIS-Package-{952DC41F-09E7-4A27-8C9F-FE4023BAD0D3}azuservi.database.windows.net.microdb.awiwi1;" />
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=microdb;Persist Security Info=True;Application Name=SSIS-Package-{952DC41F-09E7-4A27-8C9F-FE4023BAD0D3}azuservi.database.windows.net.microdb.awiwi1;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC56RHiXGZlc6mULiSCjpFITizk8gUae+Xgttts1FbbWgAAAAAOgAAAAAIAACAAAACwXIWV5wv5iEYd5eHBu86qhmlG8cMfbymtqJ+vVi7AhyAAAAB/teem4T3hJW4SMi/s77dKB82wD2qQ/u7Q4TOTHBThjEAAAABCASgaMLY2+GB33C52jbhLwn94uh8bkOMLNBO+cXu96b5z9YHxssOkAGi7CjGju/dtoGq925DOW4JiaPiD9wBK</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -121,7 +141,6 @@
       DTS:refId="Package\LIMPIEZA ELT"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{C6F12B14-781D-4091-A70C-37569241FA3C}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -3442,7 +3461,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Hecho"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{65afa2ff-8bf1-402a-ad51-002f51a2565e}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -3965,6 +3983,55 @@ SELECT * FROM TMP;</property>
                           cachedName="TIPOCASO"
                           cachedSortKeyPosition="14"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[DPI]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DPI"
+                          cachedSortKeyPosition="10"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DPI]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[COD_DOCTOR]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="COD_DOCTOR"
+                          cachedSortKeyPosition="7"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[COD_DOCTOR]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[COD_HOSPITAL]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="COD_HOSPITAL"
+                          cachedSortKeyPosition="2"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[COD_HOSPITAL]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[REGION]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="REGION"
+                          cachedSortKeyPosition="5"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[REGION]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[DEPARTAMENTO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="DEPARTAMENTO"
+                          cachedSortKeyPosition="6"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DEPARTAMENTO]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[FECHACASO]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="FECHACASO"
+                          cachedSortKeyPosition="9"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[FECHACASO]" />
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[FECHAPERSONA]"
+                          cachedDataType="wstr"
+                          cachedLength="128"
+                          cachedName="FECHAPERSONA"
+                          cachedSortKeyPosition="12"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[FECHAPERSONA]" />
                       </inputColumns>
                       <externalMetadataColumns />
                     </input>
@@ -3982,7 +4049,7 @@ SELECT * FROM TMP;</property>
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
-                          length="128"
+                          length="50"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]"
                           name="Copia de TIPOCASO"
                           truncationRowDisposition="RedirectRow">
@@ -3992,6 +4059,156 @@ SELECT * FROM TMP;</property>
                               dataType="System.Int32"
                               description="Especifica la columna de entrada usada como origen de datos para la conversión."
                               name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          length="50"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]"
+                          name="Copia de DPI"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DPI]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_DOCTOR]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          length="10"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_DOCTOR]"
+                          name="Copia de COD_DOCTOR"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[COD_DOCTOR]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          length="10"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]"
+                          name="Copia de COD_HOSPITAL"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[COD_HOSPITAL]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          length="50"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]"
+                          name="Copia de REGION"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[REGION]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          length="50"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]"
+                          name="Copia de DEPARTAMENTO"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DEPARTAMENTO]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de FECHACASO]"
+                          dataType="dbDate"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de FECHACASO]"
+                          name="Copia de FECHACASO"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[FECHACASO]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de FECHAPERSONA]"
+                          dataType="dbDate"
+                          errorOrTruncationOperation="Conversión"
+                          errorRowDisposition="RedirectRow"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de FECHAPERSONA]"
+                          name="Copia de FECHAPERSONA"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                              name="SourceInputColumnLineageID">#{Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[FECHAPERSONA]}</property>
                             <property
                               dataType="System.Boolean"
                               description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
@@ -4180,6 +4397,976 @@ SELECT * FROM TMP;</property>
                           refId="Package\LIMPIEZA ELT\Limpiar Hecho\Filtrar nulos.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Filtrar nulos.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="id Doctor"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Doctor]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Doctor]) [refTable]
+where [refTable].[COD_Doctor] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Doctor" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Doctor" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_DOCTOR]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Inputs[Entrada de búsqueda].Columns[Copia de COD_DOCTOR]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="10"
+                          cachedName="Copia de COD_DOCTOR"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_DOCTOR]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">COD_Doctor</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Doctor]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Doctor]"
+                          name="ID_Doctor"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Doctor</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="id Fecha"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Fecha]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Fecha]) [refTable]
+where [refTable].[Fecha] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Fecha" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Fecha" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Dia" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Mes" dataType="DT_STR" length="15" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Anio" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Semestre" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de FECHACASO]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Inputs[Entrada de búsqueda].Columns[Copia de FECHACASO]"
+                          cachedDataType="dbDate"
+                          cachedName="Copia de FECHACASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de FECHACASO]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">Fecha</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Fecha]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Fecha]"
+                          name="ID_Fecha"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Fecha</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="id Hospital"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Hospital]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Hospital]) [refTable]
+where [refTable].[COD_Hospita] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Hospital" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Hospita" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Direccion" dataType="DT_STR" length="250" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Inputs[Entrada de búsqueda].Columns[Copia de COD_HOSPITAL]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="10"
+                          cachedName="Copia de COD_HOSPITAL"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">COD_Hospita</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Hospital]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Hospital]"
+                          name="ID_Hospital"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Hospital</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="id Paciente"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Paciente]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Paciente]) [refTable]
+where [refTable].[COD_Paciente] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Paciente" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Paciente" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="FechaNac" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Edad" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Genero" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Inputs[Entrada de búsqueda].Columns[Copia de DPI]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Copia de DPI"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">COD_Paciente</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Paciente]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Paciente]"
+                          name="ID_Paciente"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Paciente</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="id Region"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Region]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Region]) [refTable]
+where [refTable].[Region] = ? and [refTable].[Departamento] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Region" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Region" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Departamento" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]};#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda].Columns[Copia de REGION]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Copia de REGION"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">Region</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda].Columns[Copia de DEPARTAMENTO]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Copia de DEPARTAMENTO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">Departamento</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Region]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Region]"
+                          name="ID_Region"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Region</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
+                  description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
+                  name="id Tipo"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Especifica la instrucción SQL que genera la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Tipo]</property>
+                    <property
+                      dataType="System.String"
+                      description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Tipo]) [refTable]
+where [refTable].[Tipo] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el tipo de caché de la tabla de búsqueda."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indica si se debe hacer referencia a metadatos en formato XML."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Tipo" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Tipo" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Inputs[Entrada de búsqueda]"
+                      name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Inputs[Entrada de búsqueda].Columns[Copia de TIPOCASO]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Copia de TIPOCASO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de TIPOCASO]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">Tipo</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de entradas coincidentes de búsqueda]"
+                      errorOrTruncationOperation="Búsqueda"
+                      exclusionGroup="1"
+                      name="Salida de entradas coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Tipo]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copiar columna"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de entradas coincidentes de búsqueda].Columns[ID_Tipo]"
+                          name="ID_Tipo"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn">ID_Tipo</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de entradas no coincidentes de búsqueda]"
+                      description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
+                      exclusionGroup="1"
+                      name="Salida de entradas no coincidentes de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Inputs[Entrada de búsqueda]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de error de búsqueda]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de búsqueda"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Inputs[Entrada de búsqueda]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -4683,6 +5870,36 @@ SELECT * FROM TMP;</property>
                   endId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Inputs[Entrada de ordenación]"
                   name="NotNull"
                   startId="Package\LIMPIEZA ELT\Limpiar Hecho\Filtrar nulos.Outputs[NotNull]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de conversión de datos]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Inputs[Entrada de búsqueda]"
+                  name="Salida de conversión de datos"
+                  startId="Package\LIMPIEZA ELT\Limpiar Hecho\Conversión de datos.Outputs[Salida de conversión de datos]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Inputs[Entrada de búsqueda]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha.Outputs[Salida de entradas no coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda1]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Inputs[Entrada de búsqueda]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente.Outputs[Salida de entradas no coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda2]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Inputs[Entrada de búsqueda]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital.Outputs[Salida de entradas no coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda3]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Inputs[Entrada de búsqueda]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor.Outputs[Salida de entradas no coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda4]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo.Inputs[Entrada de búsqueda]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Hecho\id Region.Outputs[Salida de entradas no coincidentes de búsqueda]" />
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de error de conversión de datos]"
                   endId="Package\LIMPIEZA ELT\Limpiar Hecho\Columna derivada 1.Inputs[Entrada de columna derivada]"
@@ -11139,6 +12356,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
           DTS:CreationName="Microsoft.ScriptTask"
           DTS:Description="Script Task"
+          DTS:Disabled="True"
           DTS:DTSID="{1A2940C9-D9D1-4718-8D47-297E1D36B9AE}"
           DTS:ExecutableType="Microsoft.ScriptTask"
           DTS:LocaleID="-1"
@@ -11503,7 +12721,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
                         );
                         ";
                         */
-                        if(cnt == 5000)
+                        if(cnt == 2000)
                         {
                             break;
                         }
@@ -11568,7 +12786,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
     <msb:CodeName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:DisplayName>
-    <msb:ProjectId>{300DDF17-2FDA-4DCD-A753-1E9B9BB1A18E}</msb:ProjectId>
+    <msb:ProjectId>{E0C9A368-05DD-4903-8481-F5258B07E4B6}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_8bc80233ddc7453b9ce2430602b9080a.csproj" />
@@ -11815,7 +13033,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
               <BinaryItem
                 Name="ST_8bc80233ddc7453b9ce2430602b9080a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAB/SymAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAA+jgA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDABXUymAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAA+jgA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAKg4AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -11832,7 +13050,7 @@ bx0AAAomEQYXWBMGEQYfDDHfEQUWmnLsAQBwfhwAAApvHQAACiYfHI0fAAABJRYJoiUXcvABAHCi
 JRgRBRaaoiUZcvkDAHCiJRoRBReaoiUbcvkDAHCiJRwRBRiaoiUdcvkDAHCiJR4RBRmaoiUfCXL5
 AwBwoiUfChEFGpqiJR8LcvkDAHCiJR8MEQUbmqIlHw1y+QMAcKIlHw4RBRyaoiUfD3L5AwBwoiUf
 EBEFHZqiJR8RcvkDAHCiJR8SEQUemqIlHxNy+QMAcKIlHxQRBR8JmqIlHxVy+QMAcKIlHxYRBR8K
-mqIlHxdy+QMAcKIlHxgRBR8LmqIlHxly+QMAcKIlHxoRBR8MmqIlHxtyPQQAcKIoHgAACg0IIIgT
+mqIlHxdy+QMAcKIlHxgRBR8LmqIlHxly+QMAcKIlHxoRBR8MmqIlHxtyPQQAcKIoHgAACg0IINAH
 AAAuEAgXWAwRBG8fAAAKObL+//8HbyAAAAoJB3MhAAAKbyIAAAomB28jAAAK3gwRBCwHEQRvJAAA
 CtzeXxMHcq0EAHARB28lAAAKbxQAAAooJgAACignAAAKJgZyvQQAcCgmAAAKKCgAAAoTCBEIEQdv
 JQAACm8UAAAKbykAAAoCKBAAAAoXbyoAAAreDBEILAcRCG8kAAAK3N4AcuUEAHAoJwAACiYCKBAA
@@ -11859,7 +13077,7 @@ XwVnAAkBFQVuAAEBywEGABkB0QEGAIkA5QBAAPkAxAZ0ACEBHAd6ADEBEQeBADkBWAEQAOEA6wYB
 AHEAXwUGAKkAXwUGAEEBGAGHAEEBLAeQALEAXwWWANEAXwUGAAgAFADCAAgAGADHACkAcwAvAS4A
 CwAHAS4AEwAQAS4AGwAvAS4AIwA4AS4AKwBhAS4AMwBhAS4AOwBhAS4AQwA4AS4ASwBnAS4AUwBh
 AS4AWwB+AUMAYwDHAEkAcwAvAWEAewDHAGMAawDHABsAAwABAAQAAwAAACcF+AAAAI8B/QAAANYG
-AgECAAQAAwACAAUABQABAAYABQACAAcABwAEgAAAAQAAAJ0eX58AAAAAAABYAAAABAAAAAAAAAAA
+AgECAAQAAwACAAUABQABAAYABQACAAcABwAEgAAAAQAAAJ0eWqAAAAAAAABYAAAABAAAAAAAAAAA
 AAAAngChAAAAAAAOAAAAAAAAAAAAAACnALoDAAAAAAgAAAAZAAAAAAAAALAAfAAAAAAACgAAAAAA
 AAAAAAAAuQCqAAAAAAAEAAAAAAAAAAAAAACeAFsEAAAAAA4AAAAAAAAAAAAAAKcAMQAAAAAABAAA
 AAAAAAAAAAAAngCHAAAAAAAEAAAAAAAAAAAAAACeAHEGAAAAAAAAAAABAAAAuwUAAAUAAgAAAAA8
@@ -11921,7 +13139,7 @@ cgBSAGUAYQBkAEYAaQBsAGUAcwAuAGwAbwBnAABdQQByAGMAaABpAHYAbwAgAHYAZQBuAHQAYQBz
 AC4AdAB4AHQAIABmAHUAZQAgAGEAbgBhAGwAaQB6AGEAZABvACAAYwBvAHIAcgBlAGMAdABhAG0A
 ZQBuAHQAZQAAcVMAVABfADgAYgBjADgAMAAyADMAMwBkAGQAYwA3ADQANQAzAGIAOQBjAGUAMgA0
 ADMAMAA2ADAAMgBiADkAMAA4ADAAYQAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUA
-cgBjAGUAcwAAAAAA4XIHJ6dOpUySte74GBrObgAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERYRAH
+cgBjAGUAcwAAAAAAXxQOUqjuHUeyf7o4ToAc1wAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERYRAH
 CQ4SPQgOEkEdDggSRRJJBCAAEnEEIAASdQUgARJ5HAMgABwDIAAOBSABAR0OBCABAQIEIAAdDgIG
 DgUgAg4ODgUAAQ4dDgMgAAIGIAIBDhI9BSAAEoCJBQACDg4OBgABEYCVDgUAARJJDggAARKAoRGA
 pQUgABKAqQcgAgEOEoCpCLd6XFYZNOCJCImEXc2AgMyRCMVof8iJacRNCLA/X38R1Qo6BAAAAAAE
@@ -11941,14 +13159,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAA
 AFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAA
-vQTv/gAAAQAAAAEAX5+dHgAAAQBfn50ePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
+vQTv/gAAAQAAAAEAWqCdHgAAAQBaoJ0ePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
 AFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAA
 AAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAAMAAw
 ADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkA
 TgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABT
 AFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIA
 YgA5ADAAOAAwAGEAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4ANwA4
-ADMANwAuADQAMAA3ADkAOQAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
+ADMANwAuADQAMQAwADUAMAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
 XwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIAYgA5
 ADAAOAAwAGEALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMA
 bwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMQAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBk
@@ -11957,8 +13175,8 @@ ZQAAAFMAVABfADgAYgBjADgAMAAyADMAMwBkAGQAYwA3ADQANQAzAGIAOQBjAGUAMgA0ADMAMAA2
 ADAAMgBiADkAMAA4ADAAYQAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAA
 AABTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAw
 ADIAYgA5ADAAOAAwAGEAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4A
-MAAuADcAOAAzADcALgA0ADAANwA5ADkAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
-AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADcALgA0ADAANwA5ADkAAAAAAAAAAAAAAAAAAAAAAAAA
+MAAuADcAOAAzADcALgA0ADEAMAA1ADAAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
+AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADcALgA0ADEAMAA1ADAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -11998,6 +13216,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:refId="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
+          DTS:Disabled="True"
           DTS:DTSID="{B0F3F0A0-5A59-45A3-A334-61F91FA022DC}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
@@ -12043,12 +13262,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       DTS:To="Package\LIMPIEZA ELT" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
-<!--If you manually edit this section and make a mistake, you can delete it. -->
-<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
 <Objects
   Version="8">
-  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
@@ -13015,7 +14234,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Hecho\Filtrar nulos"
@@ -13059,9 +14278,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13083,9 +14300,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13193,6 +14408,184 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="60.7803184579505,35.6953852833881,25.8774609375,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="117.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha"
+          TopLeft="70.7142869185428,457.647062941818" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de conversión de datos]"
+          TopLeft="246.180950264379,395.929415432557">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-116.666663345836,61.7176475092614"
+              Start="0,0"
+              End="-116.666663345836,54.2176475092614">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.0237007173915" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.0237007173915"
+                    Point2="0,25.0237007173915"
+                    Point3="-4,25.0237007173915" />
+                  <mssgle:LineSegment
+                    End="-112.666663345836,25.0237007173915" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-112.666663345836,25.0237007173915"
+                    Point2="-116.666663345836,25.0237007173915"
+                    Point3="-116.666663345836,29.0237007173915" />
+                  <mssgle:LineSegment
+                    End="-116.666663345836,54.2176475092614" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente"
+          TopLeft="66.4285725598433,532.729416161838" />
+        <NodeLayout
+          Size="128,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital"
+          TopLeft="63.5714296540435,607.494122419555" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor"
+          TopLeft="65.7142868333933,676.458828494953" />
+        <NodeLayout
+          Size="122.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho\id Region"
+          TopLeft="68.571429739193,755.882357595701" />
+        <NodeLayout
+          Size="110.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo"
+          TopLeft="77.1428584565921,833.258828494953" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="130.371429739193,499.247062941819">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.4823532200191"
+              Start="0,0"
+              End="0,25.9823532200191">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9823532200191" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-106.8890234375,6.89352036000957,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda1]"
+          TopLeft="129.400001106943,574.329416161838">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.1647062577176"
+              Start="0,0"
+              End="0,25.6647062577176">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.6647062577176" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-106.8890234375,6.73469687885881,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda2]"
+          TopLeft="127.042858243718,649.094122419555">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27.364706075398"
+              Start="0,0"
+              End="0,19.864706075398">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.864706075398" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-106.8890234375,3.83469678769899,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda3]"
+          TopLeft="128.142858286293,718.058828494953">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.8235291007479"
+              Start="0,0"
+              End="0,30.3235291007479">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.3235291007479" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-106.8890234375,9.06410830037396,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de entradas no coincidentes de búsqueda4]"
+          TopLeft="131.057144097893,797.482357595701">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35.776470899252"
+              Start="0,0"
+              End="0,28.276470899252">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.276470899252" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-106.8890234375,8.040579199626,213.778046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -14252,9 +15645,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14276,9 +15667,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14420,9 +15809,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14525,6 +15912,144 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho\id Fecha">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Fecha]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho\id Paciente">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Paciente]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho\id Hospital">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Hospital]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho\id Doctor">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Doctor]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho\id Region">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Region]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Hecho\id Tipo">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Tipo]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
