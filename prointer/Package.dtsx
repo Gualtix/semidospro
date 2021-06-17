@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="74"
-  DTS:VersionGUID="{3330CF5B-62C3-4D57-BB41-40FC687FF2D5}">
+  DTS:VersionBuild="76"
+  DTS:VersionGUID="{749E15A1-BBE7-456C-BF07-CBFAD4AA4E54}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7NdaVQPzmF4P0RMPUHeIpCduSAr/RczJsPviacbe0/AAAAAAOgAAAAAIAACAAAAABlR9I/TdyIsBNALhUGBsR4hyacsG6FQgdBuVibVkqtSAAAADSVHgixOfjuWzDXYapQDQPZHtO3cdswB+uJstBlk6YLEAAAAAcDl30zGdAu0u/l+0U+60scwJ8zv3cvfdZ5ShrfhgFCKTJv8e46skpMRfLeJBvHKJQA1UvYxPDXHFqH7pOTu3L</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC+cuw2UAGhlk3mxw/m6PONABIZb4C0++m9tNDoF4KYWwAAAAAOgAAAAAIAACAAAAB+Jf/17sDQ6dyQ3koQprhpp5AOGj2MTurU/dpAa3OLLyAAAADA1edhsMkdpIThkXHEqf2dvosFGlG4PcMV3nJM+3JQCkAAAADldbJPpSm5dtX87H3H5AzGlot54YnjaIRS/r86mgVSB/pzSPOMexPaHrs3CF5uk8SIRHAiVl6+dcyqpm9sCf8V</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -44,7 +44,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADHrOpkAkjG+sQIlUAWFqvrZKnCxwzCf10K/QZuTnYGkgAAAAAOgAAAAAIAACAAAADiq2lsG+uvW3DfpFjdu4aSDHk4IoNahoFY98aBaLD9RSAAAAAO5L7tbrJUmK3wtlE9LczUa56IXIxRD8gjhn/pZrcbCEAAAAB1G4kbPTRXzW94ZUajgwf08ajijz82+qskVaE80T1Ml+XJ/lcGl2pvbbwK33TMXQmNNvEQcIeZLjBP8pT0lLX2</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJCb2xP3FLQE98s/9FAKIZySMqsYkOdwSPE4p/Lb+T1AAAAAAOgAAAAAIAACAAAABr6vVaO3rvEfXGWbwK9is70fWd9Z6B1Jr53OX+2dRyUSAAAACly2OZVN1M46QVfbGnEZ9qTqGCvmkECxzOdZutVZbSEEAAAAARsQZF0XTcQDUwPCNvm/SB0KLg108Oknl+v95o3sBHBFC4vX1i5DVOGiP6H2M3/wiFSBO1fhlaH+Sm2sMmMyz4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -61,7 +61,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJQK1VuuubclJbzJCnAu8dsjTcgF+1P9sklERCYRtnrAAAAAAOgAAAAAIAACAAAACk/H4D+yBtnPsNDynGHZumsZ56E0P0JBq2/B83CDYUqyAAAABKeoXj6sjcI3IvjRCjSBnDqsCl8htAebLnIAYrdo5ad0AAAAADD1vft1bYoiA4h9hGFKOa7H+sChnzsQBcYdrwDr/MBNXnCDB8231M3oMs/YRq6Rq8Qh5VWK5MGDVYrLhzm/9t</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABYNTlV7kFzCXUQorAS/PJm6XmqUydDQQ6/T3/dGPQdiwAAAAAOgAAAAAIAACAAAAAYuNSuaNybErH53gMulNrahFzI7YIspIF2F7K/nJ4siyAAAAAsA9X0A1TG12BzUTBJUdapFcGRwrNJ/tRMYApzQN/WY0AAAADfrP7d8ez3FQ4fWscxL49U2L9SskOCOJ209fDyP/QaV2Tg7GKcziz9h1Qb0oOxbs1Qct6oYL8PGYsNssVOGI6f</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -78,7 +78,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAHMfa2Q6MChXUArQEjMMvSeBAKYnKYBKq3xG2hyqxzQAAAAAAOgAAAAAIAACAAAABA56KwGcvGJadQ7waWh9CKU7MwCM2Isd2Os6TUHxFa6iAAAACRk1pyVIkNQ+Y2mZ5nexzBC5wtgzXGZkbLfEFcbTSFc0AAAAD04pZAj4zWbBbur9IHhLnXnl5waQYo0NwwSdJwE3wy1cBc8TN1KvWRSgYFvNf49YVh5LJASQEMOvY1DD0U6TIj</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABF6QhSr3PwmusCcBP9NTszV2L7KdqFQxN+ickDlXzM2QAAAAAOgAAAAAIAACAAAAAsKynWq5yWJX0oIxYEAgYkJ+aOv3hR2/jdmYpRMzdAjiAAAADyPsfWZi2OmjslYCNsL52/kBW1o4STuQEnROwY8qtdiEAAAAAY3qFEqKzWFwUR/KrDRrDj3qqtetM35arF+wKMs6KcIpRNM+x1ouotIdzNJtbSr14dEZakUSZPLIRbZ1YZc/lM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -93,7 +93,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACTadBOLVc2dvzmBc8cJo4yVqaYm8yco2GNqj6+T/s9SgAAAAAOgAAAAAIAACAAAADBw/gGfefpM2APMSgKztghgKK5IC/I/z31QcM5qFWLyCAAAADv6HB7MtPgMpITABSKy92Zbo9EFnP3yEgtTLmc9K7xEEAAAAB6atG0jMSjbAPuIZO4aFQVvmBee2J3ra8h9abLsgcKeE8SSsbh137nX7Q0LqlN/KS5fIL1NriCEJsQaOSyoYpj</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACjb8cjaIy/Z9YRZukVnrJuUj2qcvcjOYLS9tcXPYlwEQAAAAAOgAAAAAIAACAAAAAPTL7kt8HV9uTYbRbALhuFpXguvkhHdpYqHrN7Zfz4fyAAAABtfJRMkkc3reXMTKnRD7dxP7ZgTxunStG1ld4EY/BF5kAAAADS+u2obmIYGLDMjM//Co1WMyxyYvhnNhnXWYNmpQoC6MY7Cv1yB1moMFXZbIwPqhYw06lmUX4mlefoR4e15SQ8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -141,7 +141,6 @@
       DTS:refId="Package\LIMPIEZA ELT"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{C6F12B14-781D-4091-A70C-37569241FA3C}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -183,7 +182,7 @@
                       expressionType="Notify"
                       name="SqlCommandParam"
                       UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Doctor]) [refTable]
-where [refTable].[COD_Doctor] = ?</property>
+where [refTable].[Nombre] = ?</property>
                     <property
                       dataType="System.Int32"
                       description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
@@ -214,12 +213,12 @@ where [refTable].[COD_Doctor] = ?</property>
                     <property
                       dataType="System.String"
                       description="Indica si se debe hacer referencia a metadatos en formato XML."
-                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Doctor" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Doctor" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Doctor" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Doctor" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                     <property
                       containsID="true"
                       dataType="System.String"
                       description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_DOCTOR]};</property>
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de NOMBRE_DOCTOR]};</property>
                     <property
                       dataType="System.Int32"
                       description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -243,15 +242,17 @@ where [refTable].[COD_Doctor] = ?</property>
                       name="Entrada de búsqueda">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Doctor\Búsqueda.Inputs[Entrada de búsqueda].Columns[Copia de COD_DOCTOR]"
-                          cachedDataType="i4"
-                          cachedName="Copia de COD_DOCTOR"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_DOCTOR]">
+                          refId="Package\LIMPIEZA ELT\Limpiar Doctor\Búsqueda.Inputs[Entrada de búsqueda].Columns[Copia de NOMBRE_DOCTOR]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="10"
+                          cachedName="Copia de NOMBRE_DOCTOR"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de NOMBRE_DOCTOR]">
                           <properties>
                             <property
                               dataType="System.String"
                               description="Especifica la columna de la tabla de referencia con la que se combina una columna."
-                              name="JoinToReferenceColumn">COD_Doctor</property>
+                              name="JoinToReferenceColumn">Nombre</property>
                             <property
                               dataType="System.Null"
                               description="Especifica la columna de la tabla de referencia de la que se copia una columna."
@@ -785,7 +786,7 @@ SELECT * FROM TMP;</property>
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
-                          length="100"
+                          length="10"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de NOMBRE_DOCTOR]"
                           name="Copia de NOMBRE_DOCTOR"
                           truncationRowDisposition="RedirectRow">
@@ -1734,7 +1735,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Fecha"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{55bb76a9-7e56-4015-af2c-61eef2acc199}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -3982,7 +3982,7 @@ SELECT * FROM TMP;</property>
                           cachedDataType="wstr"
                           cachedLength="128"
                           cachedName="TIPOCASO"
-                          cachedSortKeyPosition="1"
+                          cachedSortKeyPosition="14"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]" />
                       </inputColumns>
                       <externalMetadataColumns />
@@ -4242,7 +4242,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">1</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4259,7 +4259,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">2</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4276,7 +4276,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">3</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4293,7 +4293,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">4</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4310,7 +4310,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">5</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4327,7 +4327,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">6</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4344,7 +4344,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">7</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4361,7 +4361,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">8</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4378,7 +4378,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">9</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4395,7 +4395,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">10</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4412,7 +4412,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">11</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4429,7 +4429,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">12</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4446,7 +4446,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">0</property>
+                              name="NewSortKeyPosition">13</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -4463,7 +4463,7 @@ SELECT * FROM TMP;</property>
                             <property
                               dataType="System.Int32"
                               description="Especifica el criterio de ordenación de la columna."
-                              name="NewSortKeyPosition">1</property>
+                              name="NewSortKeyPosition">14</property>
                           </properties>
                         </inputColumn>
                       </inputColumns>
@@ -4480,7 +4480,8 @@ SELECT * FROM TMP;</property>
                           refId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[LINEA]"
                           dataType="i4"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[LINEA]"
-                          name="LINEA">
+                          name="LINEA"
+                          sortKeyPosition="1">
                           <properties>
                             <property
                               containsID="true"
@@ -4494,7 +4495,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[COD_HOSPITAL]"
-                          name="COD_HOSPITAL">
+                          name="COD_HOSPITAL"
+                          sortKeyPosition="2">
                           <properties>
                             <property
                               containsID="true"
@@ -4508,7 +4510,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[NOMBRE_HOSPITAL]"
-                          name="NOMBRE_HOSPITAL">
+                          name="NOMBRE_HOSPITAL"
+                          sortKeyPosition="3">
                           <properties>
                             <property
                               containsID="true"
@@ -4522,7 +4525,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DIRECCION_HOSPITAL]"
-                          name="DIRECCION_HOSPITAL">
+                          name="DIRECCION_HOSPITAL"
+                          sortKeyPosition="4">
                           <properties>
                             <property
                               containsID="true"
@@ -4536,7 +4540,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[REGION]"
-                          name="REGION">
+                          name="REGION"
+                          sortKeyPosition="5">
                           <properties>
                             <property
                               containsID="true"
@@ -4550,7 +4555,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DEPARTAMENTO]"
-                          name="DEPARTAMENTO">
+                          name="DEPARTAMENTO"
+                          sortKeyPosition="6">
                           <properties>
                             <property
                               containsID="true"
@@ -4564,7 +4570,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[COD_DOCTOR]"
-                          name="COD_DOCTOR">
+                          name="COD_DOCTOR"
+                          sortKeyPosition="7">
                           <properties>
                             <property
                               containsID="true"
@@ -4578,7 +4585,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[NOMBRE_DOCTOR]"
-                          name="NOMBRE_DOCTOR">
+                          name="NOMBRE_DOCTOR"
+                          sortKeyPosition="8">
                           <properties>
                             <property
                               containsID="true"
@@ -4592,7 +4600,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[FECHACASO]"
-                          name="FECHACASO">
+                          name="FECHACASO"
+                          sortKeyPosition="9">
                           <properties>
                             <property
                               containsID="true"
@@ -4606,7 +4615,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[DPI]"
-                          name="DPI">
+                          name="DPI"
+                          sortKeyPosition="10">
                           <properties>
                             <property
                               containsID="true"
@@ -4620,7 +4630,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[NOMBREPACIENTE]"
-                          name="NOMBREPACIENTE">
+                          name="NOMBREPACIENTE"
+                          sortKeyPosition="11">
                           <properties>
                             <property
                               containsID="true"
@@ -4634,7 +4645,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[FECHAPERSONA]"
-                          name="FECHAPERSONA">
+                          name="FECHAPERSONA"
+                          sortKeyPosition="12">
                           <properties>
                             <property
                               containsID="true"
@@ -4648,7 +4660,8 @@ SELECT * FROM TMP;</property>
                           dataType="wstr"
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[GENERO]"
-                          name="GENERO">
+                          name="GENERO"
+                          sortKeyPosition="13">
                           <properties>
                             <property
                               containsID="true"
@@ -4663,7 +4676,7 @@ SELECT * FROM TMP;</property>
                           length="128"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hecho\Ordenar.Outputs[Salida de ordenación].Columns[TIPOCASO]"
                           name="TIPOCASO"
-                          sortKeyPosition="1">
+                          sortKeyPosition="14">
                           <properties>
                             <property
                               containsID="true"
@@ -4774,7 +4787,7 @@ where [refTable].[COD_Hospita] = ?</property>
                     <property
                       dataType="System.String"
                       description="Indica si se debe hacer referencia a metadatos en formato XML."
-                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Hospital" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Hospita" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Direccion" dataType="DT_STR" length="250" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Hospital" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Hospita" dataType="DT_STR" length="10" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Direccion" dataType="DT_STR" length="250" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -4804,7 +4817,9 @@ where [refTable].[COD_Hospita] = ?</property>
                       <inputColumns>
                         <inputColumn
                           refId="Package\LIMPIEZA ELT\Limpiar Hospital\Búsqueda.Inputs[Entrada de búsqueda].Columns[Copia de COD_HOSPITAL]"
-                          cachedDataType="i4"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="10"
                           cachedName="Copia de COD_HOSPITAL"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hospital\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]">
                           <properties>
@@ -5372,9 +5387,11 @@ SELECT * FROM TMP;</property>
                         </outputColumn>
                         <outputColumn
                           refId="Package\LIMPIEZA ELT\Limpiar Hospital\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]"
-                          dataType="i4"
+                          codePage="1252"
+                          dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
+                          length="10"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Hospital\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de COD_HOSPITAL]"
                           name="Copia de COD_HOSPITAL"
                           truncationRowDisposition="RedirectRow">
@@ -6299,7 +6316,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Paciente"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{B6D2820A-18CE-4A8B-8B75-08BA8BEF0F06}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -6324,13 +6340,14 @@ SELECT * FROM TMP;</property>
                       description="Especifica la instrucción SQL que genera la tabla de búsqueda."
                       expressionType="Notify"
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Paciente]</property>
                     <property
                       dataType="System.String"
                       description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
                       expressionType="Notify"
                       name="SqlCommandParam"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Paciente]) [refTable]
+where [refTable].[COD_Paciente] = ?</property>
                     <property
                       dataType="System.Int32"
                       description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
@@ -6345,7 +6362,7 @@ SELECT * FROM TMP;</property>
                       dataType="System.Int32"
                       description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
                       name="NoMatchBehavior"
-                      typeConverter="LookupNoMatchBehavior">0</property>
+                      typeConverter="LookupNoMatchBehavior">1</property>
                     <property
                       dataType="System.Int32"
                       description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
@@ -6361,12 +6378,12 @@ SELECT * FROM TMP;</property>
                     <property
                       dataType="System.String"
                       description="Indica si se debe hacer referencia a metadatos en formato XML."
-                      name="ReferenceMetadataXml"></property>
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ID_Paciente" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="COD_Paciente" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Nombre" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="FechaNac" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Edad" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Genero" dataType="DT_STR" length="1" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                     <property
                       containsID="true"
                       dataType="System.String"
                       description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                      name="ParameterMap"></property>
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]};</property>
                     <property
                       dataType="System.Int32"
                       description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -6379,6 +6396,8 @@ SELECT * FROM TMP;</property>
                   <connections>
                     <connection
                       refId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
+                      connectionManagerRefId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi]"
                       description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
                       name="OleDbConnection" />
                   </connections>
@@ -6386,6 +6405,26 @@ SELECT * FROM TMP;</property>
                     <input
                       refId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Inputs[Entrada de búsqueda]"
                       name="Entrada de búsqueda">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Inputs[Entrada de búsqueda].Columns[Copia de DPI]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Copia de DPI"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                              name="JoinToReferenceColumn">COD_Paciente</property>
+                            <property
+                              dataType="System.Null"
+                              description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
                       <externalMetadataColumns />
                     </input>
                   </inputs>
@@ -6393,7 +6432,6 @@ SELECT * FROM TMP;</property>
                     <output
                       refId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Outputs[Salida de entradas coincidentes de búsqueda]"
                       errorOrTruncationOperation="Búsqueda"
-                      errorRowDisposition="FailComponent"
                       exclusionGroup="1"
                       name="Salida de entradas coincidentes de búsqueda"
                       synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Inputs[Entrada de búsqueda]">
@@ -6802,6 +6840,55 @@ SELECT * FROM TMP;</property>
                   </outputs>
                 </component>
                 <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+                  name="Columna Derivada"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Inputs[Entrada de columna derivada]"
+                      description="Entrada en la transformación Columna derivada"
+                      name="Entrada de columna derivada">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Outputs[Salida de columna derivada]"
+                      description="Salida predeterminada de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      name="Salida de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Inputs[Entrada de columna derivada]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Outputs[Salida de error de columna derivada]"
+                      description="Salida de error de la transformación Columna derivada"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de columna derivada"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Inputs[Entrada de columna derivada]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos"
                   componentClassID="Microsoft.DataConvert"
                   contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
@@ -6860,9 +6947,11 @@ SELECT * FROM TMP;</property>
                       <outputColumns>
                         <outputColumn
                           refId="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]"
-                          dataType="i4"
+                          codePage="1252"
+                          dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
+                          length="50"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DPI]"
                           name="Copia de DPI"
                           truncationRowDisposition="RedirectRow">
@@ -7840,6 +7929,16 @@ SELECT * FROM TMP;</property>
                   name="Salida de conversión de datos"
                   startId="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos]" />
                 <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas coincidentes de búsqueda]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Error registros existentes.Inputs[Entrada de columna derivada]"
+                  name="Salida de entradas coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Outputs[Salida de entradas coincidentes de búsqueda]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas no coincidentes de búsqueda]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada.Inputs[Entrada de columna derivada]"
+                  name="Salida de entradas no coincidentes de búsqueda"
+                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Outputs[Salida de entradas no coincidentes de búsqueda]" />
+                <path
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de conversión de datos]"
                   endId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de tipado.Inputs[Entrada de columna derivada]"
                   name="Salida de error de conversión de datos"
@@ -7862,7 +7961,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Region"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{1fbe76a4-abad-4737-b86b-0ac77fd671a6}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -9442,7 +9540,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Tipo"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{d358a305-4df8-4b26-a012-edfa260cd502}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -11061,7 +11158,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
           DTS:CreationName="Microsoft.ScriptTask"
           DTS:Description="Script Task"
-          DTS:Disabled="True"
           DTS:DTSID="{1A2940C9-D9D1-4718-8D47-297E1D36B9AE}"
           DTS:ExecutableType="Microsoft.ScriptTask"
           DTS:LocaleID="-1"
@@ -11076,35 +11172,14 @@ SELECT * FROM TMP;</property>
               Language="CSharp"
               ReadOnlyVariables="User::CarpetaErrores,User::CarpetaExitos,User::CarpetaOrigen,User::Delimitador">
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_8bc80233ddc7453b9ce2430602b9080a")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_8bc80233ddc7453b9ce2430602b9080a")]
-[assembly: AssemblyCopyright("Copyright @  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -11225,14 +11300,35 @@ using System.Runtime.CompilerServices;
   </resheader>
 </root>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_8bc80233ddc7453b9ce2430602b9080a")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_8bc80233ddc7453b9ce2430602b9080a")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="packages.config"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -11360,7 +11456,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
             
             try
             {
-                var path = @"C:\semidospro\vars\ArchivoEntrada\covi.csv";
+                var path = @"C:\semidospro\vars\ArchivoEntrada\CasosCovid.csv";
                 using (TextFieldParser csvParser = new TextFieldParser(path))
                 {
                     csvParser.CommentTokens = new string[] { "#" };
@@ -11456,7 +11552,7 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
     <msb:CodeName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_8bc80233ddc7453b9ce2430602b9080a</msb:DisplayName>
-    <msb:ProjectId>{18F09073-A14B-40E0-A433-6B113799885C}</msb:ProjectId>
+    <msb:ProjectId>{5AABDB86-09E5-4911-8FA7-8B8CE2883D3D}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_8bc80233ddc7453b9ce2430602b9080a.csproj" />
@@ -11703,31 +11799,31 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
               <BinaryItem
                 Name="ST_8bc80233ddc7453b9ce2430602b9080a.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAK89xmAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAijgA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDANjCymAAAAAAAAAAAOAAIiALATAAABoAAAAIAAAAAAAAljgA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAADg4AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAEQ4AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAkBgAAAAgAAAAGgAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAnBgAAAAgAAAAGgAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAcAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAIgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABs
-OAAAAAAAAEgAAAACAAUAnCMAAOQTAAABAAAAAAAAAIA3AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAIgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAB4
+OAAAAAAAAEgAAAACAAUAnCMAAPATAAABAAAAAAAAAIw3AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswBQCKAgAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
 AAAKbxQAAAomAigQAAAKbxEAAApyJQAAcG8SAAAKbxMAAApvFAAACiYCKBAAAApvEQAACnJNAABw
 bxIAAApvEwAACm8UAAAKCgIoEAAACm8RAAAKcncAAHBvEgAACm8TAAAKbxQAAAomcp8AAHBzFQAA
-CgsWDHKAAQBwDXKCAQBwcxYAAAoTBBEEF40fAAABJRZy2AEAcKJvFwAAChEEF40fAAABJRZy3AEA
-cKJvGAAAChEEF28ZAAAKEQRvGgAACiY4AAEAABEEbxsAAAoTBR8cjR8AAAElFgmiJRdy4AEAcKIl
-GBEFFpqiJRly6QMAcKIlGhEFF5qiJRty6QMAcKIlHBEFGJqiJR1y6QMAcKIlHhEFGZqiJR8JcukD
-AHCiJR8KEQUamqIlHwty6QMAcKIlHwwRBRuaoiUfDXLpAwBwoiUfDhEFHJqiJR8PcukDAHCiJR8Q
-EQUdmqIlHxFy6QMAcKIlHxIRBR6aoiUfE3LpAwBwoiUfFBEFHwmaoiUfFXLpAwBwoiUfFhEFHwqa
-oiUfF3LpAwBwoiUfGBEFHwuaoiUfGXLpAwBwoiUfGhEFHwyaoiUfG3ItBABwoigcAAAKDQgXWAwR
-BG8dAAAKOfT+//8Hbx4AAAoJB3MfAAAKbyAAAAomB28hAAAK3gwRBCwHEQRvIgAACtzeXxMGcp0E
-AHARBm8jAAAKbxQAAAooJAAACiglAAAKJgZyrQQAcCgkAAAKKCYAAAoTBxEHEQZvIwAACm8UAAAK
-bycAAAoCKBAAAAoXbygAAAreDBEHLAcRB28iAAAK3N4ActUEAHAoJQAACiYCKBAAAAoWbygAAAoq
+CgsWDHKAAQBwDXKCAQBwcxYAAAoTBBEEF40fAAABJRZy5AEAcKJvFwAAChEEF40fAAABJRZy6AEA
+cKJvGAAAChEEF28ZAAAKEQRvGgAACiY4AAEAABEEbxsAAAoTBR8cjR8AAAElFgmiJRdy7AEAcKIl
+GBEFFpqiJRly9QMAcKIlGhEFF5qiJRty9QMAcKIlHBEFGJqiJR1y9QMAcKIlHhEFGZqiJR8JcvUD
+AHCiJR8KEQUamqIlHwty9QMAcKIlHwwRBRuaoiUfDXL1AwBwoiUfDhEFHJqiJR8PcvUDAHCiJR8Q
+EQUdmqIlHxFy9QMAcKIlHxIRBR6aoiUfE3L1AwBwoiUfFBEFHwmaoiUfFXL1AwBwoiUfFhEFHwqa
+oiUfF3L1AwBwoiUfGBEFHwuaoiUfGXL1AwBwoiUfGhEFHwyaoiUfG3I5BABwoigcAAAKDQgXWAwR
+BG8dAAAKOfT+//8Hbx4AAAoJB3MfAAAKbyAAAAomB28hAAAK3gwRBCwHEQRvIgAACtzeXxMGcqkE
+AHARBm8jAAAKbxQAAAooJAAACiglAAAKJgZyuQQAcCgkAAAKKCYAAAoTBxEHEQZvIwAACm8UAAAK
+bycAAAoCKBAAAAoXbygAAAreDBEHLAcRB28iAAAK3N4AcuEEAHAoJQAACiYCKBAAAAoWbygAAAoq
 AABBTAAAAgAAAJ8AAABmAQAABQIAAAwAAAAAAAAAAgAAAEMCAAAhAAAAZAIAAAwAAAAAAAAAAAAA
-AJMAAACAAQAAEwIAAF8AAAARAAABHgIoKQAACioeAigqAAAKKq5+AQAABC0ecjMFAHDQAwAAAigr
+AJMAAACAAQAAEwIAAF8AAAARAAABHgIoKQAACioeAigqAAAKKq5+AQAABC0ecj8FAHDQAwAAAigr
 AAAKbywAAApzLQAACoABAAAEfgEAAAQqGn4CAAAEKh4CgAIAAAQqGn4DAAAEKh4CKC4AAAoqLnMI
 AAAGgAMAAAQqAABCU0pCAQABAAAAAAAMAAAAdjQuMC4zMDMxOQAAAAAFAGwAAADMBAAAI34AADgF
-AAA0BwAAI1N0cmluZ3MAAAAAbAwAAKgFAAAjVVMAFBIAABAAAAAjR1VJRAAAACQSAADAAQAAI0Js
+AAA0BwAAI1N0cmluZ3MAAAAAbAwAALQFAAAjVVMAIBIAABAAAAAjR1VJRAAAADASAADAAQAAI0Js
 b2IAAAAAAAAAAgAAAVcdogEJAwAAAPoBMwAWAAABAAAAKgAAAAUAAAAGAAAACQAAAAEAAAAuAAAA
 AgAAABAAAAABAAAAAgAAAAMAAAAEAAAAAQAAAAgAAAABAAAAAQAAAAAAIgQBAAAAAAAGANICggUG
 AGEDggUGAB4CZAUPAPYFAAAGAEsCpQQGALUCpQQGAJYCpQQGAEgDpQQGAPICpQQGAAsDpQQGAGIC
@@ -11746,7 +11842,7 @@ AQYAiQDdAD8A+QC8BmoAIQEUB3AAMQEJB3cAOQFQARAA4QDjBgEAcQBXBQYAqQBXBQYAQQEQAX0A
 QQEkB4YAsQBXBYwA0QBXBQYACAAUALgACAAYAL0AKQBzACUBLgALAP0ALgATAAYBLgAbACUBLgAj
 AC4BLgArAFcBLgAzAFcBLgA7AFcBLgBDAC4BLgBLAF0BLgBTAFcBLgBbAHQBQwBjAL0ASQBzACUB
 YQB7AL0AYwBrAL0AGwADAAEABAADAAAAHwXuAAAAhwHzAAAAzgb4AAIABAADAAIABQAFAAEABgAF
-AAIABwAHAASAAAABAAAAmh5nTwAAAAAAAFgAAAAEAAAAAAAAAAAAAACUAKEAAAAAAA4AAAAAAAAA
+AAIABwAHAASAAAABAAAAnR68lwAAAAAAAFgAAAAEAAAAAAAAAAAAAACUAKEAAAAAAA4AAAAAAAAA
 AAAAAJ0AsgMAAAAACAAAABkAAAAAAAAApgB8AAAAAAAKAAAAAAAAAAAAAACvAKoAAAAAAAQAAAAA
 AAAAAAAAAJQAUwQAAAAADgAAAAAAAAAAAAAAnQAxAAAAAAAEAAAAAAAAAAAAAACUAIcAAAAAAAQA
 AAAAAAAAAAAAAJQAaQYAAAAAAAAAAAEAAACzBQAABQACAAAAADxNb2R1bGU+AFN5c3RlbS5JTwBN
@@ -11788,39 +11884,39 @@ AHMAACdVAHMAZQByADoAOgBDAGEAcgBwAGUAdABhAEUAeABpAHQAbwBzAACA31MAZQByAHYAZQBy
 AD0AcwBlAG0AaQBkAGIALgBjAG0AawB1AHAAdwAwAG0AdQBpAGYAegAuAHUAcwAtAGUAYQBzAHQA
 LQAyAC4AcgBkAHMALgBhAG0AYQB6AG8AbgBhAHcAcwAuAGMAbwBtADsAUABvAHIAdAA9ADMAMwAw
 ADYAOwBEAGEAdABhAGIAYQBzAGUAPQB0AGUAbQBwAG8AcgBhAGwAOwBVAGkAZAA9AGEAZABtAGkA
-bgA7AFAAdwBkAD0ARwBvAGQAegBpAGwAbABhADMANgA5ADAAKwA7AAEBAFVDADoAXABzAGUAbQBp
-AGQAbwBzAHAAcgBvAFwAdgBhAHIAcwBcAEEAcgBjAGgAaQB2AG8ARQBuAHQAcgBhAGQAYQBcAGMA
-bwB2AGkALgBjAHMAdgAAAyMAAAM7AACCBw0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
-IAAgACAAIAAgACAAIAAgACAAIABJAE4AUwBFAFIAVAAgAEkATgBUAE8AIABUAE0AUAAgACgAQwBP
-AEQAXwBIAE8AUwBQAEkAVABBAEwALABOAE8ATQBCAFIARQBfAEgATwBTAFAASQBUAEEATAAsAEQA
-SQBSAEUAQwBDAEkATwBOAF8ASABPAFMAUABJAFQAQQBMACwAUgBFAEcASQBPAE4ALABEAEUAUABB
-AFIAVABBAE0ARQBOAFQATwAsAEMATwBEAF8ARABPAEMAVABPAFIALABOAE8ATQBCAFIARQBfAEQA
-TwBDAFQATwBSACwARgBFAEMASABBAEMAQQBTAE8ALABEAFAASQAsAE4ATwBNAEIAUgBFAFAAQQBD
-AEkARQBOAFQARQAsAEYARQBDAEgAQQBQAEUAUgBTAE8ATgBBACwARwBFAE4ARQBSAE8ALABUAEkA
-UABPAEMAQQBTAE8AKQAgAFYAQQBMAFUARQBTAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg
-ACAAIAAgACAAIAAgACAAIAAgACAAIAAoAA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAA
-IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACIAAEMiACwADQAKACAAIAAgACAAIAAgACAAIAAg
-ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIgAAbyIADQAKACAAIAAgACAA
-IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACkAOwANAAoAIAAgACAAIAAg
-ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAAA9FAHIAcgBvAHIAOgAgAAAn
-XABFAHIAcgBvAHIAUgBlAGEAZABGAGkAbABlAHMALgBsAG8AZwAAXUEAcgBjAGgAaQB2AG8AIAB2
-AGUAbgB0AGEAcwAuAHQAeAB0ACAAZgB1AGUAIABhAG4AYQBsAGkAegBhAGQAbwAgAGMAbwByAHIA
-ZQBjAHQAYQBtAGUAbgB0AGUAAHFTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBi
-ADkAYwBlADIANAAzADAANgAwADIAYgA5ADAAOAAwAGEALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4A
-UgBlAHMAbwB1AHIAYwBlAHMAAAAAAHDtj8AodcJLisyBirFJOdIABCABAQgDIAABBSABARERBCAB
-AQ4FIAEBEWEPBwgOEj0IDhJBHQ4SRRJJBCAAEnEEIAASdQUgARJ5HAMgABwDIAAOBSABAR0OBCAB
-AQIEIAAdDgUAAQ4dDgMgAAIGIAIBDhI9BSAAEoCJBQACDg4OBgABEYCVDgUAARJJDggAARKAoRGA
-pQUgABKAqQcgAgEOEoCpCLd6XFYZNOCJCImEXc2AgMyRCMVof8iJacRNCLA/X38R1Qo6BAAAAAAE
-AQAAAAMGElkDBhJdAwYSEAIGCAMGERQEAAASWQQAABJdBQABARJdBAAAEhADAAABBAgAElkECAAS
-XQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgB
-ACNTVF84YmM4MDIzM2RkYzc0NTNiOWNlMjQzMDYwMmI5MDgwYQAABQEAAAAAFgEAEUNvcHlyaWdo
-dCBAICAyMDIxAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjUBAFQOFEZyYW1ld29ya0Rp
-c3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNQAAtAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVz
-b3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
-PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJlc291cmNl
-cy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAGA4AAAAAAAAAAAAAHo4
-AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsOAAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29y
-ZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+bgA7AFAAdwBkAD0ARwBvAGQAegBpAGwAbABhADMANgA5ADAAKwA7AAEBAGFDADoAXABzAGUAbQBp
+AGQAbwBzAHAAcgBvAFwAdgBhAHIAcwBcAEEAcgBjAGgAaQB2AG8ARQBuAHQAcgBhAGQAYQBcAEMA
+YQBzAG8AcwBDAG8AdgBpAGQALgBjAHMAdgAAAyMAAAM7AACCBw0ACgAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIABJAE4AUwBFAFIAVAAgAEkATgBUAE8AIABU
+AE0AUAAgACgAQwBPAEQAXwBIAE8AUwBQAEkAVABBAEwALABOAE8ATQBCAFIARQBfAEgATwBTAFAA
+SQBUAEEATAAsAEQASQBSAEUAQwBDAEkATwBOAF8ASABPAFMAUABJAFQAQQBMACwAUgBFAEcASQBP
+AE4ALABEAEUAUABBAFIAVABBAE0ARQBOAFQATwAsAEMATwBEAF8ARABPAEMAVABPAFIALABOAE8A
+TQBCAFIARQBfAEQATwBDAFQATwBSACwARgBFAEMASABBAEMAQQBTAE8ALABEAFAASQAsAE4ATwBN
+AEIAUgBFAFAAQQBDAEkARQBOAFQARQAsAEYARQBDAEgAQQBQAEUAUgBTAE8ATgBBACwARwBFAE4A
+RQBSAE8ALABUAEkAUABPAEMAQQBTAE8AKQAgAFYAQQBMAFUARQBTAA0ACgAgACAAIAAgACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAoAA0ACgAgACAAIAAgACAAIAAgACAA
+IAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACIAAEMiACwADQAKACAAIAAg
+ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIgAAbyIA
+DQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACkAOwAN
+AAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAAA9FAHIA
+cgBvAHIAOgAgAAAnXABFAHIAcgBvAHIAUgBlAGEAZABGAGkAbABlAHMALgBsAG8AZwAAXUEAcgBj
+AGgAaQB2AG8AIAB2AGUAbgB0AGEAcwAuAHQAeAB0ACAAZgB1AGUAIABhAG4AYQBsAGkAegBhAGQA
+bwAgAGMAbwByAHIAZQBjAHQAYQBtAGUAbgB0AGUAAHFTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABk
+AGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIAYgA5ADAAOAAwAGEALgBQAHIAbwBwAGUA
+cgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAAF1BTUmfTQxFg8WQ61TnIdoABCABAQgD
+IAABBSABARERBCABAQ4FIAEBEWEPBwgOEj0IDhJBHQ4SRRJJBCAAEnEEIAASdQUgARJ5HAMgABwD
+IAAOBSABAR0OBCABAQIEIAAdDgUAAQ4dDgMgAAIGIAIBDhI9BSAAEoCJBQACDg4OBgABEYCVDgUA
+ARJJDggAARKAoRGApQUgABKAqQcgAgEOEoCpCLd6XFYZNOCJCImEXc2AgMyRCMVof8iJacRNCLA/
+X38R1Qo6BAAAAAAEAQAAAAMGElkDBhJdAwYSEAIGCAMGERQEAAASWQQAABJdBQABARJdBAAAEhAD
+AAABBAgAElkECAASXQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dz
+AQgBAAIAAAAAACgBACNTVF84YmM4MDIzM2RkYzc0NTNiOWNlMjQzMDYwMmI5MDgwYQAABQEAAAAA
+FgEAEUNvcHlyaWdodCBAICAyMDIxAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjUBAFQO
+FEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNQAAtAAAAM7K774BAAAAkQAA
+AGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lz
+dGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAGw4
+AAAAAAAAAAAAAIY4AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4OAAAAAAAAAAAAAAAAF9Db3JE
+bGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -11829,14 +11925,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAA
 AFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAA
-vQTv/gAAAQAAAAEAZ0+aHgAAAQBnT5oePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
+vQTv/gAAAQAAAAEAvJedHgAAAQC8l50ePwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAAB
 AFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAA
 AAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAAMAAw
 ADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkA
 TgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABT
 AFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIA
 YgA5ADAAOAAwAGEAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4ANwA4
-ADMANAAuADIAMAAzADIANwAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
+ADMANwAuADMAOAA4ADQANAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQA
 XwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAwADIAYgA5
 ADAAOAAwAGEALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMA
 bwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMQAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBk
@@ -11845,15 +11941,15 @@ ZQAAAFMAVABfADgAYgBjADgAMAAyADMAMwBkAGQAYwA3ADQANQAzAGIAOQBjAGUAMgA0ADMAMAA2
 ADAAMgBiADkAMAA4ADAAYQAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAA
 AABTAFQAXwA4AGIAYwA4ADAAMgAzADMAZABkAGMANwA0ADUAMwBiADkAYwBlADIANAAzADAANgAw
 ADIAYgA5ADAAOAAwAGEAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4A
-MAAuADcAOAAzADQALgAyADAAMwAyADcAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
-AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADQALgAyADAAMwAyADcAAAAAAAAAAAAAAAAAAAAAAAAA
+MAAuADcAOAAzADcALgAzADgAOAA0ADQAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQBy
+AHMAaQBvAG4AAAAxAC4AMAAuADcAOAAzADcALgAzADgAOAA0ADQAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAjDgAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAmDgAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -11886,7 +11982,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:refId="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
-          DTS:Disabled="True"
           DTS:DTSID="{B0F3F0A0-5A59-45A3-A334-61F91FA022DC}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
@@ -12121,7 +12216,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           PanelSize="449.6,393.6"
           Size="449.6,436.8"
           Id="Package\LIMPIEZA ELT"
-          TopLeft="456.150773840022,117.732027214475" />
+          TopLeft="553.089551001084,80.5891695507033" />
         <NodeLayout
           Size="184,41.6"
           Id="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
@@ -12184,33 +12279,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           PanelSize="380.8,332.8"
           Size="380.8,376"
           Id="Package\MYSQL INITIAL LOAD"
-          TopLeft="20.8333325054912,201.763401401324" />
+          TopLeft="45.3231288409173,107.813820251784" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="401.633332505491,389.763401401324">
+          TopLeft="426.123128840917,297.401494901244">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="54.5174413345308,-53.631374186849"
+              EndConnector="126.966422160167,0"
               Start="0,0"
-              End="47.0174413345308,-53.631374186849">
+              End="119.466422160167,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="23.2587206672654,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="23.2587206672654,0"
-                    Point2="27.2587206672654,0"
-                    Point3="27.2587206672654,-4" />
-                  <mssgle:LineSegment
-                    End="27.2587206672654,-49.631374186849" />
-                  <mssgle:CubicBezierSegment
-                    Point1="27.2587206672654,-49.631374186849"
-                    Point2="27.2587206672654,-53.631374186849"
-                    Point3="31.2587206672654,-53.631374186849" />
-                  <mssgle:LineSegment
-                    End="47.0174413345308,-53.631374186849" />
+                    End="119.466422160167,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12282,9 +12365,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12306,153 +12387,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de error de conversión de datos]"
-          TopLeft="397.2,395.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="167.485717338932,58.152941433863"
-              Start="0,0"
-              End="167.485717338932,50.652941433863">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.0764707169315" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.0764707169315"
-                    Point2="0,29.0764707169315"
-                    Point3="4,29.0764707169315" />
-                  <mssgle:LineSegment
-                    End="163.485717338932,29.0764707169315" />
-                  <mssgle:CubicBezierSegment
-                    Point1="163.485717338932,29.0764707169315"
-                    Point2="167.485717338932,29.0764707169315"
-                    Point3="167.485717338932,33.0764707169315" />
-                  <mssgle:LineSegment
-                    End="167.485717338932,50.652941433863" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-2.00038351803398,34.0764707169315,171.486484375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="227.666666666667,501.2">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-128.066666666667,61.5999999999999"
-              Start="0,0"
-              End="-128.066666666667,54.0999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.1108280254776" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.1108280254776"
-                    Point2="0,25.1108280254776"
-                    Point3="-4,25.1108280254776" />
-                  <mssgle:LineSegment
-                    End="-124.066666666667,25.1108280254776" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-124.066666666667,25.1108280254776"
-                    Point2="-128.066666666667,25.1108280254776"
-                    Point3="-128.066666666667,29.1108280254776" />
-                  <mssgle:LineSegment
-                    End="-128.066666666667,54.0999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-179.610345052083,30.1108280254776,231.1540234375,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="266.333333333333,501.2">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="149.666666666667,56.9999999999999"
-              Start="0,0"
-              End="149.666666666667,49.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.2356687898089" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.2356687898089"
-                    Point2="0,23.2356687898089"
-                    Point3="4,23.2356687898089" />
-                  <mssgle:LineSegment
-                    End="145.666666666667,23.2356687898089" />
-                  <mssgle:CubicBezierSegment
-                    Point1="145.666666666667,23.2356687898089"
-                    Point2="149.666666666667,23.2356687898089"
-                    Point3="149.666666666667,27.2356687898089" />
-                  <mssgle:LineSegment
-                    End="149.666666666667,49.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-24.9856901041668,28.2356687898089,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de conversión de datos]"
-          TopLeft="369.466666666667,395.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-122.466666666667,63.9058786743651"
-              Start="0,0"
-              End="-122.466666666667,56.4058786743651">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.910928989788" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.910928989788"
-                    Point2="0,25.910928989788"
-                    Point3="-4,25.910928989788" />
-                  <mssgle:LineSegment
-                    End="-118.466666666667,25.910928989788" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-118.466666666667,25.910928989788"
-                    Point2="-122.466666666667,25.910928989788"
-                    Point3="-122.466666666667,29.910928989788" />
-                  <mssgle:LineSegment
-                    End="-122.466666666667,56.4058786743651" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12527,6 +12462,148 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de conversión de datos]"
+          TopLeft="397.2,395.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-150.2,63.905878674365"
+              Start="0,0"
+              End="-150.2,56.405878674365">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.9529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.9529393371825"
+                    Point2="0,31.9529393371825"
+                    Point3="-4,31.9529393371825" />
+                  <mssgle:LineSegment
+                    End="-146.2,31.9529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-146.2,31.9529393371825"
+                    Point2="-150.2,31.9529393371825"
+                    Point3="-150.2,35.9529393371825" />
+                  <mssgle:LineSegment
+                    End="-150.2,56.405878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de error de conversión de datos]"
+          TopLeft="424.933333333333,395.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="139.752384005599,58.152941433863"
+              Start="0,0"
+              End="139.752384005599,50.652941433863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5783744359117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.5783744359117"
+                    Point2="0,23.5783744359117"
+                    Point3="4,23.5783744359117" />
+                  <mssgle:LineSegment
+                    End="135.752384005599,23.5783744359117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="135.752384005599,23.5783744359117"
+                    Point2="139.752384005599,23.5783744359117"
+                    Point3="139.752384005599,27.5783744359117" />
+                  <mssgle:LineSegment
+                    End="139.752384005599,50.652941433863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.8670501847007,28.5783744359117,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="247,501.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-147.4,61.5999999999999"
+              Start="0,0"
+              End="-147.4,54.0999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.8" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.8"
+                    Point2="0,30.8"
+                    Point3="-4,30.8" />
+                  <mssgle:LineSegment
+                    End="-143.4,30.8" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-143.4,30.8"
+                    Point2="-147.4,30.8"
+                    Point3="-147.4,34.8" />
+                  <mssgle:LineSegment
+                    End="-147.4,54.0999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-189.27701171875,35.8,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="266.333333333333,501.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="149.666666666667,57"
+              Start="0,0"
+              End="149.666666666667,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.2356687898089" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.2356687898089"
+                    Point2="0,23.2356687898089"
+                    Point3="4,23.2356687898089" />
+                  <mssgle:LineSegment
+                    End="145.666666666667,23.2356687898089" />
+                  <mssgle:CubicBezierSegment
+                    Point1="145.666666666667,23.2356687898089"
+                    Point2="149.666666666667,23.2356687898089"
+                    Point3="149.666666666667,27.2356687898089" />
+                  <mssgle:LineSegment
+                    End="149.666666666667,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-24.9856901041667,28.2356687898089,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -12536,7 +12613,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -12546,7 +12623,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12617,9 +12694,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12641,9 +12716,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12714,7 +12787,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-176.6890234375,42.4,213.778046875,12.1953125"
+              BoundingBox="-185.37701171875,42.4,231.1540234375,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12785,9 +12858,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12960,33 +13031,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de ordenación]"
-          TopLeft="273.442855263486,289.011767558655">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,65.3176478739016"
-              Start="0,0"
-              End="0,57.8176478739016">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,57.8176478739016" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13097,6 +13142,28 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hecho.Paths[Salida de ordenación]"
+          TopLeft="273.442855263486,289.011767558655">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65.317647873902"
+              Start="0,0"
+              End="0,57.817647873902">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.817647873902" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -13108,7 +13175,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Hospital\Error registros existentes"
-          TopLeft="328,550" />
+          TopLeft="328,565" />
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Hospital\Ordenar"
@@ -13160,9 +13227,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13184,153 +13249,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de error de conversión de datos]"
-          TopLeft="414.2,389.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="166.485717338932,59.152941433863"
-              Start="0,0"
-              End="166.485717338932,51.652941433863">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.5764707169315" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.5764707169315"
-                    Point2="0,29.5764707169315"
-                    Point3="4,29.5764707169315" />
-                  <mssgle:LineSegment
-                    End="162.485717338932,29.5764707169315" />
-                  <mssgle:CubicBezierSegment
-                    Point1="162.485717338932,29.5764707169315"
-                    Point2="166.485717338932,29.5764707169315"
-                    Point3="166.485717338932,33.5764707169315" />
-                  <mssgle:LineSegment
-                    End="166.485717338932,51.652941433863" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-2.50038351803398,34.5764707169315,171.486484375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="241.666666666667,490.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-131.066666666667,67.1999999999999"
-              Start="0,0"
-              End="-131.066666666667,59.6999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.3936305732484" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.3936305732484"
-                    Point2="0,27.3936305732484"
-                    Point3="-4,27.3936305732484" />
-                  <mssgle:LineSegment
-                    End="-127.066666666667,27.3936305732484" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-127.066666666667,27.3936305732484"
-                    Point2="-131.066666666667,27.3936305732484"
-                    Point3="-131.066666666667,31.3936305732484" />
-                  <mssgle:LineSegment
-                    End="-131.066666666667,59.6999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-181.110345052083,32.3936305732484,231.1540234375,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="261,490.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="165,59.3999999999999"
-              Start="0,0"
-              End="165,51.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.7"
-                    Point2="0,29.7"
-                    Point3="4,29.7" />
-                  <mssgle:LineSegment
-                    End="161,29.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="161,29.7"
-                    Point2="165,29.7"
-                    Point3="165,33.7" />
-                  <mssgle:LineSegment
-                    End="165,51.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-17.3190234375,34.7,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de conversión de datos]"
-          TopLeft="386.466666666667,389.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-125.466666666667,59.305878674365"
-              Start="0,0"
-              End="-125.466666666667,51.805878674365">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.0458380806971" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.0458380806971"
-                    Point2="0,24.0458380806971"
-                    Point3="-4,24.0458380806971" />
-                  <mssgle:LineSegment
-                    End="-121.466666666667,24.0458380806971" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-121.466666666667,24.0458380806971"
-                    Point2="-125.466666666667,24.0458380806971"
-                    Point3="-125.466666666667,28.0458380806971" />
-                  <mssgle:LineSegment
-                    End="-125.466666666667,51.805878674365" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13405,6 +13324,148 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de conversión de datos]"
+          TopLeft="414.2,389.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-153.2,59.305878674365"
+              Start="0,0"
+              End="-153.2,51.805878674365">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.6529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.6529393371825"
+                    Point2="0,29.6529393371825"
+                    Point3="-4,29.6529393371825" />
+                  <mssgle:LineSegment
+                    End="-149.2,29.6529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-149.2,29.6529393371825"
+                    Point2="-153.2,29.6529393371825"
+                    Point3="-153.2,33.6529393371825" />
+                  <mssgle:LineSegment
+                    End="-153.2,51.805878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de error de conversión de datos]"
+          TopLeft="441.933333333333,389.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="138.752384005599,59.152941433863"
+              Start="0,0"
+              End="138.752384005599,51.652941433863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.9838289813663" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.9838289813663"
+                    Point2="0,23.9838289813663"
+                    Point3="4,23.9838289813663" />
+                  <mssgle:LineSegment
+                    End="134.752384005599,23.9838289813663" />
+                  <mssgle:CubicBezierSegment
+                    Point1="134.752384005599,23.9838289813663"
+                    Point2="138.752384005599,23.9838289813663"
+                    Point3="138.752384005599,27.9838289813663" />
+                  <mssgle:LineSegment
+                    End="138.752384005599,51.652941433863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-16.3670501847007,28.9838289813663,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="261,490.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-150.4,67.1999999999999"
+              Start="0,0"
+              End="-150.4,59.6999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.6" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.6"
+                    Point2="0,33.6"
+                    Point3="-4,33.6" />
+                  <mssgle:LineSegment
+                    End="-146.4,33.6" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-146.4,33.6"
+                    Point2="-150.4,33.6"
+                    Point3="-150.4,37.6" />
+                  <mssgle:LineSegment
+                    End="-150.4,59.6999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-190.77701171875,38.6,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="280.333333333333,490.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="145.666666666667,74.4"
+              Start="0,0"
+              End="145.666666666667,66.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.3286624203822" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.3286624203822"
+                    Point2="0,30.3286624203822"
+                    Point3="4,30.3286624203822" />
+                  <mssgle:LineSegment
+                    End="141.666666666667,30.3286624203822" />
+                  <mssgle:CubicBezierSegment
+                    Point1="141.666666666667,30.3286624203822"
+                    Point2="145.666666666667,30.3286624203822"
+                    Point3="145.666666666667,34.3286624203822" />
+                  <mssgle:LineSegment
+                    End="145.666666666667,66.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-26.9856901041667,35.3286624203822,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -13414,7 +13475,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13424,7 +13485,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13435,7 +13496,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\LIMPIEZA ELT\Limpiar Paciente">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Ordenar"
@@ -13487,9 +13548,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13511,81 +13570,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de conversión de datos]"
-          TopLeft="433.933333333333,386.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="139.752384005599,71.1529414338629"
-              Start="0,0"
-              End="139.752384005599,63.6529414338629">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.8492835268208" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.8492835268208"
-                    Point2="0,28.8492835268208"
-                    Point3="4,28.8492835268208" />
-                  <mssgle:LineSegment
-                    End="135.752384005599,28.8492835268208" />
-                  <mssgle:CubicBezierSegment
-                    Point1="135.752384005599,28.8492835268208"
-                    Point2="139.752384005599,28.8492835268208"
-                    Point3="139.752384005599,32.8492835268208" />
-                  <mssgle:LineSegment
-                    End="139.752384005599,63.6529414338629" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.8670501847007,33.8492835268208,171.486484375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de conversión de datos]"
-          TopLeft="378.466666666667,386.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-120.466666666667,69.9058786743647"
-              Start="0,0"
-              End="-120.466666666667,62.4058786743647">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.3436562625151" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.3436562625151"
-                    Point2="0,28.3436562625151"
-                    Point3="-4,28.3436562625151" />
-                  <mssgle:LineSegment
-                    End="-116.466666666667,28.3436562625151" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-116.466666666667,28.3436562625151"
-                    Point2="-120.466666666667,28.3436562625151"
-                    Point3="-120.466666666667,32.3436562625151" />
-                  <mssgle:LineSegment
-                    End="-120.466666666667,62.4058786743647" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13660,9 +13645,178 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de conversión de datos]"
+          TopLeft="406.2,386.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-148.2,69.905878674365"
+              Start="0,0"
+              End="-148.2,62.405878674365">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.9529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.9529393371825"
+                    Point2="0,34.9529393371825"
+                    Point3="-4,34.9529393371825" />
+                  <mssgle:LineSegment
+                    End="-144.2,34.9529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-144.2,34.9529393371825"
+                    Point2="-148.2,34.9529393371825"
+                    Point3="-148.2,38.9529393371825" />
+                  <mssgle:LineSegment
+                    End="-148.2,62.405878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de conversión de datos]"
+          TopLeft="433.933333333333,386.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="139.752384005599,71.152941433863"
+              Start="0,0"
+              End="139.752384005599,63.652941433863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.8492835268208" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.8492835268208"
+                    Point2="0,28.8492835268208"
+                    Point3="4,28.8492835268208" />
+                  <mssgle:LineSegment
+                    End="135.752384005599,28.8492835268208" />
+                  <mssgle:CubicBezierSegment
+                    Point1="135.752384005599,28.8492835268208"
+                    Point2="139.752384005599,28.8492835268208"
+                    Point3="139.752384005599,32.8492835268208" />
+                  <mssgle:LineSegment
+                    End="139.752384005599,63.652941433863" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.8670501847007,33.8492835268208,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Columna Derivada"
+          TopLeft="196,667.4" />
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="238.666666666667,498.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="39.3333333333333,169.2"
+              Start="0,0"
+              End="39.3333333333333,161.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,64.9732484076433" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,64.9732484076433"
+                    Point2="0,68.9732484076433"
+                    Point3="4,68.9732484076433" />
+                  <mssgle:LineSegment
+                    End="35.3333333333333,68.9732484076433" />
+                  <mssgle:CubicBezierSegment
+                    Point1="35.3333333333333,68.9732484076433"
+                    Point2="39.3333333333333,68.9732484076433"
+                    Point3="39.3333333333333,72.9732484076433" />
+                  <mssgle:LineSegment
+                    End="39.3333333333333,161.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-95.9103450520833,73.9732484076433,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="277.333333333333,498.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="139.666666666667,67.5999999999999"
+              Start="0,0"
+              End="139.666666666667,60.0999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5566878980891" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.5566878980891"
+                    Point2="0,27.5566878980891"
+                    Point3="4,27.5566878980891" />
+                  <mssgle:LineSegment
+                    End="135.666666666667,27.5566878980891" />
+                  <mssgle:CubicBezierSegment
+                    Point1="135.666666666667,27.5566878980891"
+                    Point2="139.666666666667,27.5566878980891"
+                    Point3="139.666666666667,31.5566878980891" />
+                  <mssgle:LineSegment
+                    End="139.666666666667,60.0999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-29.9856901041667,32.5566878980891,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Paciente]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\LIMPIEZA ELT\Limpiar Region">
     <LayoutInfo>
@@ -13723,9 +13877,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13747,9 +13899,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13891,9 +14041,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14054,9 +14202,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14078,9 +14224,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14222,9 +14366,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
