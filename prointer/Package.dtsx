@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="102"
-  DTS:VersionGUID="{523A84CC-89D8-4C81-B359-9CA9F290EC06}">
+  DTS:VersionBuild="104"
+  DTS:VersionGUID="{F4FE1C75-EA39-4195-8CEC-64F154C8AB99}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD5klCkkHNkAoukTlz3Mil4jOVZ6m13Fbw9ia12qKVzuQAAAAAOgAAAAAIAACAAAACFlOnzOE16yvB8VuTDtZHEIEAA5yz6CqeJ2QhSq/kmvSAAAAD4W9XDWBZFyYg9j6w8ghC6w/snM+eiBIHW2M049doicEAAAAAnpYwq7wPIVnJQ83QW4vaEHUxppKJF7UNir/jgLqiOoFnQysunoZawezVwv6Ys++BoKU1LXwE3OT/65wrakaOg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAB9mkBQeCXAam4UF0VJ6wAGucv28GBA7NlSnYBkx/3+QAAAAAOgAAAAAIAACAAAAByyYtaQ8cKajAtr9hYftL9NJOoaD7ZpVyU5IVwNRTdmiAAAAAf8iKRVfxZFpa6wiwfjjqzy8/7n4X7Oq5Plw+gq21geEAAAAB9y0yTDKtxXSxi4CVHcJ3Os/3v7srm41tOhOF+9csWGN/l7e79gkyQLhXDabdBI7I+w3sKJbeFa8BP+MH0n8kz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -44,7 +44,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA42nadtrdvk7mVsS6gQsHGBhzbCACl4GZ7787BsQV3QwAAAAAOgAAAAAIAACAAAADy6dH9ZwgzGBx303FYmE+alLjbQNbrjK6rX+7Uk39zzyAAAAC1sTtgWvGwzrhCl/E4CCcYvj+gXsRfpHReGH5nZOFblkAAAAAU6+vLF7Ky8cYE4k38R/OI+S9kKkrHrEhXkPM3d/zTui8xftxTvC+KX/GMiDjf5oFF/jko4CDylCkxET9b4Hvz</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADP80i4GN/RCoOo77lp81fH/uN4l68IJICV74hd0w5xdAAAAAAOgAAAAAIAACAAAACP5MQkiNBl5XEvSuJ492Msv2HN19pbOAlwwqJvmStfcSAAAADDfJsoN0wKk9GnsbDDfCpjt7Crhnfzy6IQn/sBUkmqe0AAAAAHEmxzR4p5fJ1TlZbHPrv+9v3Whwvj1bZppVhFRNZhPM/cP6sBwIZBGLwvHHmgigaoegcYbu/H4iJ/A1F+v0kl</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -61,7 +61,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABy7xs1wgW8v9FrWEP0cErRjk8ySBxTVXci72zDLIj0/wAAAAAOgAAAAAIAACAAAACwERe+yesnyS2BBoECTtMY6zevNJd1P5F1sAygmNezKiAAAADltxqKKPxUMse1WOdKOnAQWcDZtqk/mG70gx/V7jldgkAAAACTITa9eGsI3WUWwR1dQ7XOG0RJcXYPKEjkqlZODWBGjNWqw8rxND7QxpJK7z8KNSTrHICIsHIeC4zpKVo8O2Np</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7aBhLhQADnIuZiT0MuQicpgdD7TBZIwFM+mke75DRHwAAAAAOgAAAAAIAACAAAABzaURD+0wxFn84LKYaB0mjcpRuFK7D97y9eWf5nezTJiAAAADiwhhb+AIhJWWC2WhNXCX/u2ZABr026sEmokUSji4IckAAAABVI1UPrZhiNyktiVowEFGsYp0l8TVIXZ5+WDr7e0dwlmBIMroHrVXmR9likWbns3w0OAVJm5bUj195BVmfb5d9</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -78,7 +78,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADrDEmTWKsARSvJymnakzO7oQkt+64VyPdloSHeUnakMgAAAAAOgAAAAAIAACAAAAB7l577hZnGAhU6uTXhcYCMHBSgWWT7+ecO9k9Go3/7syAAAACzZJJCeCuKU4Fkm+hIVTGILTswC3LxBekViDxWWiuj9UAAAABV9hJhmM5LPPCtPUdfyfKrZeLu3xrZcs7XHbWLpJsDiuqULGsf7QndbIHunc+EGAMyw8Z8eUyP9tvVBdbjMkar</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD4qk2fZ17fv/igiWUQAVhgodD8kRLuGPtuyjOWmH0p2wAAAAAOgAAAAAIAACAAAADrY/P0MZ7MsCNN5FypfH7SD7IxYQnckIIkx2ZdPwaD1CAAAADGDuBDUMHGL03roB2FzoKNlBa9Hw45vnQAv/AETV4jxUAAAADxGdygwFrRDX1FRZnBIRDOI7zLF7DQzpJ24zqICWxZPQTaYTfwT+NiiOR6Os4k/jfpPnVIbHJDC4kDGSiEcs80</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -93,7 +93,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABMKM5bcNYN7NpuoMQQoUe5IUX5GUt5gvhVJ1d7Hmp7IQAAAAAOgAAAAAIAACAAAADyaxH5mwhx9EjRQS0810meXkIvh4drj+UlkO+ZpQAMbCAAAAAZVXD6IW6q7QSW019HYiMt67TUZt/qKHs0SLlPWIeRl0AAAABNRcKMDaZ+YNaAoXwk7IHXxqBg11G9+/mQKvFQuklI71he4K0MI7Ypj6RDVrlud5OyDb/Vm4AL5jZH54bdNg/N</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACBiuyLjaA5S+sCxTYz66x119RrUq91SBHdM0WwKd2I+gAAAAAOgAAAAAIAACAAAAB/KfYZykyCV61/lQxIB4zJfwGex7OTU9ZTzHs1zjrjSCAAAAC8qPQYbHhY+/C9cu+Ynyz5LGdon0fH1mzeNI8juOKgB0AAAABvGicRODZW2ac3LQ1xcubZVuKcd9k3h7GEKgojJdXdlh5TCKFJfytMdyi4+Bv4cikauSDQX1Am10Mbn/T1mSWZ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1814,7 +1814,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Fecha"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{55bb76a9-7e56-4015-af2c-61eef2acc199}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -6327,7 +6326,6 @@ where [refTable].[Tipo] = ?</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Hospital"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{4e62f694-349b-437a-8156-e283cda6895f}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -7993,7 +7991,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Paciente"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{B6D2820A-18CE-4A8B-8B75-08BA8BEF0F06}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -9906,7 +9903,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Region"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{1fbe76a4-abad-4737-b86b-0ac77fd671a6}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -9974,7 +9970,7 @@ where [refTable].[Region] = ? and [refTable].[Departamento] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]};#{Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]};</property>
+                      name="ParameterMap">#{Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[REG]};#{Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[DEPTO]};</property>
                     <property
                       dataType="System.Int32"
                       description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -9998,12 +9994,12 @@ where [refTable].[Region] = ? and [refTable].[Departamento] = ?</property>
                       name="Entrada de búsqueda">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda.Inputs[Entrada de búsqueda].Columns[Copia de REGION]"
+                          refId="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda.Inputs[Entrada de búsqueda].Columns[REG]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
-                          cachedName="Copia de REGION"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]">
+                          cachedName="REG"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[REG]">
                           <properties>
                             <property
                               dataType="System.String"
@@ -10016,12 +10012,12 @@ where [refTable].[Region] = ? and [refTable].[Departamento] = ?</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda.Inputs[Entrada de búsqueda].Columns[Copia de DEPARTAMENTO]"
+                          refId="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda.Inputs[Entrada de búsqueda].Columns[DEPTO]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
-                          cachedName="Copia de DEPARTAMENTO"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]">
+                          cachedName="DEPTO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[DEPTO]">
                           <properties>
                             <property
                               dataType="System.String"
@@ -10486,14 +10482,14 @@ SELECT * FROM TMP;</property>
                       synchronousInputId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Inputs[Entrada de conversión de datos]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]"
+                          refId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[REG]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
                           length="50"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]"
-                          name="Copia de REGION"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[REG]"
+                          name="REG"
                           truncationRowDisposition="RedirectRow">
                           <properties>
                             <property
@@ -10508,14 +10504,14 @@ SELECT * FROM TMP;</property>
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]"
+                          refId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[DEPTO]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="RedirectRow"
                           length="50"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]"
-                          name="Copia de DEPARTAMENTO"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[DEPTO]"
+                          name="DEPTO"
                           truncationRowDisposition="RedirectRow">
                           <properties>
                             <property
@@ -10612,7 +10608,7 @@ SELECT * FROM TMP;</property>
                           cachedLength="50"
                           cachedName="Copia de REGION"
                           externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Region]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de REGION]" />
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[REG]" />
                         <inputColumn
                           refId="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copia de DEPARTAMENTO]"
                           cachedCodepage="1252"
@@ -10620,7 +10616,7 @@ SELECT * FROM TMP;</property>
                           cachedLength="50"
                           cachedName="Copia de DEPARTAMENTO"
                           externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Departamento]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de DEPARTAMENTO]" />
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos.Outputs[Salida de conversión de datos].Columns[DEPTO]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -10659,6 +10655,60 @@ SELECT * FROM TMP;</property>
                           refId="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\LIMPIEZA ELT\Limpiar Region\División condicional"
+                  componentClassID="Microsoft.ConditionalSplit"
+                  contactInfo="División condicional;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+                  description="Enruta filas de datos a diferentes salidas según el contenido de los datos. Se usan condiciones (expresiones de SSIS) para especificar las filas que se van a enrutar. Por ejemplo, se usa para separar los registros que deben limpiarse de los registros listos para ser cargados o para enrutar solamente un subconjunto de registros."
+                  name="División condicional"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Inputs[Entrada de división condicional]"
+                      description="Entrada en la transformación División condicional"
+                      name="Entrada de división condicional">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Outputs[Salida predeterminada de división condicional]"
+                      description="Salida predeterminada de la transformación División condicional"
+                      exclusionGroup="1"
+                      name="Salida predeterminada de división condicional"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Inputs[Entrada de división condicional]">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="IsDefaultOut">true</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Outputs[Salida de error de división condicional]"
+                      description="Salida de error de la transformación División condicional"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Salida de error de división condicional"
+                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Inputs[Entrada de división condicional]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -11521,7 +11571,7 @@ SELECT * FROM TMP;</property>
                   startId="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda.Outputs[Salida de entradas coincidentes de búsqueda]" />
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas no coincidentes de búsqueda]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Region\División condicional.Inputs[Entrada de división condicional]"
                   name="Salida de entradas no coincidentes de búsqueda"
                   startId="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda.Outputs[Salida de entradas no coincidentes de búsqueda]" />
                 <path
@@ -11547,7 +11597,6 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\LIMPIEZA ELT\Limpiar Tipo"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
-          DTS:Disabled="True"
           DTS:DTSID="{d358a305-4df8-4b26-a012-edfa260cd502}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
@@ -13204,7 +13253,6 @@ SELECT * FROM TMP;</property>
       DTS:refId="Package\MYSQL INITIAL LOAD"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{1CB970AE-57C4-4C82-BAAC-283F32C0A2B6}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -16442,112 +16490,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de error de conversión de datos]"
-          TopLeft="425.933333333333,397.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="138.752384005599,59.152941433863"
-              Start="0,0"
-              End="138.752384005599,51.652941433863">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.9838289813663" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.9838289813663"
-                    Point2="0,23.9838289813663"
-                    Point3="4,23.9838289813663" />
-                  <mssgle:LineSegment
-                    End="134.752384005599,23.9838289813663" />
-                  <mssgle:CubicBezierSegment
-                    Point1="134.752384005599,23.9838289813663"
-                    Point2="138.752384005599,23.9838289813663"
-                    Point3="138.752384005599,27.9838289813663" />
-                  <mssgle:LineSegment
-                    End="138.752384005599,51.652941433863" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-16.3670501847007,28.9838289813663,171.486484375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="268.333333333333,504.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="158.266666666667,66.8000000000001"
-              Start="0,0"
-              End="158.266666666667,59.3000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.2305732484077" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.2305732484077"
-                    Point2="0,27.2305732484077"
-                    Point3="4,27.2305732484077" />
-                  <mssgle:LineSegment
-                    End="154.266666666667,27.2305732484077" />
-                  <mssgle:CubicBezierSegment
-                    Point1="154.266666666667,27.2305732484077"
-                    Point2="158.266666666667,27.2305732484077"
-                    Point3="158.266666666667,31.2305732484077" />
-                  <mssgle:LineSegment
-                    End="158.266666666667,59.3000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-20.6856901041665,32.2305732484077,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de conversión de datos]"
-          TopLeft="370.466666666667,397.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-121.466666666667,65.305878674365"
-              Start="0,0"
-              End="-121.466666666667,57.805878674365">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.4785653534244" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.4785653534244"
-                    Point2="0,26.4785653534244"
-                    Point3="-4,26.4785653534244" />
-                  <mssgle:LineSegment
-                    End="-117.466666666667,26.4785653534244" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-117.466666666667,26.4785653534244"
-                    Point2="-121.466666666667,26.4785653534244"
-                    Point3="-121.466666666667,30.4785653534244" />
-                  <mssgle:LineSegment
-                    End="-121.466666666667,57.805878674365" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[NotNull]"
           TopLeft="543.800002809933,175.54117770393">
           <EdgeLayout.Curve>
@@ -16622,40 +16564,150 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="176,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET"
-          TopLeft="17,576.4" />
+          TopLeft="341,656.2" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\División condicional"
+          TopLeft="23,570.6" />
         <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="229.666666666667,504.6">
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de conversión de datos]"
+          TopLeft="398.2,397.694121325635">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-124.666666666667,71.8"
+              EndConnector="-149.2,65.305878674365"
               Start="0,0"
-              End="-124.666666666667,64.3">
+              End="-149.2,57.805878674365">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.2687898089172" />
+                    End="0,28.6529393371825" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,25.2687898089172"
-                    Point2="0,29.2687898089172"
-                    Point3="-4,29.2687898089172" />
+                    Point1="0,28.6529393371825"
+                    Point2="0,32.6529393371825"
+                    Point3="-4,32.6529393371825" />
                   <mssgle:LineSegment
-                    End="-120.666666666667,29.2687898089172" />
+                    End="-145.2,32.6529393371825" />
                   <mssgle:CubicBezierSegment
-                    Point1="-120.666666666667,29.2687898089172"
-                    Point2="-124.666666666667,29.2687898089172"
-                    Point3="-124.666666666667,33.2687898089172" />
+                    Point1="-145.2,32.6529393371825"
+                    Point2="-149.2,32.6529393371825"
+                    Point3="-149.2,36.6529393371825" />
                   <mssgle:LineSegment
-                    End="-124.666666666667,64.3" />
+                    End="-149.2,57.805878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de error de conversión de datos]"
+          TopLeft="425.933333333333,397.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="138.752384005599,59.152941433863"
+              Start="0,0"
+              End="138.752384005599,51.652941433863">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.9838289813663" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.9838289813663"
+                    Point2="0,23.9838289813663"
+                    Point3="4,23.9838289813663" />
+                  <mssgle:LineSegment
+                    End="134.752384005599,23.9838289813663" />
+                  <mssgle:CubicBezierSegment
+                    Point1="134.752384005599,23.9838289813663"
+                    Point2="138.752384005599,23.9838289813663"
+                    Point3="138.752384005599,27.9838289813663" />
+                  <mssgle:LineSegment
+                    End="138.752384005599,51.652941433863" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-169.222356770833,34.2687898089172,213.778046875,12.1953125"
+              BoundingBox="-16.3670501847007,28.9838289813663,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="249,504.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-140.8,66.0000000000001"
+              Start="0,0"
+              End="-140.8,58.5000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.0000000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.0000000000001"
+                    Point2="0,33.0000000000001"
+                    Point3="-4,33.0000000000001" />
+                  <mssgle:LineSegment
+                    End="-136.8,33.0000000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-136.8,33.0000000000001"
+                    Point2="-140.8,33.0000000000001"
+                    Point3="-140.8,37.0000000000001" />
+                  <mssgle:LineSegment
+                    End="-140.8,58.5000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-177.2890234375,38.0000000000001,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="268.333333333333,504.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="158.266666666667,66.8"
+              Start="0,0"
+              End="158.266666666667,59.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.2305732484076" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.2305732484076"
+                    Point2="0,27.2305732484076"
+                    Point3="4,27.2305732484076" />
+                  <mssgle:LineSegment
+                    End="154.266666666667,27.2305732484076" />
+                  <mssgle:CubicBezierSegment
+                    Point1="154.266666666667,27.2305732484076"
+                    Point2="158.266666666667,27.2305732484076"
+                    Point3="158.266666666667,31.2305732484076" />
+                  <mssgle:LineSegment
+                    End="158.266666666667,59.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-20.6856901041667,32.2305732484076,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
