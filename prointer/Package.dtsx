@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="72"
-  DTS:VersionGUID="{320BB793-4C80-4BFD-A78E-42BE01A1F10F}">
+  DTS:VersionBuild="74"
+  DTS:VersionGUID="{3330CF5B-62C3-4D57-BB41-40FC687FF2D5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADZlB/ERSOTIYQG3wUXa59o+21dkMKvWpANjIlIAQnlxQAAAAAOgAAAAAIAACAAAACTUQcCcwvZSIuZ1ekVbRG6laLi6DdOXWmlKl0Dtrcb6yAAAACiUR/UIGUTjmoYdWD7Sjmxxu3lLKNARpcbhqw9eFxiQ0AAAADQ7krPDpJS7J/MSwz+n4cZSnehOXs9Lgz6W9nht2AZoOSyGewtTszq3DElAT/uqgaCGJOnVd+49GIFjj6jCoXA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7NdaVQPzmF4P0RMPUHeIpCduSAr/RczJsPviacbe0/AAAAAAOgAAAAAIAACAAAAABlR9I/TdyIsBNALhUGBsR4hyacsG6FQgdBuVibVkqtSAAAADSVHgixOfjuWzDXYapQDQPZHtO3cdswB+uJstBlk6YLEAAAAAcDl30zGdAu0u/l+0U+60scwJ8zv3cvfdZ5ShrfhgFCKTJv8e46skpMRfLeJBvHKJQA1UvYxPDXHFqH7pOTu3L</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -44,7 +44,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABMbuOZmBZ+p8rRnLEBndgK+d1gY0fBwViogUoqWRqV/AAAAAAOgAAAAAIAACAAAADpn9is9cTVN9TbaDfZ5VqDPV8cNtOfHlGr89e6kfMzByAAAABlLkEigftMGsO09UkXyI7FYTFeBzsJu/927nUcJnM/MkAAAABXJO4fpj3M9dTWpg5PR/6WehG3cUKw7a3j3xZxh0nPEjs82UqXMOpEkMKGluNCmCXvsc0AaaBdgrXVUfVLuJGe</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADHrOpkAkjG+sQIlUAWFqvrZKnCxwzCf10K/QZuTnYGkgAAAAAOgAAAAAIAACAAAADiq2lsG+uvW3DfpFjdu4aSDHk4IoNahoFY98aBaLD9RSAAAAAO5L7tbrJUmK3wtlE9LczUa56IXIxRD8gjhn/pZrcbCEAAAAB1G4kbPTRXzW94ZUajgwf08ajijz82+qskVaE80T1Ml+XJ/lcGl2pvbbwK33TMXQmNNvEQcIeZLjBP8pT0lLX2</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -61,7 +61,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABBQ2w6VFGAxtJIpuB3xgEY0O2JJZpZLv8nlb5AFJrMKwAAAAAOgAAAAAIAACAAAABd3arvrXZQ5/G1+uhUKTZU9W1PZ/50fpFRVKKZCpg4GSAAAACfVX0+powgeJ8fybxqtSP1IsiZQG+1VcjM+UsDpC8QLUAAAACPTxbNp7KQTpx6HfH754ROU2zqyUCPPTPZAi2+JOwfILlXhhvWf5xmm+lIhnomvBkn5VlrXzf1fQmv5JnWrj6M</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJQK1VuuubclJbzJCnAu8dsjTcgF+1P9sklERCYRtnrAAAAAAOgAAAAAIAACAAAACk/H4D+yBtnPsNDynGHZumsZ56E0P0JBq2/B83CDYUqyAAAABKeoXj6sjcI3IvjRCjSBnDqsCl8htAebLnIAYrdo5ad0AAAAADD1vft1bYoiA4h9hGFKOa7H+sChnzsQBcYdrwDr/MBNXnCDB8231M3oMs/YRq6Rq8Qh5VWK5MGDVYrLhzm/9t</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -78,7 +78,22 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABT5OFSMa/fnaM7PLAwoYu4oU0m7WhyTOuqrl2fdb8BLQAAAAAOgAAAAAIAACAAAACU7vjIQHzg6Dpwi69eXeGmeV4K0ncxeRRLGLjOy6Fh6iAAAABDGPi6/CjXtRLpLedMmIc+vPEnQ+8kzZNqNLfEE7eonEAAAAC7tXC0d0Ca5SZzkIAGyPP/tRsyjIaGDzJr1D5QjT7sWS3SgOx/5jh40qw9D0VnlLKGDkrAQZL+56r/FizbsahI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAHMfa2Q6MChXUArQEjMMvSeBAKYnKYBKq3xG2hyqxzQAAAAAAOgAAAAAIAACAAAABA56KwGcvGJadQ7waWh9CKU7MwCM2Isd2Os6TUHxFa6iAAAACRk1pyVIkNQ+Y2mZ5nexzBC5wtgzXGZkbLfEFcbTSFc0AAAAD04pZAj4zWbBbur9IHhLnXnl5waQYo0NwwSdJwE3wy1cBc8TN1KvWRSgYFvNf49YVh5LJASQEMOvY1DD0U6TIj</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[azuservi.database.windows.net.microdb.awiwi1]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{952DC41F-09E7-4A27-8C9F-FE4023BAD0D3}"
+      DTS:ObjectName="azuservi.database.windows.net.microdb.awiwi1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=azuservi.database.windows.net;User ID=awiwi;Initial Catalog=microdb;Persist Security Info=True;Application Name=SSIS-Package-{952DC41F-09E7-4A27-8C9F-FE4023BAD0D3}azuservi.database.windows.net.microdb.awiwi1;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACTadBOLVc2dvzmBc8cJo4yVqaYm8yco2GNqj6+T/s9SgAAAAAOgAAAAAIAACAAAADBw/gGfefpM2APMSgKztghgKK5IC/I/z31QcM5qFWLyCAAAADv6HB7MtPgMpITABSKy92Zbo9EFnP3yEgtTLmc9K7xEEAAAAB6atG0jMSjbAPuIZO4aFQVvmBee2J3ra8h9abLsgcKeE8SSsbh137nX7Q0LqlN/KS5fIL1NriCEJsQaOSyoYpj</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -126,6 +141,7 @@
       DTS:refId="Package\LIMPIEZA ELT"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
+      DTS:Disabled="True"
       DTS:DTSID="{C6F12B14-781D-4091-A70C-37569241FA3C}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -11035,7 +11051,6 @@ SELECT * FROM TMP;</property>
       DTS:refId="Package\MYSQL INITIAL LOAD"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{1CB970AE-57C4-4C82-BAAC-283F32C0A2B6}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -11046,6 +11061,7 @@ SELECT * FROM TMP;</property>
           DTS:refId="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
           DTS:CreationName="Microsoft.ScriptTask"
           DTS:Description="Script Task"
+          DTS:Disabled="True"
           DTS:DTSID="{1A2940C9-D9D1-4718-8D47-297E1D36B9AE}"
           DTS:ExecutableType="Microsoft.ScriptTask"
           DTS:LocaleID="-1"
@@ -11059,6 +11075,36 @@ SELECT * FROM TMP;</property>
               VSTAMinorVersion="0"
               Language="CSharp"
               ReadOnlyVariables="User::CarpetaErrores,User::CarpetaExitos,User::CarpetaOrigen,User::Delimitador">
+              <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_8bc80233ddc7453b9ce2430602b9080a")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_8bc80233ddc7453b9ce2430602b9080a")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -11179,167 +11225,20 @@ SELECT * FROM TMP;</property>
   </resheader>
 </root>]]></ProjectItem>
               <ProjectItem
-                Name="ST_8bc80233ddc7453b9ce2430602b9080a.csproj"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{24D51E9B-847A-419D-8D0A-68DD3B38EA16}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_8bc80233ddc7453b9ce2430602b9080a</RootNamespace>
-    <AssemblyName>ST_8bc80233ddc7453b9ce2430602b9080a</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\K4os.Compression.LZ4.1.1.11\lib\net46\K4os.Compression.LZ4.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\K4os.Compression.LZ4.Streams.1.1.11\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="MySql.Data, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Configuration.Install" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Management" />
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\Ubiety.Dns.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\Zstandard.Net.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="app.config" />
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST140</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_8bc80233ddc7453b9ce2430602b9080a.Properties.Settings.get_Default():ST_8bc80233ddc7453b9ce2430602b9080a.Properties.Sett" +
-    "ings")]
-
-namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+                Name="packages.config"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="BouncyCastle" version="1.8.5" targetFramework="net47" />
+</packages>]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -11572,50 +11471,167 @@ namespace ST_8bc80233ddc7453b9ce2430602b9080a
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
-                Name="packages.config"
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_8bc80233ddc7453b9ce2430602b9080a.Properties.Settings.get_Default():ST_8bc80233ddc7453b9ce2430602b9080a.Properties.Sett" +
+    "ings")]
+
+namespace ST_8bc80233ddc7453b9ce2430602b9080a.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+              <ProjectItem
+                Name="ST_8bc80233ddc7453b9ce2430602b9080a.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<packages>
-  <package id="BouncyCastle" version="1.8.5" targetFramework="net47" />
-</packages>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_8bc80233ddc7453b9ce2430602b9080a")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_8bc80233ddc7453b9ce2430602b9080a")]
-[assembly: AssemblyCopyright("Copyright @  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24D51E9B-847A-419D-8D0A-68DD3B38EA16}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_8bc80233ddc7453b9ce2430602b9080a</RootNamespace>
+    <AssemblyName>ST_8bc80233ddc7453b9ce2430602b9080a</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\K4os.Compression.LZ4.1.1.11\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\K4os.Compression.LZ4.Streams.1.1.11\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\WRM\AppData\Local\Temp\Vsta\SSIS_ST150\Vsta5EpM1lKlZkecOw2LR1NJ5w\packages\MySql.Data.8.0.25\lib\net452\Zstandard.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST140</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -11851,6 +11867,22 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
+          DTS:refId="Package\MYSQL INITIAL LOAD\Creacion Modelo Final"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tarea Ejecutar SQL"
+          DTS:DTSID="{20A8E488-DA89-4452-8CCE-B05A782F7228}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Creacion Modelo Final"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{952DC41F-09E7-4A27-8C9F-FE4023BAD0D3}"
+              SQLTask:SqlStatementSource="DROP TABLE IF EXISTS Paciente;&#xA;DROP TABLE IF EXISTS Tipo;&#xA;DROP TABLE IF EXISTS Fecha;&#xA;DROP TABLE IF EXISTS Hospital;&#xA;DROP TABLE IF EXISTS Region;&#xA;DROP TABLE IF EXISTS Doctor;&#xA;DROP TABLE IF EXISTS Caso;&#xA;&#xA;CREATE TABLE Paciente(&#xA;&#x9;ID_Paciente INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;COD_Paciente VARCHAR(50) NOT NULL,&#xA;&#x9;Nombre VARCHAR(50) NOT NULL,&#xA;&#x9;FechaNac DATE NOT NULL,&#xA;&#x9;Edad INT NOT NULL,&#xA;&#x9;Genero VARCHAR(1) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE Tipo(&#xA;&#x9;ID_Tipo INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;Tipo VARCHAR(50) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE Fecha(&#xA;&#x9;ID_Fecha INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;Fecha DATE NOT NULL,&#xA;&#x9;Dia INT NOT NULL,&#xA;&#x9;Mes VARCHAR(15) NOT NULL,&#xA;&#x9;Anio INT NOT NULL,&#xA;&#x9;Semestre INT NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE Hospital(&#xA;&#x9;ID_Hospital INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;COD_Hospita VARCHAR(10) NOT NULL,&#xA;&#x9;Nombre VARCHAR(100) NOT NULL,&#xA;&#x9;Direccion VARCHAR(250) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE Region(&#xA;&#x9;ID_Region INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;Region VARCHAR(50) NOT NULL,&#xA;&#x9;Departamento VARCHAR(50) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE Doctor(&#xA;&#x9;ID_Doctor INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;COD_Doctor VARCHAR(10) NOT NULL,&#xA;&#x9;Nombre VARCHAR(100) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE Caso(&#xA;&#x9;COD_Caso INT IDENTITY (1,1) PRIMARY KEY,&#xA;&#x9;ID_Paciente INT,&#xA;&#x9;ID_Hospital INT,&#xA;&#x9;ID_Doctor INT,&#xA;&#x9;ID_Region INT,&#xA;&#x9;ID_Fecha INT,&#xA;&#x9;ID_Tipo INT,&#xA;&#x9;Cantidad INT DEFAULT 1,&#xA;&#x9;FOREIGN KEY (ID_Paciente) REFERENCES Paciente(ID_Paciente),&#xA;&#x9;FOREIGN KEY (ID_Hospital) REFERENCES Hospital(ID_Hospital),&#xA;&#x9;FOREIGN KEY (ID_Doctor) REFERENCES Doctor(ID_Doctor),&#xA;&#x9;FOREIGN KEY (ID_Region) REFERENCES Region(ID_Region),&#xA;&#x9;FOREIGN KEY (ID_Fecha) REFERENCES Fecha(ID_Fecha),&#xA;&#x9;FOREIGN KEY (ID_Tipo) REFERENCES Tipo(ID_Tipo)&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
           DTS:refId="Package\MYSQL INITIAL LOAD\Eliminar y Crear Tabla Temporal"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
@@ -11878,6 +11910,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
           DTS:To="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\MYSQL INITIAL LOAD.PrecedenceConstraints[Restricción]"
+          DTS:CreationName=""
+          DTS:DTSID="{3E892C16-4F4A-4E44-9CDB-6C2BEF7ECD12}"
+          DTS:From="Package\MYSQL INITIAL LOAD\Carga de Datos a TMP"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción"
+          DTS:To="Package\MYSQL INITIAL LOAD\Creacion Modelo Final" />
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
   </DTS:Executables>
@@ -12112,27 +12152,65 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="380.8,230.4"
-          Size="380.8,273.6"
-          Id="Package\MYSQL INITIAL LOAD"
-          TopLeft="20.8333325054912,201.763401401324" />
+        <NodeLayout
+          Size="181.6,41.6"
+          Id="Package\MYSQL INITIAL LOAD\Creacion Modelo Final"
+          TopLeft="99.6081653158449,198.729417985039" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="401.633332505491,337.347714307899">
+          Id="Package\MYSQL INITIAL LOAD.PrecedenceConstraints[Restricción]"
+          TopLeft="188.365987056252,168.952943513528">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="54.5174413345308,0"
+              EndConnector="0,29.7764744715105"
               Start="0,0"
-              End="47.0174413345308,0">
+              End="0,22.2764744715105">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="47.0174413345308,0" />
+                    End="0,22.2764744715105" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="380.8,332.8"
+          Size="380.8,376"
+          Id="Package\MYSQL INITIAL LOAD"
+          TopLeft="20.8333325054912,201.763401401324" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="401.633332505491,389.763401401324">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54.5174413345308,-53.631374186849"
+              Start="0,0"
+              End="47.0174413345308,-53.631374186849">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="23.2587206672654,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="23.2587206672654,0"
+                    Point2="27.2587206672654,0"
+                    Point3="27.2587206672654,-4" />
+                  <mssgle:LineSegment
+                    End="27.2587206672654,-49.631374186849" />
+                  <mssgle:CubicBezierSegment
+                    Point1="27.2587206672654,-49.631374186849"
+                    Point2="27.2587206672654,-53.631374186849"
+                    Point3="31.2587206672654,-53.631374186849" />
+                  <mssgle:LineSegment
+                    End="47.0174413345308,-53.631374186849" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12150,29 +12228,41 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Error de tipado"
-          TopLeft="490.285717338932,453.847062759498" />
-        <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Ordenar"
-          TopLeft="338.857143331547,246.176473451733" />
-        <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos"
-          TopLeft="310,354.094121325635" />
+          Size="196,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Error registros existentes"
+          TopLeft="318,558.2" />
         <NodeLayout
           Size="184,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Doctor\Error de campos nulos"
           TopLeft="629.571433996668,246.941179344811" />
         <NodeLayout
-          Size="133.6,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Filtrar nulos"
-          TopLeft="476.000002809933,129.94117770393" />
+          Size="116.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Ordenar"
+          TopLeft="338.857143331547,246.176473451733" />
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Columna derivada"
+          TopLeft="18,562.8" />
         <NodeLayout
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Doctor\Cargar Tipo de Temporal"
           TopLeft="445.285716572586,42" />
+        <NodeLayout
+          Size="133.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Filtrar nulos"
+          TopLeft="476.000002809933,129.94117770393" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Error de tipado"
+          TopLeft="490.285717338932,453.847062759498" />
+        <NodeLayout
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Búsqueda"
+          TopLeft="185,459.6" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Conversión de datos"
+          TopLeft="310,354.094121325635" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de origen de ADO NET]"
           TopLeft="543.04285969126,83.6">
@@ -12192,7 +12282,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12214,7 +12306,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12250,6 +12344,114 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-2.00038351803398,34.0764707169315,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="227.666666666667,501.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-128.066666666667,61.5999999999999"
+              Start="0,0"
+              End="-128.066666666667,54.0999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.1108280254776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.1108280254776"
+                    Point2="0,25.1108280254776"
+                    Point3="-4,25.1108280254776" />
+                  <mssgle:LineSegment
+                    End="-124.066666666667,25.1108280254776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-124.066666666667,25.1108280254776"
+                    Point2="-128.066666666667,25.1108280254776"
+                    Point3="-128.066666666667,29.1108280254776" />
+                  <mssgle:LineSegment
+                    End="-128.066666666667,54.0999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-179.610345052083,30.1108280254776,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="266.333333333333,501.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="149.666666666667,56.9999999999999"
+              Start="0,0"
+              End="149.666666666667,49.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.2356687898089" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.2356687898089"
+                    Point2="0,23.2356687898089"
+                    Point3="4,23.2356687898089" />
+                  <mssgle:LineSegment
+                    End="145.666666666667,23.2356687898089" />
+                  <mssgle:CubicBezierSegment
+                    Point1="145.666666666667,23.2356687898089"
+                    Point2="149.666666666667,23.2356687898089"
+                    Point3="149.666666666667,27.2356687898089" />
+                  <mssgle:LineSegment
+                    End="149.666666666667,49.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-24.9856901041668,28.2356687898089,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de conversión de datos]"
+          TopLeft="369.466666666667,395.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-122.466666666667,63.9058786743651"
+              Start="0,0"
+              End="-122.466666666667,56.4058786743651">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.910928989788" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.910928989788"
+                    Point2="0,25.910928989788"
+                    Point3="-4,25.910928989788" />
+                  <mssgle:LineSegment
+                    End="-118.466666666667,25.910928989788" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-118.466666666667,25.910928989788"
+                    Point2="-122.466666666667,25.910928989788"
+                    Point3="-122.466666666667,29.910928989788" />
+                  <mssgle:LineSegment
+                    End="-122.466666666667,56.4058786743651" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12325,124 +12527,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="124,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Búsqueda"
-          TopLeft="185,459.6" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de conversión de datos]"
-          TopLeft="369.466666666667,395.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-122.466666666667,63.9058786743651"
-              Start="0,0"
-              End="-122.466666666667,56.4058786743651">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.910928989788" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.910928989788"
-                    Point2="0,25.910928989788"
-                    Point3="-4,25.910928989788" />
-                  <mssgle:LineSegment
-                    End="-118.466666666667,25.910928989788" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-118.466666666667,25.910928989788"
-                    Point2="-122.466666666667,25.910928989788"
-                    Point3="-122.466666666667,29.910928989788" />
-                  <mssgle:LineSegment
-                    End="-122.466666666667,56.4058786743651" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="196,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Error registros existentes"
-          TopLeft="318,558.2" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="266.333333333333,501.2">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="149.666666666667,56.9999999999999"
-              Start="0,0"
-              End="149.666666666667,49.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.2356687898089" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.2356687898089"
-                    Point2="0,23.2356687898089"
-                    Point3="4,23.2356687898089" />
-                  <mssgle:LineSegment
-                    End="145.666666666667,23.2356687898089" />
-                  <mssgle:CubicBezierSegment
-                    Point1="145.666666666667,23.2356687898089"
-                    Point2="149.666666666667,23.2356687898089"
-                    Point3="149.666666666667,27.2356687898089" />
-                  <mssgle:LineSegment
-                    End="149.666666666667,49.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-24.9856901041668,28.2356687898089,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="163.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor\Columna derivada"
-          TopLeft="18,562.8" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Doctor.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="227.666666666667,501.2">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-128.066666666667,61.5999999999999"
-              Start="0,0"
-              End="-128.066666666667,54.0999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.1108280254776" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.1108280254776"
-                    Point2="0,25.1108280254776"
-                    Point3="-4,25.1108280254776" />
-                  <mssgle:LineSegment
-                    End="-124.066666666667,25.1108280254776" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-124.066666666667,25.1108280254776"
-                    Point2="-128.066666666667,25.1108280254776"
-                    Point3="-128.066666666667,29.1108280254776" />
-                  <mssgle:LineSegment
-                    End="-128.066666666667,54.0999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-179.610345052083,30.1108280254776,231.1540234375,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -12475,123 +12559,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="133.6,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Filtrar nulos"
-          TopLeft="489.000002809933,134.94117770393" />
+          Size="168.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Preformatear fecha"
+          TopLeft="35,577" />
         <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Ordenar"
-          TopLeft="351.857143331547,251.176473451733" />
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Error de tipado"
-          TopLeft="503.285717338932,468.847062759498" />
-        <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Conversión de datos"
-          TopLeft="324,358.094121325635" />
+          Size="172,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Columna derivada 2"
+          TopLeft="37,667.6" />
         <NodeLayout
           Size="168.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Fecha\Error campos nulos"
           TopLeft="642.571433996668,251.941179344811" />
         <NodeLayout
+          Size="133.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Filtrar nulos"
+          TopLeft="489.000002809933,134.94117770393" />
+        <NodeLayout
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Fecha\Cargar Tipo de Temporal"
           TopLeft="458.285716572586,47" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de ordenación]"
-          TopLeft="410.728571665773,292.776473451733">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,65.3176478739016"
-              Start="0,0"
-              End="0,57.8176478739016">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,57.8176478739016" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[NotNull]"
-          TopLeft="534.8666694766,176.54117770393">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-124.609526145053,74.6352957478032"
-              Start="0,0"
-              End="-124.609526145053,67.1352957478032">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.3840730618276" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.3840730618276"
-                    Point2="0,30.3840730618276"
-                    Point3="-4,30.3840730618276" />
-                  <mssgle:LineSegment
-                    End="-120.609526145053,30.3840730618276" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-120.609526145053,30.3840730618276"
-                    Point2="-124.609526145053,30.3840730618276"
-                    Point3="-124.609526145053,34.3840730618276" />
-                  <mssgle:LineSegment
-                    End="-124.609526145053,67.1352957478032" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-78.7268919787765,35.3840730618276,32.8442578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[IsNull]"
-          TopLeft="576.733336143266,176.54117770393">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="150.238097853402,75.400001640881"
-              Start="0,0"
-              End="150.238097853402,67.900001640881">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.6953852833882" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.6953852833882"
-                    Point2="0,30.6953852833882"
-                    Point3="4,30.6953852833882" />
-                  <mssgle:LineSegment
-                    End="146.238097853402,30.6953852833882" />
-                  <mssgle:CubicBezierSegment
-                    Point1="146.238097853402,30.6953852833882"
-                    Point2="150.238097853402,30.6953852833882"
-                    Point3="150.238097853402,34.6953852833882" />
-                  <mssgle:LineSegment
-                    End="150.238097853402,67.900001640881" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="62.1803184579509,35.6953852833882,25.8774609375,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Error de tipado"
+          TopLeft="503.285717338932,468.847062759498" />
+        <NodeLayout
+          Size="116.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Ordenar"
+          TopLeft="351.857143331547,251.176473451733" />
+        <NodeLayout
+          Size="211.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Error de registros existentes"
+          TopLeft="325,579" />
+        <NodeLayout
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Búsqueda"
+          TopLeft="197,460.6" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Conversión de datos"
+          TopLeft="324,358.094121325635" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de origen de ADO NET]"
           TopLeft="556.04285969126,88.6">
@@ -12611,45 +12617,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="124,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Búsqueda"
-          TopLeft="197,460.6" />
         <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de conversión de datos]"
-          TopLeft="411.2,399.694121325635">
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de ordenación]"
+          TopLeft="410.728571665773,292.776473451733">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-152.2,60.905878674365"
+              EndConnector="0,65.3176478739016"
               Start="0,0"
-              End="-152.2,53.405878674365">
+              End="0,57.8176478739016">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.4529393371825" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.4529393371825"
-                    Point2="0,30.4529393371825"
-                    Point3="-4,30.4529393371825" />
-                  <mssgle:LineSegment
-                    End="-148.2,30.4529393371825" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-148.2,30.4529393371825"
-                    Point2="-152.2,30.4529393371825"
-                    Point3="-152.2,34.4529393371825" />
-                  <mssgle:LineSegment
-                    End="-152.2,53.405878674365" />
+                    End="0,57.8176478739016" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12688,18 +12682,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Preformatear fecha"
-          TopLeft="35,577" />
-        <NodeLayout
-          Size="211.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Error de registros existentes"
-          TopLeft="325,579" />
-        <NodeLayout
-          Size="172,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Fecha\Columna derivada 2"
-          TopLeft="37,667.6" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de entradas no coincidentes de búsqueda]"
           TopLeft="259,502.2">
@@ -12773,6 +12755,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de conversión de datos]"
+          TopLeft="411.2,399.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-152.2,60.905878674365"
+              Start="0,0"
+              End="-152.2,53.405878674365">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.4529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.4529393371825"
+                    Point2="0,30.4529393371825"
+                    Point3="-4,30.4529393371825" />
+                  <mssgle:LineSegment
+                    End="-148.2,30.4529393371825" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-148.2,30.4529393371825"
+                    Point2="-152.2,30.4529393371825"
+                    Point3="-152.2,34.4529393371825" />
+                  <mssgle:LineSegment
+                    End="-152.2,53.405878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[Salida de columna derivada]"
           TopLeft="121.2,618.6">
           <EdgeLayout.Curve>
@@ -12793,6 +12811,78 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-8,12.7499999999999,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[NotNull]"
+          TopLeft="534.8666694766,176.54117770393">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-124.609526145053,74.6352957478032"
+              Start="0,0"
+              End="-124.609526145053,67.1352957478032">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.3840730618276" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.3840730618276"
+                    Point2="0,30.3840730618276"
+                    Point3="-4,30.3840730618276" />
+                  <mssgle:LineSegment
+                    End="-120.609526145053,30.3840730618276" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-120.609526145053,30.3840730618276"
+                    Point2="-124.609526145053,30.3840730618276"
+                    Point3="-124.609526145053,34.3840730618276" />
+                  <mssgle:LineSegment
+                    End="-124.609526145053,67.1352957478032" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-78.7268919787765,35.3840730618276,32.8442578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Fecha.Paths[IsNull]"
+          TopLeft="576.733336143266,176.54117770393">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="150.238097853402,75.400001640881"
+              Start="0,0"
+              End="150.238097853402,67.900001640881">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.6953852833882" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.6953852833882"
+                    Point2="0,30.6953852833882"
+                    Point3="4,30.6953852833882" />
+                  <mssgle:LineSegment
+                    End="146.238097853402,30.6953852833882" />
+                  <mssgle:CubicBezierSegment
+                    Point1="146.238097853402,30.6953852833882"
+                    Point2="150.238097853402,30.6953852833882"
+                    Point3="150.238097853402,34.6953852833882" />
+                  <mssgle:LineSegment
+                    End="150.238097853402,67.900001640881" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="62.1803184579509,35.6953852833882,25.8774609375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12870,7 +12960,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12892,7 +12984,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13012,29 +13106,41 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Error de tipado"
-          TopLeft="506.285717338932,448.847062759498" />
+          Size="196,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Error registros existentes"
+          TopLeft="328,550" />
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Hospital\Ordenar"
           TopLeft="354.857143331547,241.176473451733" />
         <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Columna derivada"
+          TopLeft="29.0000000000001,557.8" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Error de tipado"
+          TopLeft="506.285717338932,448.847062759498" />
+        <NodeLayout
+          Size="196,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Cargar Tipo de Temporal"
+          TopLeft="461.285716572586,37" />
+        <NodeLayout
           Size="133.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Hospital\Filtrar nulos"
           TopLeft="492.000002809933,124.94117770393" />
         <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Conversión de datos"
-          TopLeft="327,348.094121325635" />
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Búsqueda"
+          TopLeft="199,449" />
         <NodeLayout
           Size="184,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Hospital\Error de campos nulos"
           TopLeft="645.571433996668,241.941179344811" />
         <NodeLayout
-          Size="196,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Cargar Tipo de Temporal"
-          TopLeft="461.285716572586,37" />
+          Size="174.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Conversión de datos"
+          TopLeft="327,348.094121325635" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de origen de ADO NET]"
           TopLeft="559.04285969126,78.6">
@@ -13054,7 +13160,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13076,7 +13184,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13112,6 +13222,114 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-2.50038351803398,34.5764707169315,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="241.666666666667,490.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-131.066666666667,67.1999999999999"
+              Start="0,0"
+              End="-131.066666666667,59.6999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.3936305732484" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.3936305732484"
+                    Point2="0,27.3936305732484"
+                    Point3="-4,27.3936305732484" />
+                  <mssgle:LineSegment
+                    End="-127.066666666667,27.3936305732484" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-127.066666666667,27.3936305732484"
+                    Point2="-131.066666666667,27.3936305732484"
+                    Point3="-131.066666666667,31.3936305732484" />
+                  <mssgle:LineSegment
+                    End="-131.066666666667,59.6999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-181.110345052083,32.3936305732484,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="261,490.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="165,59.3999999999999"
+              Start="0,0"
+              End="165,51.8999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.7"
+                    Point2="0,29.7"
+                    Point3="4,29.7" />
+                  <mssgle:LineSegment
+                    End="161,29.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="161,29.7"
+                    Point2="165,29.7"
+                    Point3="165,33.7" />
+                  <mssgle:LineSegment
+                    End="165,51.8999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-17.3190234375,34.7,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de conversión de datos]"
+          TopLeft="386.466666666667,389.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-125.466666666667,59.305878674365"
+              Start="0,0"
+              End="-125.466666666667,51.805878674365">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.0458380806971" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.0458380806971"
+                    Point2="0,24.0458380806971"
+                    Point3="-4,24.0458380806971" />
+                  <mssgle:LineSegment
+                    End="-121.466666666667,24.0458380806971" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-121.466666666667,24.0458380806971"
+                    Point2="-125.466666666667,24.0458380806971"
+                    Point3="-125.466666666667,28.0458380806971" />
+                  <mssgle:LineSegment
+                    End="-125.466666666667,51.805878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -13187,124 +13405,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="124,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Búsqueda"
-          TopLeft="199,449" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de conversión de datos]"
-          TopLeft="386.466666666667,389.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-125.466666666667,59.305878674365"
-              Start="0,0"
-              End="-125.466666666667,51.805878674365">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.0458380806971" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.0458380806971"
-                    Point2="0,24.0458380806971"
-                    Point3="-4,24.0458380806971" />
-                  <mssgle:LineSegment
-                    End="-121.466666666667,24.0458380806971" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-121.466666666667,24.0458380806971"
-                    Point2="-125.466666666667,24.0458380806971"
-                    Point3="-125.466666666667,28.0458380806971" />
-                  <mssgle:LineSegment
-                    End="-125.466666666667,51.805878674365" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="196,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Error registros existentes"
-          TopLeft="328,550" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="261,490.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="165,59.3999999999999"
-              Start="0,0"
-              End="165,51.8999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.7"
-                    Point2="0,29.7"
-                    Point3="4,29.7" />
-                  <mssgle:LineSegment
-                    End="161,29.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="161,29.7"
-                    Point2="165,29.7"
-                    Point3="165,33.7" />
-                  <mssgle:LineSegment
-                    End="165,51.8999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-17.3190234375,34.7,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="163.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital\Columna derivada"
-          TopLeft="29.0000000000001,557.8" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Hospital.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="241.666666666667,490.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-131.066666666667,67.1999999999999"
-              Start="0,0"
-              End="-131.066666666667,59.6999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.3936305732484" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.3936305732484"
-                    Point2="0,27.3936305732484"
-                    Point3="-4,27.3936305732484" />
-                  <mssgle:LineSegment
-                    End="-127.066666666667,27.3936305732484" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-127.066666666667,27.3936305732484"
-                    Point2="-131.066666666667,27.3936305732484"
-                    Point3="-131.066666666667,31.3936305732484" />
-                  <mssgle:LineSegment
-                    End="-131.066666666667,59.6999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-181.110345052083,32.3936305732484,231.1540234375,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -13337,21 +13437,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de tipado"
-          TopLeft="499.285717338932,457.847062759498" />
-        <NodeLayout
           Size="116.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Ordenar"
           TopLeft="347.857143331547,235.176473451733" />
         <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de tipado"
+          TopLeft="499.285717338932,457.847062759498" />
+        <NodeLayout
           Size="174.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos"
           TopLeft="319,345.094121325635" />
-        <NodeLayout
-          Size="184,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de campos nulos"
-          TopLeft="638.571433996668,242.941179344811" />
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Filtrar nulos"
@@ -13360,6 +13456,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Cargar Tipo de Temporal"
           TopLeft="454.285716572586,31" />
+        <NodeLayout
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda"
+          TopLeft="196,456.6" />
+        <NodeLayout
+          Size="196,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error registros existentes"
+          TopLeft="319,565.8" />
+        <NodeLayout
+          Size="184,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de campos nulos"
+          TopLeft="638.571433996668,242.941179344811" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de origen de ADO NET]"
           TopLeft="552.04285969126,72.6">
@@ -13379,7 +13487,105 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de ordenación]"
+          TopLeft="406.228571665774,276.776473451733">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.317647873902"
+              Start="0,0"
+              End="0,60.817647873902">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.817647873902" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de conversión de datos]"
+          TopLeft="433.933333333333,386.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="139.752384005599,71.1529414338629"
+              Start="0,0"
+              End="139.752384005599,63.6529414338629">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.8492835268208" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.8492835268208"
+                    Point2="0,28.8492835268208"
+                    Point3="4,28.8492835268208" />
+                  <mssgle:LineSegment
+                    End="135.752384005599,28.8492835268208" />
+                  <mssgle:CubicBezierSegment
+                    Point1="135.752384005599,28.8492835268208"
+                    Point2="139.752384005599,28.8492835268208"
+                    Point3="139.752384005599,32.8492835268208" />
+                  <mssgle:LineSegment
+                    End="139.752384005599,63.6529414338629" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.8670501847007,33.8492835268208,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de conversión de datos]"
+          TopLeft="378.466666666667,386.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-120.466666666667,69.9058786743647"
+              Start="0,0"
+              End="-120.466666666667,62.4058786743647">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.3436562625151" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.3436562625151"
+                    Point2="0,28.3436562625151"
+                    Point3="-4,28.3436562625151" />
+                  <mssgle:LineSegment
+                    End="-116.466666666667,28.3436562625151" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-116.466666666667,28.3436562625151"
+                    Point2="-120.466666666667,28.3436562625151"
+                    Point3="-120.466666666667,32.3436562625151" />
+                  <mssgle:LineSegment
+                    End="-120.466666666667,62.4058786743647" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13454,106 +13660,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de ordenación]"
-          TopLeft="406.228571665774,276.776473451733">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.317647873902"
-              Start="0,0"
-              End="0,60.817647873902">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.817647873902" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="124,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda"
-          TopLeft="196,456.6" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de conversión de datos]"
-          TopLeft="378.466666666667,386.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-120.466666666667,69.9058786743647"
-              Start="0,0"
-              End="-120.466666666667,62.4058786743647">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.3436562625151" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.3436562625151"
-                    Point2="0,28.3436562625151"
-                    Point3="-4,28.3436562625151" />
-                  <mssgle:LineSegment
-                    End="-116.466666666667,28.3436562625151" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-116.466666666667,28.3436562625151"
-                    Point2="-120.466666666667,28.3436562625151"
-                    Point3="-120.466666666667,32.3436562625151" />
-                  <mssgle:LineSegment
-                    End="-120.466666666667,62.4058786743647" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de conversión de datos]"
-          TopLeft="433.933333333333,386.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="139.752384005599,71.1529414338629"
-              Start="0,0"
-              End="139.752384005599,63.6529414338629">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.8492835268208" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.8492835268208"
-                    Point2="0,28.8492835268208"
-                    Point3="4,28.8492835268208" />
-                  <mssgle:LineSegment
-                    End="135.752384005599,28.8492835268208" />
-                  <mssgle:CubicBezierSegment
-                    Point1="135.752384005599,28.8492835268208"
-                    Point2="139.752384005599,28.8492835268208"
-                    Point3="139.752384005599,32.8492835268208" />
-                  <mssgle:LineSegment
-                    End="139.752384005599,63.6529414338629" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.8670501847007,33.8492835268208,171.486484375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="196,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error registros existentes"
-          TopLeft="319,565.8" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -13563,6 +13669,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="194.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\Errores de campos nulos"
+          TopLeft="629.571433996668,264.941179344811" />
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\Columna derivada 2"
+          TopLeft="16,563.4" />
+        <NodeLayout
+          Size="116.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\Ordenar"
+          TopLeft="338.857143331547,249.176473451733" />
+        <NodeLayout
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Cargar Tipo de Temporal"
           TopLeft="445.285716572586,45" />
@@ -13571,21 +13689,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Id="Package\LIMPIEZA ELT\Limpiar Region\Filtrar nulos"
           TopLeft="477.000002809933,133.94117770393" />
         <NodeLayout
-          Size="194.4,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Region\Errores de campos nulos"
-          TopLeft="629.571433996668,264.941179344811" />
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\Error de tipado"
+          TopLeft="490.285717338932,456.847062759498" />
         <NodeLayout
           Size="174.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Conversión de datos"
           TopLeft="311,356.094121325635" />
         <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Region\Ordenar"
-          TopLeft="338.857143331547,249.176473451733" />
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda"
+          TopLeft="187,463" />
         <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Region\Error de tipado"
-          TopLeft="490.285717338932,456.847062759498" />
+          Size="211.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Region\Error de registros existentes"
+          TopLeft="321,571.4" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de origen de ADO NET]"
           TopLeft="543.54285969126,86.6">
@@ -13605,7 +13723,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13627,7 +13747,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13663,6 +13785,114 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-16.3670501847007,28.9838289813663,171.486484375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="249,504.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-147,58.8"
+              Start="0,0"
+              End="-147,51.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.4"
+                    Point2="0,29.4"
+                    Point3="-4,29.4" />
+                  <mssgle:LineSegment
+                    End="-143,29.4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-143,29.4"
+                    Point2="-147,29.4"
+                    Point3="-147,33.4" />
+                  <mssgle:LineSegment
+                    End="-147,51.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-189.07701171875,34.4,231.1540234375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="268.333333333333,504.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="158.266666666667,66.8000000000001"
+              Start="0,0"
+              End="158.266666666667,59.3000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.2305732484077" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.2305732484077"
+                    Point2="0,27.2305732484077"
+                    Point3="4,27.2305732484077" />
+                  <mssgle:LineSegment
+                    End="154.266666666667,27.2305732484077" />
+                  <mssgle:CubicBezierSegment
+                    Point1="154.266666666667,27.2305732484077"
+                    Point2="158.266666666667,27.2305732484077"
+                    Point3="158.266666666667,31.2305732484077" />
+                  <mssgle:LineSegment
+                    End="158.266666666667,59.3000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-20.6856901041666,32.2305732484077,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de conversión de datos]"
+          TopLeft="370.466666666667,397.694121325635">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-121.466666666667,65.305878674365"
+              Start="0,0"
+              End="-121.466666666667,57.805878674365">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.4785653534244" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.4785653534244"
+                    Point2="0,26.4785653534244"
+                    Point3="-4,26.4785653534244" />
+                  <mssgle:LineSegment
+                    End="-117.466666666667,26.4785653534244" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-117.466666666667,26.4785653534244"
+                    Point2="-121.466666666667,26.4785653534244"
+                    Point3="-121.466666666667,30.4785653534244" />
+                  <mssgle:LineSegment
+                    End="-121.466666666667,57.805878674365" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -13738,124 +13968,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="124,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda"
-          TopLeft="187,463" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de conversión de datos]"
-          TopLeft="370.466666666667,397.694121325635">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-121.466666666667,65.305878674365"
-              Start="0,0"
-              End="-121.466666666667,57.805878674365">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.4785653534244" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.4785653534244"
-                    Point2="0,26.4785653534244"
-                    Point3="-4,26.4785653534244" />
-                  <mssgle:LineSegment
-                    End="-117.466666666667,26.4785653534244" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-117.466666666667,26.4785653534244"
-                    Point2="-121.466666666667,26.4785653534244"
-                    Point3="-121.466666666667,30.4785653534244" />
-                  <mssgle:LineSegment
-                    End="-121.466666666667,57.805878674365" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Region\Columna derivada 2"
-          TopLeft="16,563.4" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="249,504.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-147,58.8"
-              Start="0,0"
-              End="-147,51.3">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.4" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.4"
-                    Point2="0,29.4"
-                    Point3="-4,29.4" />
-                  <mssgle:LineSegment
-                    End="-143,29.4" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-143,29.4"
-                    Point2="-147,29.4"
-                    Point3="-147,33.4" />
-                  <mssgle:LineSegment
-                    End="-147,51.3" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-189.07701171875,34.4,231.1540234375,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="211.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Region\Error de registros existentes"
-          TopLeft="321,571.4" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="268.333333333333,504.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="158.266666666667,66.8000000000001"
-              Start="0,0"
-              End="158.266666666667,59.3000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.2305732484077" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.2305732484077"
-                    Point2="0,27.2305732484077"
-                    Point3="4,27.2305732484077" />
-                  <mssgle:LineSegment
-                    End="154.266666666667,27.2305732484077" />
-                  <mssgle:CubicBezierSegment
-                    Point1="154.266666666667,27.2305732484077"
-                    Point2="158.266666666667,27.2305732484077"
-                    Point3="158.266666666667,31.2305732484077" />
-                  <mssgle:LineSegment
-                    End="158.266666666667,59.3000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-20.6856901041666,32.2305732484077,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -13888,29 +14000,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="133.6,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos"
-          TopLeft="513.469396499434,114.596640262637" />
-        <NodeLayout
           Size="172,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Registros existentes"
           TopLeft="351.530618231429,555.487401850908" />
-        <NodeLayout
-          Size="148.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado"
-          TopLeft="527.755111028433,438.502525318205" />
-        <NodeLayout
-          Size="196,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal"
-          TopLeft="482.755110262087,26.6554625587068" />
-        <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar"
-          TopLeft="376.326537021048,230.83193601044" />
-        <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos"
-          TopLeft="348.469393689501,337.749583884342" />
         <NodeLayout
           Size="172,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Columna derivada 1"
@@ -13919,42 +14011,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Size="184,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Error de campos nulos"
           TopLeft="667.040827686169,231.596641903518" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[IsNull]"
-          TopLeft="601.202729832767,156.196640262637">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="157.838097853402,75.400001640881"
-              Start="0,0"
-              End="157.838097853402,67.900001640881">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.6953852833882" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.6953852833882"
-                    Point2="0,30.6953852833882"
-                    Point3="4,30.6953852833882" />
-                  <mssgle:LineSegment
-                    End="153.838097853402,30.6953852833882" />
-                  <mssgle:CubicBezierSegment
-                    Point1="153.838097853402,30.6953852833882"
-                    Point2="157.838097853402,30.6953852833882"
-                    Point3="157.838097853402,34.6953852833882" />
-                  <mssgle:LineSegment
-                    End="157.838097853402,67.900001640881" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="65.9803184579508,35.6953852833882,25.8774609375,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="196,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Cargar Tipo de Temporal"
+          TopLeft="482.755110262087,26.6554625587068" />
+        <NodeLayout
+          Size="133.6,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Filtrar nulos"
+          TopLeft="513.469396499434,114.596640262637" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Error de tipado"
+          TopLeft="527.755111028433,438.502525318205" />
+        <NodeLayout
+          Size="124,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda"
+          TopLeft="215.714289387878,452.94117861553" />
+        <NodeLayout
+          Size="116.8,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Ordenar"
+          TopLeft="376.326537021048,230.83193601044" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos"
+          TopLeft="348.469393689501,337.749583884342" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de origen de ADO NET]"
           TopLeft="580.512253380761,68.2554625587068">
@@ -13974,7 +14054,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13996,7 +14078,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14033,80 +14117,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <mssgm:EdgeLabel
               BoundingBox="-2.50038351803398,34.5764707169315,171.486484375,10.3349609375"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[NotNull]"
-          TopLeft="559.336063166101,156.196640262637">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-124.609526145053,74.6352957478032"
-              Start="0,0"
-              End="-124.609526145053,67.1352957478032">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.3840730618276" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.3840730618276"
-                    Point2="0,30.3840730618276"
-                    Point3="-4,30.3840730618276" />
-                  <mssgle:LineSegment
-                    End="-120.609526145053,30.3840730618276" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-120.609526145053,30.3840730618276"
-                    Point2="-124.609526145053,30.3840730618276"
-                    Point3="-124.609526145053,34.3840730618276" />
-                  <mssgle:LineSegment
-                    End="-124.609526145053,67.1352957478032" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-78.7268919787765,35.3840730618276,32.8442578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="124,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda"
-          TopLeft="215.714289387878,452.94117861553" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de conversión de datos]"
-          TopLeft="407.936060356168,379.349583884342">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-130.221770968289,73.5915947311884"
-              Start="0,0"
-              End="-130.221770968289,66.0915947311884">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.8380465910091" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.8380465910091"
-                    Point2="0,29.8380465910091"
-                    Point3="-4,29.8380465910091" />
-                  <mssgle:LineSegment
-                    End="-126.221770968289,29.8380465910091" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-126.221770968289,29.8380465910091"
-                    Point2="-130.221770968289,29.8380465910091"
-                    Point3="-130.221770968289,33.8380465910091" />
-                  <mssgle:LineSegment
-                    End="-130.221770968289,66.0915947311884" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14178,6 +14188,114 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-29.5775256823914,29.8443202997718,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de conversión de datos]"
+          TopLeft="407.936060356168,379.349583884342">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-130.221770968289,73.5915947311884"
+              Start="0,0"
+              End="-130.221770968289,66.0915947311884">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.8380465910091" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.8380465910091"
+                    Point2="0,29.8380465910091"
+                    Point3="-4,29.8380465910091" />
+                  <mssgle:LineSegment
+                    End="-126.221770968289,29.8380465910091" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-126.221770968289,29.8380465910091"
+                    Point2="-130.221770968289,29.8380465910091"
+                    Point3="-130.221770968289,33.8380465910091" />
+                  <mssgle:LineSegment
+                    End="-130.221770968289,66.0915947311884" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[NotNull]"
+          TopLeft="559.336063166101,156.196640262637">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-124.609526145053,74.6352957478032"
+              Start="0,0"
+              End="-124.609526145053,67.1352957478032">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.3840730618276" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.3840730618276"
+                    Point2="0,30.3840730618276"
+                    Point3="-4,30.3840730618276" />
+                  <mssgle:LineSegment
+                    End="-120.609526145053,30.3840730618276" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-120.609526145053,30.3840730618276"
+                    Point2="-124.609526145053,30.3840730618276"
+                    Point3="-124.609526145053,34.3840730618276" />
+                  <mssgle:LineSegment
+                    End="-124.609526145053,67.1352957478032" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-78.7268919787765,35.3840730618276,32.8442578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[IsNull]"
+          TopLeft="601.202729832767,156.196640262637">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="157.838097853402,75.400001640881"
+              Start="0,0"
+              End="157.838097853402,67.900001640881">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.6953852833882" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.6953852833882"
+                    Point2="0,30.6953852833882"
+                    Point3="4,30.6953852833882" />
+                  <mssgle:LineSegment
+                    End="153.838097853402,30.6953852833882" />
+                  <mssgle:CubicBezierSegment
+                    Point1="153.838097853402,30.6953852833882"
+                    Point2="157.838097853402,30.6953852833882"
+                    Point3="157.838097853402,34.6953852833882" />
+                  <mssgle:LineSegment
+                    End="157.838097853402,67.900001640881" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="65.9803184579508,35.6953852833882,25.8774609375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
