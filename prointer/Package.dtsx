@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="134"
-  DTS:VersionGUID="{2F27E64B-408F-4460-B4D3-227A57B00120}">
+  DTS:VersionBuild="139"
+  DTS:VersionGUID="{538BE298-3A8F-4BE9-9E83-47FE8873AEA4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmhbw9D1k5XdZq4oOY156HYQ2VC8pbifysv+XibFJBZwAAAAAOgAAAAAIAACAAAAC6s+H/xImC3D43BdsJYPGdORx+9FuDzOl2I7JEayhqKCAAAABf2U8bVwDJZeMgExcqd0c/99GAvWcpbyYNo5u0NAfXdEAAAAAVS1qFHci1zCsFMu61efj2v/jQ+eIbTiD379gbaxEitFUSUYbe6DiZ9GcGykFo2+lgWe0qeJQ0444aEHQyY5N3</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS/ipEjLFRUqHwXE9h2mekQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD1pVHF/Dqelg6vGYgxrO2SHo8q/2/pdaZktAgEJzw/9QAAAAAOgAAAAAIAACAAAADIw1owHjTrd+9sWRS9m9KgulGN7XkiPvNl/ihvCfy8nyAAAACFxpZ/onfEQN78ojkrv8KZrUxi6bZt+n5A8KokC3rx40AAAABQ5rmArVQf2oEsmblKPMPPDJLY9vs7wqQTxnvhJx1uDm8cWboriUACVE3eHV6MtilfuuckszzZYSWrc0EAP2BA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -14712,249 +14712,6 @@ SELECT * FROM TMP;</property>
                   </outputs>
                 </component>
                 <component
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3"
-                  componentClassID="Microsoft.ManagedComponentHost"
-                  contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
-                  description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-                  name="Destino de ADO NET 3"
-                  usesDispositions="true"
-                  version="2">
-                  <properties>
-                    <property
-                      dataType="System.String"
-                      description="Nombre de la tabla de la base de datos de destino."
-                      expressionType="Notify"
-                      name="TableOrViewName"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."Error"</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
-                      expressionType="Notify"
-                      name="BatchSize">0</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
-                      expressionType="Notify"
-                      name="CommandTimeout">30</property>
-                    <property
-                      dataType="System.Boolean"
-                      description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
-                      expressionType="Notify"
-                      name="UseBulkInsertWhenPossible">true</property>
-                    <property
-                      dataType="System.String"
-                      name="UserComponentTypeName">Microsoft.ADONETDestination</property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Connections[IDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[MARCOC.microdb]"
-                      connectionManagerRefId="Package.ConnectionManagers[MARCOC.microdb]"
-                      description="Administrador de conexiones administrado"
-                      name="IDbConnection" />
-                  </connections>
-                  <inputs>
-                    <input
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET]"
-                      errorRowDisposition="FailComponent"
-                      hasSideEffects="true"
-                      name="Entrada de destino de ADO NET">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[LINEA]"
-                          cachedDataType="i4"
-                          cachedName="LINEA"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[linea]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Ordenar.Outputs[Salida de ordenación].Columns[LINEA]" />
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Completitud]"
-                          cachedDataType="i4"
-                          cachedName="Completitud"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Completitud]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Completitud]" />
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Credibilidad]"
-                          cachedDataType="i4"
-                          cachedName="Credibilidad"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Credibilidad]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Credibilidad]" />
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Precision]"
-                          cachedDataType="i4"
-                          cachedName="Precision"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Precision]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Precision]" />
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Consistencia]"
-                          cachedDataType="i4"
-                          cachedName="Consistencia"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Consistencia]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Consistencia]" />
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Interpretabilidad]"
-                          cachedDataType="i4"
-                          cachedName="Interpretabilidad"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[interpretabilidad]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Interpretabilidad]" />
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Error]"
-                          cachedDataType="wstr"
-                          cachedLength="17"
-                          cachedName="Error"
-                          externalMetadataColumnId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[descripcion]"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Error]" />
-                      </inputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[linea]"
-                          dataType="i4"
-                          name="linea" />
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[descripcion]"
-                          dataType="wstr"
-                          length="255"
-                          name="descripcion" />
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Completitud]"
-                          dataType="i4"
-                          name="Completitud" />
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Credibilidad]"
-                          dataType="i4"
-                          name="Credibilidad" />
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Precision]"
-                          dataType="i4"
-                          name="Precision" />
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[Consistencia]"
-                          dataType="i4"
-                          name="Consistencia" />
-                        <externalMetadataColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[interpretabilidad]"
-                          dataType="i4"
-                          name="interpretabilidad" />
-                      </externalMetadataColumns>
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET]"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Salida de error de destino de ADO NET"
-                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional"
-                  componentClassID="Microsoft.ConditionalSplit"
-                  contactInfo="División condicional;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
-                  description="Enruta filas de datos a diferentes salidas según el contenido de los datos. Se usan condiciones (expresiones de SSIS) para especificar las filas que se van a enrutar. Por ejemplo, se usa para separar los registros que deben limpiarse de los registros listos para ser cargados o para enrutar solamente un subconjunto de registros."
-                  name="División condicional"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Inputs[Entrada de división condicional]"
-                      description="Entrada en la transformación División condicional"
-                      name="Entrada de división condicional">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Inputs[Entrada de división condicional].Columns[Copia de GENERO]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Copia de GENERO"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de GENERO]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[GeneroLimpio]"
-                      description="Salida 1 de la transformación División condicional"
-                      errorOrTruncationOperation="Cálculo"
-                      errorRowDisposition="FailComponent"
-                      exclusionGroup="1"
-                      name="GeneroLimpio"
-                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Inputs[Entrada de división condicional]"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Especifica la expresión. Esta versión de expresión usa identificadores de linaje en lugar de nombres de columna."
-                          name="Expression">#{Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de GENERO]} != [UPPER]("INDEFINIDO")</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Especifica la versión descriptiva de la expresión. Esta versión de expresión usa nombres de columna."
-                          expressionType="Notify"
-                          name="FriendlyExpression">[Copia de GENERO] != UPPER("INDEFINIDO")</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Especifica la posición de la condición en la lista de condiciones que evalúa la transformación. El orden de evaluación es del menor al mayor valor."
-                          name="EvaluationOrder">0</property>
-                      </properties>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[GeneroIndef]"
-                      description="Salida predeterminada de la transformación División condicional"
-                      exclusionGroup="1"
-                      name="GeneroIndef"
-                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Inputs[Entrada de división condicional]">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          name="IsDefaultOut">true</property>
-                      </properties>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[Salida de error de división condicional]"
-                      description="Salida de error de la transformación División condicional"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Salida de error de división condicional"
-                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Inputs[Entrada de división condicional]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[Salida de error de división condicional].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de calculo de edad"
                   componentClassID="Microsoft.DerivedColumn"
                   contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
@@ -15691,190 +15448,6 @@ SELECT * FROM TMP;</property>
                   </outputs>
                 </component>
                 <component
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido"
-                  componentClassID="Microsoft.DerivedColumn"
-                  contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
-                  description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
-                  name="Error genero indefinido"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Inputs[Entrada de columna derivada]"
-                      description="Entrada en la transformación Columna derivada"
-                      name="Entrada de columna derivada">
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada]"
-                      description="Salida predeterminada de la transformación Columna derivada"
-                      exclusionGroup="1"
-                      name="Salida de columna derivada"
-                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Inputs[Entrada de columna derivada]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Error]"
-                          dataType="wstr"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          length="17"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Error]"
-                          name="Error"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">[UPPER]("Genero indefinido")</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">UPPER("Genero indefinido")</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Completitud]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Completitud]"
-                          name="Completitud"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">1</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">1</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Credibilidad]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Credibilidad]"
-                          name="Credibilidad"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">0</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">0</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Precision]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Precision]"
-                          name="Precision"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">1</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">1</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Consistencia]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Consistencia]"
-                          name="Consistencia"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">0</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">0</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Interpretabilidad]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Cálculo"
-                          errorRowDisposition="FailComponent"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada].Columns[Interpretabilidad]"
-                          name="Interpretabilidad"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión de columna derivada"
-                              name="Expression">0</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Expresión descriptiva de columna derivada"
-                              expressionType="Notify"
-                              name="FriendlyExpression">0</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de error de columna derivada]"
-                      description="Salida de error de la transformación Columna derivada"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Salida de error de columna derivada"
-                      synchronousInputId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Inputs[Entrada de columna derivada]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente\Filtrar nulos"
                   componentClassID="Microsoft.ConditionalSplit"
                   contactInfo="División condicional;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
@@ -16459,16 +16032,6 @@ SELECT * FROM TMP;</property>
               </components>
               <paths>
                 <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[GeneroIndef]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Inputs[Entrada de columna derivada]"
-                  name="GeneroIndef"
-                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[GeneroIndef]" />
-                <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[GeneroLimpio]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna derivada.Inputs[Entrada de columna derivada]"
-                  name="GeneroLimpio"
-                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Outputs[GeneroLimpio]" />
-                <path
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[IsNull]"
                   endId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de campos nulos.Inputs[Entrada de columna derivada]"
                   name="IsNull"
@@ -16479,35 +16042,30 @@ SELECT * FROM TMP;</property>
                   name="NotNull"
                   startId="Package\LIMPIEZA ELT\Limpiar Paciente\Filtrar nulos.Outputs[NotNull]" />
                 <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada4]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET]"
                   name="Salida de columna derivada"
-                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna derivada.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada5]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET]"
-                  name="Salida de columna derivada"
-                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada2]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]"
-                  name="Salida de columna derivada"
-                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de regiistros existentes.Outputs[Salida de columna derivada]" />
+                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de campos nulos.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada1]"
                   endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 1 1.Inputs[Entrada de destino de ADO NET]"
                   name="Salida de columna derivada"
                   startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de Tipado.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada2]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]"
                   name="Salida de columna derivada"
-                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de campos nulos.Outputs[Salida de columna derivada]" />
+                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de regiistros existentes.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada3]"
                   endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 2 1.Inputs[Entrada de destino de ADO NET]"
                   name="Salida de columna derivada"
                   startId="Package\LIMPIEZA ELT\Limpiar Paciente\Error de calculo de edad.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada4]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  name="Salida de columna derivada"
+                  startId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna derivada.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de conversión de datos]"
                   endId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Inputs[Entrada de búsqueda]"
@@ -16520,7 +16078,7 @@ SELECT * FROM TMP;</property>
                   startId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Outputs[Salida de entradas coincidentes de búsqueda]" />
                 <path
                   refId="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas no coincidentes de búsqueda]"
-                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional.Inputs[Entrada de división condicional]"
+                  endId="Package\LIMPIEZA ELT\Limpiar Paciente\Columna derivada.Inputs[Entrada de columna derivada]"
                   name="Salida de entradas no coincidentes de búsqueda"
                   startId="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda.Outputs[Salida de entradas no coincidentes de búsqueda]" />
                 <path
@@ -25703,81 +25261,77 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\LIMPIEZA ELT\Limpiar Paciente">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 2"
-          TopLeft="783,577" />
+          TopLeft="850.166666666667,577" />
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 1"
-          TopLeft="920,243" />
+          TopLeft="929.166666666667,243" />
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Ordenar"
-          TopLeft="347.857143331547,235.176473451733" />
+          TopLeft="357.023809998214,235.176473451733" />
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Filtrar nulos"
-          TopLeft="485.000002809933,118.94117770393" />
+          TopLeft="494.166669476599,118.94117770393" />
         <NodeLayout
           Size="196,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Cargar Tipo de Temporal"
-          TopLeft="454.285716572586,31" />
+          TopLeft="463.452383239253,31" />
         <NodeLayout
           Size="192.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de calculo de edad"
-          TopLeft="275,760.2" />
+          TopLeft="278.833333333333,662.866666666667" />
         <NodeLayout
           Size="194.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 1 1"
-          TopLeft="912,456.8" />
+          TopLeft="854.166666666667,462.8" />
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 2 1"
-          TopLeft="538,764.4" />
+          TopLeft="555.333333333334,666.066666666667" />
         <NodeLayout
           Size="213.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de regiistros existentes"
-          TopLeft="423,574.4" />
+          TopLeft="432.166666666666,574.4" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de Tipado"
-          TopLeft="577,460.6" />
+          TopLeft="586.166666666667,460.6" />
         <NodeLayout
           Size="174.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Conversión de datos"
-          TopLeft="319,345.094121325635" />
+          TopLeft="328.166666666667,345.094121325635" />
         <NodeLayout
           Size="176,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET"
-          TopLeft="3.00000000000006,760.6" />
+          TopLeft="0.500000000000057,659.766666666667" />
         <NodeLayout
           Size="184,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error de campos nulos"
-          TopLeft="661,241.8" />
-        <NodeLayout
-          Size="163.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Columna derivada"
-          TopLeft="35,666.6" />
+          TopLeft="670.166666666667,241.8" />
         <NodeLayout
           Size="124,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Paciente\Búsqueda"
-          TopLeft="196,456.6" />
+          TopLeft="206,455.766666666667" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada3]"
-          TopLeft="467.8,783.1">
+          TopLeft="471.633333333333,685.266666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="70.2,0"
+              EndConnector="83.7,0"
               Start="0,0"
-              End="62.7,0">
+              End="76.2,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="62.7,0" />
+                    End="76.2,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25788,18 +25342,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada2]"
-          TopLeft="636.6,596.5">
+          TopLeft="645.766666666667,596.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="146.4,0"
+              EndConnector="204.4,0"
               Start="0,0"
-              End="138.9,0">
+              End="196.9,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="138.9,0" />
+                    End="196.9,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25810,18 +25364,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada1]"
-          TopLeft="729,479.5">
+          TopLeft="738.166666666667,482.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="183,0"
+              EndConnector="116,0"
               Start="0,0"
-              End="175.5,0">
+              End="108.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="175.5,0" />
+                    End="108.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25832,7 +25386,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada]"
-          TopLeft="845,263.2">
+          TopLeft="854.166666666667,263.2">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -25854,7 +25408,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[NotNull]"
-          TopLeft="551.800002809933,160.54117770393">
+          TopLeft="560.9666694766,160.54117770393">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -25890,7 +25444,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[IsNull]"
-          TopLeft="572.733336143266,160.54117770393">
+          TopLeft="581.900002809933,160.54117770393">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -25926,7 +25480,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de origen de ADO NET]"
-          TopLeft="552.04285969126,72.6">
+          TopLeft="561.209526357927,72.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -25948,7 +25502,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de ordenación]"
-          TopLeft="406.228571665774,276.776473451733">
+          TopLeft="415.395238332441,276.776473451733">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -25970,30 +25524,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de conversión de datos]"
-          TopLeft="406.2,386.694121325635">
+          TopLeft="387.633333333333,386.694121325635">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-148.2,69.905878674365"
+              EndConnector="-119.633333333333,69.0725453410317"
               Start="0,0"
-              End="-148.2,62.405878674365">
+              End="-119.633333333333,61.5725453410317">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.9529393371825" />
+                    End="0,24.0057774746365" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,30.9529393371825"
-                    Point2="0,34.9529393371825"
-                    Point3="-4,34.9529393371825" />
+                    Point1="0,24.0057774746365"
+                    Point2="0,28.0057774746365"
+                    Point3="-4,28.0057774746365" />
                   <mssgle:LineSegment
-                    End="-144.2,34.9529393371825" />
+                    End="-115.633333333333,28.0057774746365" />
                   <mssgle:CubicBezierSegment
-                    Point1="-144.2,34.9529393371825"
-                    Point2="-148.2,34.9529393371825"
-                    Point3="-148.2,38.9529393371825" />
+                    Point1="-115.633333333333,28.0057774746365"
+                    Point2="-119.633333333333,28.0057774746365"
+                    Point3="-119.633333333333,32.0057774746365" />
                   <mssgle:LineSegment
-                    End="-148.2,62.405878674365" />
+                    End="-119.633333333333,61.5725453410317" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26004,7 +25558,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de conversión de datos]"
-          TopLeft="433.933333333333,386.694121325635">
+          TopLeft="443.1,386.694121325635">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -26040,54 +25594,58 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="277.333333333333,498.2">
+          TopLeft="268,497.366666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="252.466666666667,76.1999999999999"
+              EndConnector="270.966666666667,77.0333333333332"
               Start="0,0"
-              End="252.466666666667,68.6999999999999">
+              End="270.966666666667,69.5333333333332">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.0624203821656" />
+                    End="0,34.5166666666666" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,27.0624203821656"
-                    Point2="0,31.0624203821656"
-                    Point3="4,31.0624203821656" />
+                    Point1="0,34.5166666666666"
+                    Point2="0,38.5166666666666"
+                    Point3="4,38.5166666666666" />
                   <mssgle:LineSegment
-                    End="248.466666666667,31.0624203821656" />
+                    End="266.966666666667,38.5166666666666" />
                   <mssgle:CubicBezierSegment
-                    Point1="248.466666666667,31.0624203821656"
-                    Point2="252.466666666667,31.0624203821656"
-                    Point3="252.466666666667,35.0624203821656" />
+                    Point1="266.966666666667,38.5166666666666"
+                    Point2="270.966666666667,38.5166666666666"
+                    Point3="270.966666666667,42.5166666666666" />
                   <mssgle:LineSegment
-                    End="252.466666666667,68.6999999999999" />
+                    End="270.966666666667,69.5333333333332" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="26.4143098958333,36.0624203821656,199.638046875,12.1953125"
+              BoundingBox="35.6643098958333,43.5166666666666,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Columna derivada"
+          TopLeft="35,569.1" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada4]"
-          TopLeft="90.8666666666667,708.2">
+          TopLeft="89.6166666666667,610.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.4"
+              EndConnector="0,49.0666666666667"
               Start="0,0"
-              End="0,44.9">
+              End="0,41.5666666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.9" />
+                    End="0,41.5666666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26098,168 +25656,74 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de error de columna derivada]"
-          TopLeft="142.466666666667,708.2">
+          TopLeft="142.466666666667,610.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="228.933333333333,51.9999999999999"
+              EndConnector="232.766666666667,52.1666666666665"
               Start="0,0"
-              End="228.933333333333,44.4999999999999">
+              End="232.766666666667,44.6666666666665">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.1029126213592" />
+                    End="0,17.1705501618122" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.1029126213592"
-                    Point2="0,21.1029126213592"
-                    Point3="4,21.1029126213592" />
+                    Point1="0,17.1705501618122"
+                    Point2="0,21.1705501618122"
+                    Point3="4,21.1705501618122" />
                   <mssgle:LineSegment
-                    End="224.933333333333,21.1029126213592" />
+                    End="228.766666666667,21.1705501618122" />
                   <mssgle:CubicBezierSegment
-                    Point1="224.933333333333,21.1029126213592"
-                    Point2="228.933333333333,21.1029126213592"
-                    Point3="228.933333333333,25.1029126213592" />
+                    Point1="228.766666666667,21.1705501618122"
+                    Point2="232.766666666667,21.1705501618122"
+                    Point3="232.766666666667,25.1705501618122" />
                   <mssgle:LineSegment
-                    End="228.933333333333,44.4999999999999" />
+                    End="232.766666666667,44.6666666666665" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="34.1026432291667,26.1029126213592,160.728046875,9.7490234375"
+              BoundingBox="36.0193098958333,26.1705501618122,160.728046875,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\División condicional"
-          TopLeft="38,574.2" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="238.666666666667,498.2">
+          TopLeft="248.666666666667,497.366666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-115.466666666667,76"
+              EndConnector="-132.066666666667,71.7333333333333"
               Start="0,0"
-              End="-115.466666666667,68.5">
+              End="-132.066666666667,64.2333333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.9808917197452" />
+                    End="0,25.2416135881104" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26.9808917197452"
-                    Point2="0,30.9808917197452"
-                    Point3="-4,30.9808917197452" />
+                    Point1="0,25.2416135881104"
+                    Point2="0,29.2416135881104"
+                    Point3="-4,29.2416135881104" />
                   <mssgle:LineSegment
-                    End="-111.466666666667,30.9808917197452" />
+                    End="-128.066666666667,29.2416135881104" />
                   <mssgle:CubicBezierSegment
-                    Point1="-111.466666666667,30.9808917197452"
-                    Point2="-115.466666666667,30.9808917197452"
-                    Point3="-115.466666666667,34.9808917197452" />
+                    Point1="-128.066666666667,29.2416135881104"
+                    Point2="-132.066666666667,29.2416135881104"
+                    Point3="-132.066666666667,33.2416135881104" />
                   <mssgle:LineSegment
-                    End="-115.466666666667,68.5" />
+                    End="-132.066666666667,64.2333333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-164.622356770833,35.9808917197452,213.778046875,12.1953125"
+              BoundingBox="-172.922356770833,34.2416135881104,213.778046875,12.1953125"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[GeneroLimpio]"
-          TopLeft="119.9,615.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,50.8"
-              Start="0,0"
-              End="0,43.3">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.3" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-31.05955078125,15.94296875,62.1191015625,11.4140625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Error genero indefinido"
-          TopLeft="293,670" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[GeneroIndef]"
-          TopLeft="150.266666666667,615.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="236.333333333333,54.1999999999999"
-              Start="0,0"
-              End="236.333333333333,46.6999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.9825116279069" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.9825116279069"
-                    Point2="0,21.9825116279069"
-                    Point3="4,21.9825116279069" />
-                  <mssgle:LineSegment
-                    End="232.333333333333,21.9825116279069" />
-                  <mssgle:CubicBezierSegment
-                    Point1="232.333333333333,21.9825116279069"
-                    Point2="236.333333333333,21.9825116279069"
-                    Point3="236.333333333333,25.9825116279069" />
-                  <mssgle:LineSegment
-                    End="236.333333333333,46.6999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="89.6102213541667,26.9825116279069,57.112890625,9.7978515625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="184.8,41.6"
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3"
-          TopLeft="569,669.6" />
-        <EdgeLayout
-          Id="Package\LIMPIEZA ELT\Limpiar Paciente.Paths[Salida de columna derivada5]"
-          TopLeft="480.2,690.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="88.8,0"
-              Start="0,0"
-              End="81.3,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="81.3,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -26348,7 +25812,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="194.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET 1 1"
-          TopLeft="786.952388291456,441.043136228905" />
+          TopLeft="750.952388291456,466.043136228905" />
         <NodeLayout
           Size="124,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Búsqueda"
@@ -26360,7 +25824,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="213.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Error de regiistros existentes"
-          TopLeft="415.873022955292,556.152939792983" />
+          TopLeft="413.873022955292,582.152939792983" />
         <NodeLayout
           Size="195.2,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Error regiones no validas"
@@ -26368,7 +25832,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET 2"
-          TopLeft="750.873022955292,553.752939792983" />
+          TopLeft="748.873022955292,579.752939792983" />
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Filtrar nulos"
@@ -26388,11 +25852,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Destino de ADO NET 2 1"
-          TopLeft="511.904770622448,670.379090591835" />
+          TopLeft="549.904770622448,667.379090591835" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Region\Error de Tipado"
-          TopLeft="546.92064232729,442.294116585313" />
+          TopLeft="510.92064232729,467.294116585313" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de origen de ADO NET]"
           TopLeft="543.54285969126,86.6">
@@ -26443,33 +25907,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="196.987308993956,44.5999952596776"
+              EndConnector="160.987308993957,69.5999952596781"
               Start="0,0"
-              End="196.987308993956,37.0999952596776">
+              End="160.987308993957,62.0999952596781">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.0832708052875" />
+                    End="0,24.2196344416513" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,14.0832708052875"
-                    Point2="0,18.0832708052875"
-                    Point3="4,18.0832708052875" />
+                    Point1="0,24.2196344416513"
+                    Point2="0,28.2196344416513"
+                    Point3="4,28.2196344416513" />
                   <mssgle:LineSegment
-                    End="192.987308993956,18.0832708052875" />
+                    End="156.987308993957,28.2196344416513" />
                   <mssgle:CubicBezierSegment
-                    Point1="192.987308993956,18.0832708052875"
-                    Point2="196.987308993956,18.0832708052875"
-                    Point3="196.987308993956,22.0832708052875" />
+                    Point1="156.987308993957,28.2196344416513"
+                    Point2="160.987308993957,28.2196344416513"
+                    Point3="160.987308993957,32.2196344416513" />
                   <mssgle:LineSegment
-                    End="196.987308993956,37.0999952596776" />
+                    End="160.987308993957,62.0999952596781" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="12.7504123094782,23.0832708052875,171.486484375,10.3349609375"
+              BoundingBox="-5.24958769052172,33.2196344416513,171.486484375,10.3349609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -26515,33 +25979,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="254.339689621959,51.552939792983"
+              EndConnector="252.339689621959,77.552939792983"
               Start="0,0"
-              End="254.339689621959,44.052939792983">
+              End="252.339689621959,70.052939792983">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.015211125802" />
+                    End="0,27.6139372404517" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.015211125802"
-                    Point2="0,21.015211125802"
-                    Point3="4,21.015211125802" />
+                    Point1="0,27.6139372404517"
+                    Point2="0,31.6139372404517"
+                    Point3="4,31.6139372404517" />
                   <mssgle:LineSegment
-                    End="250.339689621959,21.015211125802" />
+                    End="248.339689621959,31.6139372404517" />
                   <mssgle:CubicBezierSegment
-                    Point1="250.339689621959,21.015211125802"
-                    Point2="254.339689621959,21.015211125802"
-                    Point3="254.339689621959,25.015211125802" />
+                    Point1="248.339689621959,31.6139372404517"
+                    Point2="252.339689621959,31.6139372404517"
+                    Point3="252.339689621959,35.6139372404517" />
                   <mssgle:LineSegment
-                    End="254.339689621959,44.052939792983" />
+                    End="252.339689621959,70.052939792983" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="27.3508213734793,26.015211125802,199.638046875,12.1953125"
+              BoundingBox="26.3508213734793,36.6139372404517,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -26581,18 +26045,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de columna derivada3]"
-          TopLeft="469.803179279639,689.479744162774">
+          TopLeft="469.803179279639,687.979744162774">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="42.1015913428094,0"
+              EndConnector="80.1015913428091,0"
               Start="0,0"
-              End="34.6015913428094,0">
+              End="72.6015913428091,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="34.6015913428094,0" />
+                    End="72.6015913428091,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26603,7 +26067,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de columna derivada2]"
-          TopLeft="629.473022955292,575.752939792983">
+          TopLeft="627.473022955292,601.752939792983">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -26625,7 +26089,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Region.Paths[Salida de columna derivada1]"
-          TopLeft="698.92064232729,462.468626407109">
+          TopLeft="662.92064232729,487.468626407109">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -26885,7 +26349,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="194.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Destino de ADO NET 1 1"
-          TopLeft="843.892857158063,452.208823891371" />
+          TopLeft="776.928570303382,450.297059158677" />
         <NodeLayout
           Size="174.4,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Conversión de datos"
@@ -26905,7 +26369,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="152,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Error de Tipado"
-          TopLeft="614.892857158063,453.008823891371" />
+          TopLeft="547.928570303382,451.097059158677" />
         <NodeLayout
           Size="124,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Búsqueda"
@@ -26960,33 +26424,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="227.490130135228,73.6592400070287"
+              EndConnector="160.525843280548,71.7474752743347"
               Start="0,0"
-              End="227.490130135228,66.1592400070287">
+              End="160.525843280548,64.2474752743347">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.8654736755771" />
+                    End="0,25.0903399748666" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,25.8654736755771"
-                    Point2="0,29.8654736755771"
-                    Point3="4,29.8654736755771" />
+                    Point1="0,25.0903399748666"
+                    Point2="0,29.0903399748666"
+                    Point3="4,29.0903399748666" />
                   <mssgle:LineSegment
-                    End="223.490130135228,29.8654736755771" />
+                    End="156.525843280548,29.0903399748666" />
                   <mssgle:CubicBezierSegment
-                    Point1="223.490130135228,29.8654736755771"
-                    Point2="227.490130135228,29.8654736755771"
-                    Point3="227.490130135228,33.8654736755771" />
+                    Point1="156.525843280548,29.0903399748666"
+                    Point2="160.525843280548,29.0903399748666"
+                    Point3="160.525843280548,33.0903399748666" />
                   <mssgle:LineSegment
-                    End="227.490130135228,66.1592400070287" />
+                    End="160.525843280548,64.2474752743347" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="28.0018228801141,34.8654736755771,171.486484375,10.3349609375"
+              BoundingBox="-5.48032054722616,34.0903399748666,171.486484375,10.3349609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -27014,7 +26478,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de columna derivada]"
-          TopLeft="766.892857158063,473.408823891371">
+          TopLeft="699.928570303382,471.497059158677">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -27075,21 +26539,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\LIMPIEZA ELT\Limpiar Tipo\Destino de ADO NET 2 1"
-          TopLeft="336.714286748244,642.449996581499" />
+          TopLeft="337.607143906307,630.979408185334" />
         <EdgeLayout
           Id="Package\LIMPIEZA ELT\Limpiar Tipo.Paths[Salida de columna derivada2]"
-          TopLeft="427.732145875388,601.37646597661">
+          TopLeft="428.17857445442,601.37646597661">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41.0735306048889"
+              EndConnector="0,29.6029422087241"
               Start="0,0"
-              End="0,33.5735306048889">
+              End="0,22.1029422087241">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.5735306048889" />
+                    End="0,22.1029422087241" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27376,14 +26840,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\LIMPIEZA ELT\Limpiar Tipo\Destino de ADO NET 2">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LIMPIEZA ELT\Limpiar Paciente\Destino de ADO NET 3">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
